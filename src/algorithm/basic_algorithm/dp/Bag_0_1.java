@@ -1,4 +1,4 @@
-package algorithm.basic_algorithm;
+package algorithm.basic_algorithm.dp;
 
 /**
  * 第i个物品，背包容量j, 所能得到的最大价值
@@ -24,7 +24,7 @@ class Bag_0_1 {
         return dp[sum];
     }
 
-    public boolean canPartition(int[] nums) {
+    private boolean canPartition(int[] nums) {
         int sum = 0;
         for (int item : nums) {
             sum += item;
