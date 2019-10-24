@@ -1,4 +1,4 @@
-package algorithm.jiu_shi_gan.netesay;
+package algorithm.datastructure.lru;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
