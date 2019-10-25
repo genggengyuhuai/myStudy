@@ -8,17 +8,15 @@ import java.util.Map;
  * @date 2019/9/11 20:55
  */
 public class LRU<K,V> extends LinkedHashMap<K,V>{
-
     private Integer maxEntries;
+    @Override
+    protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
+        return size() > maxEntries;
+    }
 
     public LRU(int initialCapacity, float loadFactor, boolean accessOrder, Integer maxEntries) {
         super(initialCapacity, loadFactor, accessOrder);
         this.maxEntries = maxEntries;
-    }
-
-    @Override
-     protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
-        return size() > maxEntries;
     }
 
     public static void main(String[] args) {
