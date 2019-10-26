@@ -1,95 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="10-26">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/basic_algorithm/dp/Bag_0_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/basic_algorithm/recursivebacktrack/BackTrackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/basic_algorithm/recursivebacktrack/EightQueenTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/basic_algorithm/recursivebacktrack/MazeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/basic_algorithm/recursivebacktrack/RecursiveTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/basic_algorithm/search/SearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/contest/first/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/contest/first/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/contest/first/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/contest/first/Main4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/contest/second/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/contest/second/Main4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/datastructure/list/Link.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/datastructure/lru/LRU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/firsttime/Main8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/secondtime/Main8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/thirdtime/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/homework/thirdtime/Main5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main16.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main17.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main18.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/kuaishou/Main9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/meituan/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/Main9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/netesay/MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/zhaohang/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/zhaohang/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/school_hire_2019/zhaohang/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/temp/Main6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/temp/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/temp/Temp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/temp/exception/BaseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/temp/exception/ExceptionEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/temp/exception/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/adapter/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/builder/UserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/command/CommandTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/decorator/DecoratorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/factory/FactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/factory/SimpleFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/observer/ObserverTrst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/singleTon/SingleTonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/strategy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/templateMethod/MainTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,51 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/builder/UserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/decorator/DecoratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -202,6 +75,29 @@
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MF1932090" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MF1932090" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="27" />
     <option name="y" value="26" />
@@ -230,27 +126,6 @@
               <item name="myStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -262,7 +137,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -384,7 +262,7 @@
       <workItem from="1571969249717" duration="5321000" />
       <workItem from="1571979031425" duration="3228000" />
       <workItem from="1572050413213" duration="2778000" />
-      <workItem from="1572057238583" duration="4262000" />
+      <workItem from="1572057238583" duration="4817000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -421,17 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1572058591611</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="10-26">
+      <created>1572069184333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572069184333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19214000" />
+    <option name="totallyTimeSpent" value="19769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.32841823" visible="true" weight="0.26340482" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.32841823" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" sideWeight="0.67158175" side_tool="true" weight="0.26340482" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -453,13 +337,13 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -526,13 +410,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/contest/first/Main2.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myStudy.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/homework/secondtime/Main4.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,17 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/builder/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/StudySoftWare/java/jdk1.8.0_162/src.zip!/java/io/BufferedInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -746,8 +612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/decorator/DecoratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="234">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#382#383#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
@@ -769,12 +635,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/builder/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myStudy.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>myStudy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
