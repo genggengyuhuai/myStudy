@@ -70,7 +70,7 @@ public class SortTest {
 
 public static void bubbleSort(int[] a){
         int len = a.length;
-        int temp = 0;
+        int temp;
         for(int i = 0; i < len; i++){
             for(int j = 0; j < len - i - 1; j++){
                 if(a[j] > a[j+1]){

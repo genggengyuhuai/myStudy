@@ -4,8 +4,9 @@ import java.util.Observable;
 import java.util.Observer;
 
 
-
+//内部维护有 观察者数组
 class WeatherData extends Observable {
+
     private float temperature;
 
     public void setTemperature(float temperature) {

@@ -1,6 +1,9 @@
 package design_pattern.templateMethod;
 
 /**
+ * 模板方法和策略模式的不同。模板是多个算法组成的流程，强调骨架。
+ * 策略模式是具体的完整算法。
+ *
  * 场景: 制作咖啡有四个步骤，1,2,3,4
  *      制作茶也有四个步骤  1,a,3,b
  * 有两个相同的方法和不同的，可以抽象出来。
@@ -19,11 +22,11 @@ abstract class Beverage{
         p4();
     }
 
-    public void p1(){
+    private void p1(){
         System.out.println("倒水");
     }
 
-    public void p3(){
+    private void p3(){
         System.out.println("加热");
     }
 
@@ -33,6 +36,7 @@ abstract class Beverage{
 }
 
 class Coffee extends Beverage{
+
     @Override
     public void p2() {
         System.out.println("加咖啡");
