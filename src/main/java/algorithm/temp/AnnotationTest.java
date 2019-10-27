@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
  * @author lihaoyu
  * @date 2019/9/29 11:05
  */
-public class Main6 {
+public class AnnotationTest {
 
 
 }
