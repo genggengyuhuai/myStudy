@@ -1,41 +1,38 @@
 package algorithm.temp;
 
-import java.util.Collections;
-import java.util.PriorityQueue;
+
+import java.util.Scanner;
 
 /**
  * @author lihaoyu
  * @date 2019/9/29 11:05
  */
 
+class Temp{
+    public int sum = 1;
+    public Temp() {
+        System.out.println("Temp类构造函数");
+    }
+}
+
+class Lihaoyu{
+    public static final int count = 2;
+
+    public static final Temp temp = new Temp();
+    static {
+        System.out.println("静态的");
+    }
+}
+
+
 public class Solution {
 
-    private int count;
-
-    private PriorityQueue<Integer> maxQueue = new PriorityQueue<>(100, Collections.reverseOrder());
-    private PriorityQueue<Integer> minQueue = new PriorityQueue<>(100);
-
-    public void Insert(Integer num) {
-        if(maxQueue.isEmpty()){
-            maxQueue.add(num);
-            count++;
-        }
-        else if(num > maxQueue.peek()){
-            minQueue.add(num);
-
-
-        }
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(Lihaoyu.count);
+        System.out.println(Lihaoyu.temp);
+//        Lihaoyu.temp.sum++;
+//        System.out.println(Lihaoyu.temp.sum);
     }
-
-    public Double GetMedian() {
-        if((count & 1) == 0){
-            return (maxQueue.peek() + minQueue.peek()) / 2.0;
-        }
-        else {
-            return maxQueue.peek()+0.0;
-        }
-    }
-
 
 }

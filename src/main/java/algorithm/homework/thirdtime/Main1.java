@@ -34,7 +34,7 @@ public class Main1 {
         }
     }
 
-    public static void backTrack(String str,ArrayList<String> list, StringBuilder sb, int dp[][],int i, int j){
+public static void backTrack(String str,ArrayList<String> list, StringBuilder sb, int[][] dp,int i, int j){
         if(i == 0 || j == 0){
             StringBuilder reverse = sb.reverse();
             if(!list.contains(reverse.toString())){

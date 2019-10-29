@@ -6,6 +6,7 @@ package algorithm.basic_algorithm.sort;
  */
 public class SortTest {
 
+    // 稳定
     public static void mergeSort(int[] a, int start, int end){
         if(start >= end) return;
         int mid = (start + end) / 2;

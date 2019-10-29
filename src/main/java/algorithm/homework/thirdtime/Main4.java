@@ -9,6 +9,18 @@ import java.util.Scanner;
  */
 public class Main4 {
 
+    public static void fun(int[] a){
+        int len = a.length;
+        int temp, i , j;
+        for(i = 1; i < len; i++){
+            temp = a[i];
+            for(j = i; j > 0 && a[j-1] > temp; j--){
+                    a[j] = a[j-1];
+                }
+            a[j] = temp;
+            }
+        }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt();
@@ -18,7 +30,7 @@ public class Main4 {
             for(int i = 0; i < n; i++){
                 nums[i] = scanner.nextInt();
             }
-            Arrays.sort(nums);
+            fun(nums);
             for(int i = 0; i < n; i++){
                 if(i != n-1){
                     System.out.print(nums[i]+" ");
