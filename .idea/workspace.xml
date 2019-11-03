@@ -5,26 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/zhaohang/Main12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/zhaohang/Main14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/zhaohang/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/zhaohang/Main8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/disifanshi/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/exception/BaseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/exception/ExceptionEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/exception/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/builder/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/builder/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -106,7 +103,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -130,13 +127,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main1" />
+  <component name="RunManager" selected="Application.Main1 (1)">
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.disifanshi.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.disifanshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.third.Main2" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.contest.third.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.third.Main3" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.contest.third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +168,11 @@
       </method>
     </configuration>
     <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.thirdtime.Main4" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.third.Main4" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.homework.thirdtime.*" />
+          <option name="PATTERN" value="algorithm.contest.third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,38 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.thirdtime.Main6" />
+    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_pattern.builder.UserTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.homework.thirdtime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.thirdtime.Main7" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.homework.thirdtime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Solution" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="PATTERN" value="design_pattern.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main4" />
-      <item itemvalue="Application.Main6" />
-      <item itemvalue="Application.Main7" />
-      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.UserTest" />
+      <item itemvalue="Application.Main1 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main7" />
-        <item itemvalue="Application.Main6" />
+        <item itemvalue="Application.Main1 (1)" />
+        <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +243,14 @@
       <workItem from="1572252438700" duration="2599000" />
       <workItem from="1572262426413" duration="2010000" />
       <workItem from="1572265855752" duration="1065000" />
+      <workItem from="1572314663340" duration="9676000" />
+      <workItem from="1572397706379" duration="1597000" />
+      <workItem from="1572483845047" duration="6802000" />
+      <workItem from="1572511485056" duration="1496000" />
+      <workItem from="1572572465462" duration="4046000" />
+      <workItem from="1572580691067" duration="602000" />
+      <workItem from="1572672962025" duration="679000" />
+      <workItem from="1572741261167" duration="3833000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -310,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572140041264</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="10-29">
+      <created>1572314693641</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572314693641</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,20 +362,21 @@
     <MESSAGE value="10-25" />
     <MESSAGE value="10-26" />
     <MESSAGE value="10-27" />
-    <option name="LAST_COMMIT_MESSAGE" value="10-27" />
+    <MESSAGE value="10-29" />
+    <option name="LAST_COMMIT_MESSAGE" value="10-29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/maven/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>520</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main1.java</url>
           <line>59</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main1.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

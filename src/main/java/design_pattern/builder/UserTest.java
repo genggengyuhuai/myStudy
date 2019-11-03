@@ -17,6 +17,7 @@ class User {
 
     private String name;
 
+    // 构造函数私有化
     private User(String id, Integer age, String name) {
         this.id = id;
         this.age = age;
