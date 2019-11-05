@@ -1,11 +1,15 @@
 package algorithm.school_hire_2019.disifanshi;
 
+import java.util.Scanner;
+
 /**
  * @author lihaoyu
  * @date 2019/11/3 9:14
  */
 public class Main1 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.next();
         int m = 4,n = 4;
         int[][] a = new int[n][m];
         int count = 1;

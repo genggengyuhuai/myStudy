@@ -1,11 +1,10 @@
 package algorithm.temp;
 
 
-import jdk.nashorn.internal.runtime.arrays.IteratorAction;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 import java.util.Scanner;
 
 /**
@@ -23,7 +22,6 @@ class Temp{
 class Lihaoyu{
     public static final double count = 0;
 
-    public static final Temp temp = new Temp();
     static {
         System.out.println("静态的");
     }

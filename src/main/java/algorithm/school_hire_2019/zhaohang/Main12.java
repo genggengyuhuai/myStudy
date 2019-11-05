@@ -1,7 +1,5 @@
 package algorithm.school_hire_2019.zhaohang;
 
-import javafx.scene.transform.Scale;
-
 import java.util.Scanner;
 
 /**

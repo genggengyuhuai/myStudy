@@ -5,23 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/disifanshi/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/disifanshi/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/disifanshi/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/disifanshi/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/wangyihuyu/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/weipinhui/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/weipinhui/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/yuanfudao/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/disifanshi/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/disifanshi/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/zhaohang/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/zhaohang/Main12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/builder/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/builder/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -64,21 +65,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>numbers</find>
-      <find>LRU</find>
-      <find>Hash</find>
-      <find>entrySet</find>
-      <find>MIN_TREEIFY_CAPACITY</find>
-      <find>TREEIFY_THRESHOLD</find>
-      <find>UNTREEIFY_THRESHOLD</find>
-      <find>transfer</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>nums</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,6 +76,11 @@
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1SpErSaD9VEUxgnoEHFdmaLTnbK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -100,10 +91,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/algorithm/temp" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -127,9 +118,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1 (1)">
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.disifanshi.Main1" />
+  <component name="RunManager" selected="Application.Main4">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.yuanfudao.Main2" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.yuanfudao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.disifanshi.Main3" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -141,38 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.third.Main2" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.contest.third.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.third.Main3" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.contest.third.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.third.Main4" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.disifanshi.Main4" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.third.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.disifanshi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +158,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.builder.UserTest" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Temp" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_pattern.builder.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Temp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Temp1" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,18 +186,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.Temp1" />
+      <item itemvalue="Application.Main3 (1)" />
       <item itemvalue="Application.Main4" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.UserTest" />
-      <item itemvalue="Application.Main1 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1 (1)" />
-        <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main3 (1)" />
+        <item itemvalue="Application.Temp1" />
         <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +241,12 @@
       <workItem from="1572572465462" duration="4046000" />
       <workItem from="1572580691067" duration="602000" />
       <workItem from="1572672962025" duration="679000" />
-      <workItem from="1572741261167" duration="3833000" />
+      <workItem from="1572741261167" duration="4572000" />
+      <workItem from="1572769719537" duration="742000" />
+      <workItem from="1572779099592" duration="3026000" />
+      <workItem from="1572831415300" duration="10323000" />
+      <workItem from="1572851441961" duration="6794000" />
+      <workItem from="1572931619686" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -322,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572314693641</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="11-3">
+      <created>1572765772815</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572765772815</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +366,8 @@
     <MESSAGE value="10-26" />
     <MESSAGE value="10-27" />
     <MESSAGE value="10-29" />
-    <option name="LAST_COMMIT_MESSAGE" value="10-29" />
+    <MESSAGE value="11-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="11-3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,87 +382,27 @@
           <line>20</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main8.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main8.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>myStudy</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.springframework:spring-aop:5.1.9.RELEASE</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="" />
