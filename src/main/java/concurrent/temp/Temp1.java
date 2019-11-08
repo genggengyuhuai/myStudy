@@ -21,7 +21,12 @@ public class Temp1 implements Runnable{
     public static void main(String[] args)  {
         Thread thread = new Thread(new Temp1());
         thread.start();
-        thread.interrupt();
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            System.out.println("被打断");
+        }
+        System.out.println(thread.getState());
 
     }
 

@@ -11,7 +11,6 @@ import java.util.ArrayList;
  */
 class Apple {
     int id;
-
     public Apple(int id) {
         // TODO Auto-generated constructor stub
         this.id = id;
