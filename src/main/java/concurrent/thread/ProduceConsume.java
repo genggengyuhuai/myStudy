@@ -3,8 +3,8 @@ package concurrent.thread;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author lihaoyu
@@ -28,7 +28,6 @@ public class ProduceConsume {
         }
     }
     private static class Consumer implements Runnable {
-
         @Override
         public void run() {
             try {
@@ -39,19 +38,19 @@ public class ProduceConsume {
             System.out.print("consume..");
         }
     }
-
     public static void main(String[] args) throws InterruptedException {
         Producer producer = new Producer();
         Consumer consumer = new Consumer();
-        ExecutorService executorService = Executors.newFixedThreadPool(3);
+        ExecutorService executorService =
+                new ThreadPoolExecutor(3,10,60L, TimeUnit.SECONDS,new ArrayBlockingQueue<>(5));
         for (int i = 0; i < 2; i++) {
-            new Thread(producer).start();Thread.sleep(500);
+            executorService.submit(producer);Thread.sleep(500);
         }
         for (int i = 0; i < 3; i++) {
-            new Thread(consumer).start();Thread.sleep(500);
+            executorService.submit(consumer);Thread.sleep(500);
         }
         for (int i = 0; i < 7; i++) {
-            new Thread(producer).start();Thread.sleep(500);
+            executorService.submit(producer);Thread.sleep(500);
         }
     }
 }

@@ -1,5 +1,11 @@
 package design_pattern.strategy;
 
+/**
+ *  封装可呼唤的行为，并使用委托决定使用哪一个
+ *
+ * @author Lihaoyu
+ * @date 2019/11/8 11:28
+ */
 
 class Computer{
     private Algorithm algorithm;

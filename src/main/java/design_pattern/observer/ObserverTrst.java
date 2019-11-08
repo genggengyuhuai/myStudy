@@ -24,6 +24,8 @@ class App implements Observer{
 
     private float temperature;
 
+    private String otherField;
+
     @Override
     public void update(Observable o, Object arg) {
         if(arg instanceof Float){

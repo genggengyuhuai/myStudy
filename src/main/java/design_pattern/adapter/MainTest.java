@@ -1,6 +1,8 @@
 package design_pattern.adapter;
 
 /**
+ * 改变一个类或多个类的接口
+ *
  * 电脑读SD卡。现在要求不改变读SD卡的代码，实现读TF卡
  * 重点在于  SdAdapter 包装了TF卡
  *
@@ -48,7 +50,6 @@ public class MainTest {
         PC pc = new PC();
         SdCard sdCard = new SdCard();
         pc.readSdCard(sdCard);
-
         sdCard = new SdAdapter(new TfCard());
         pc.readSdCard(sdCard);
     }

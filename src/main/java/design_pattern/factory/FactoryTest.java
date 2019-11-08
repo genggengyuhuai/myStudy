@@ -110,7 +110,7 @@ public class FactoryTest {
 
 
     public static void main(String[] args) {
-        AbstractFactory factory = XiaoMiFactory.getInstance();
+        AbstractFactory factory = AppleFactory.getInstance();
         factory.createKeyBoard().input();
     }
 }
