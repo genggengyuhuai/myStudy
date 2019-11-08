@@ -1,5 +1,6 @@
 package design_pattern.observer;
 
+import java.util.Collections;
 import java.util.Observable;
 import java.util.Observer;
 
@@ -46,7 +47,7 @@ class App implements Observer{
  * @author lihaoyu
  * @date 2019/9/27 9:32
  */
-public class ObserverTrst {
+public class ObserverTest {
 
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData(3L);
@@ -55,5 +56,4 @@ public class ObserverTrst {
         weatherData.setTemperature(5L);
         System.out.println(app.getTemperature());
     }
-
 }
