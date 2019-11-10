@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/Temp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/Temp1.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -139,9 +149,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/FruitName.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/FruitProvider.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/FruitRun.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Lihaoyu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Temp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/application.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/design_pattern/builder/User$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/design_pattern/builder/User$UserBuilder.class" afterDir="false" />
@@ -248,7 +255,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -278,20 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1 (1)">
-    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.factory.FactoryTest" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design_pattern.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main13">
     <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.pinduoduo.Main1" />
       <module name="myStudy" />
@@ -305,12 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main1" />
+    <configuration name="Main11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main11" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +312,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProduceConsume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.ProduceConsume" />
+    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main12" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +325,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.temp.Temp1" />
+    <configuration name="Main13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main13" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.temp.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.pinduoduo.Main3" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.pinduoduo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +352,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProduceConsume" />
-      <item itemvalue="Application.FactoryTest" />
-      <item itemvalue="Application.Temp1" />
-      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.Main11" />
+      <item itemvalue="Application.Main12" />
+      <item itemvalue="Application.Main13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main13" />
+        <item itemvalue="Application.Main12" />
+        <item itemvalue="Application.Main11" />
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main1 (1)" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Temp1" />
-        <item itemvalue="Application.FactoryTest" />
-        <item itemvalue="Application.ProduceConsume" />
       </list>
     </recent_temporary>
   </component>
@@ -416,6 +423,10 @@
       <workItem from="1573111087717" duration="17468000" />
       <workItem from="1573174633549" duration="3946000" />
       <workItem from="1573178815126" duration="23463000" />
+      <workItem from="1573222262307" duration="4073000" />
+      <workItem from="1573270123414" duration="177000" />
+      <workItem from="1573270344416" duration="1486000" />
+      <workItem from="1573289164081" duration="8620000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -543,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573205328981</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Java并发学习">
+      <created>1573222273786</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573222273786</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,17 +643,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java</url>
-          <line>50</line>
+          <line>46</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java</url>
-          <line>25</line>
+          <line>21</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java</url>
-          <line>48</line>
+          <line>44</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>

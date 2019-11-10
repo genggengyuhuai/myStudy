@@ -1,14 +1,10 @@
 package algorithm.school_hire_2019.pinduoduo;
 
-import com.sun.corba.se.impl.naming.cosnaming.InternalBindingKey;
-import org.jetbrains.annotations.NotNull;
-
-import javax.swing.*;
-import java.beans.beancontext.BeanContextMembershipEvent;
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
+ *
  * @author lihaoyu
  * @date 2019/11/8 20:20
  */
