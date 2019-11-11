@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @date 2019/11/9 22:36
  */
 public class Main13 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String nextLine = scanner.nextLine();

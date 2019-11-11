@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/ThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/Temp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/Temp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -255,7 +246,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -285,20 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main13">
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.pinduoduo.Main1" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.pinduoduo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadLocalTest">
     <configuration name="Main11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main11" />
       <module name="myStudy" />
@@ -338,12 +316,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.pinduoduo.Main3" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.thread.Temp" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.pinduoduo.*" />
+          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.thread.ThreadLocalTest" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,19 +343,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main1 (1)" />
-      <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main11" />
       <item itemvalue="Application.Main12" />
       <item itemvalue="Application.Main13" />
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.ThreadLocalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.Main13" />
         <item itemvalue="Application.Main12" />
         <item itemvalue="Application.Main11" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -427,6 +418,9 @@
       <workItem from="1573270123414" duration="177000" />
       <workItem from="1573270344416" duration="1486000" />
       <workItem from="1573289164081" duration="8620000" />
+      <workItem from="1573350246925" duration="4611000" />
+      <workItem from="1573367419573" duration="4554000" />
+      <workItem from="1573441493932" duration="6308000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -561,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573222273786</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="算法学习">
+      <created>1573350266529</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1573350266529</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +607,8 @@
     <MESSAGE value="11-5" />
     <MESSAGE value="牛客19校招" />
     <MESSAGE value="Java并发学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java并发学习" />
+    <MESSAGE value="算法学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
