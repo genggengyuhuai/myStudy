@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/SingleTonDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/singleTon/SingleTonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/singleTon/SingleTonTest.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -246,7 +251,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -276,9 +281,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalTest">
-    <configuration name="Main11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main11" />
+  <component name="RunManager" selected="Application.TreeTest">
+    <configuration name="Main15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main15" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -290,8 +295,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main12" />
+    <configuration name="Main16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main16" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -303,8 +308,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main13" />
+    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main17" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -316,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.Temp" />
+    <configuration name="Main20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main20" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.ThreadLocalTest" />
+    <configuration name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.tree.TreeTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="PATTERN" value="algorithm.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main11" />
-      <item itemvalue="Application.Main12" />
-      <item itemvalue="Application.Main13" />
-      <item itemvalue="Application.Temp" />
-      <item itemvalue="Application.ThreadLocalTest" />
+      <item itemvalue="Application.Main15" />
+      <item itemvalue="Application.Main16" />
+      <item itemvalue="Application.Main17" />
+      <item itemvalue="Application.Main20" />
+      <item itemvalue="Application.TreeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadLocalTest" />
-        <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.Main13" />
-        <item itemvalue="Application.Main12" />
-        <item itemvalue="Application.Main11" />
+        <item itemvalue="Application.TreeTest" />
+        <item itemvalue="Application.Main20" />
+        <item itemvalue="Application.Main17" />
+        <item itemvalue="Application.Main16" />
+        <item itemvalue="Application.Main15" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +425,18 @@
       <workItem from="1573289164081" duration="8620000" />
       <workItem from="1573350246925" duration="4611000" />
       <workItem from="1573367419573" duration="4554000" />
-      <workItem from="1573441493932" duration="6308000" />
+      <workItem from="1573441493932" duration="7273000" />
+      <workItem from="1573471646487" duration="17000" />
+      <workItem from="1573471715990" duration="158000" />
+      <workItem from="1573471905937" duration="89000" />
+      <workItem from="1573472066767" duration="694000" />
+      <workItem from="1573472787707" duration="602000" />
+      <workItem from="1573473545527" duration="76000" />
+      <workItem from="1573473649634" duration="231000" />
+      <workItem from="1573473912742" duration="1852000" />
+      <workItem from="1573483034715" duration="1285000" />
+      <workItem from="1573522714047" duration="13636000" />
+      <workItem from="1573554253300" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -562,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573350266529</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="高并发学习">
+      <created>1573468102454</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1573468102454</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +631,8 @@
     <MESSAGE value="牛客19校招" />
     <MESSAGE value="Java并发学习" />
     <MESSAGE value="算法学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法学习" />
+    <MESSAGE value="高并发学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="高并发学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,10 +684,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="" />

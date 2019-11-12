@@ -32,7 +32,6 @@ class SingleTon3{
     private static class Handler{
         private static SingleTon3 instance = new SingleTon3();
     }
-
     public static SingleTon3 getInstance(){
         return Handler.instance;
     }

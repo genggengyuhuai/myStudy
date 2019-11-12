@@ -505,7 +505,18 @@ class Node {
         temp_findSumPath.remove(temp_findSumPath.size()-1);
     }
 
-
+    // 求最大通路
+    public static int maxRoute = 0;
+    public static int maxRoute(Node root){
+        if(root == null){
+            return 0;
+        }
+        int left = maxRoute(root.left);
+        int right = maxRoute(root.right);
+        int temp = Math.max(left, right) + 1;
+        maxRoute = Math.max(left+right+1, maxRoute);
+        return temp;
+    }
 
 }
 
@@ -567,7 +578,10 @@ public class TreeTest {
         for (Node i : Node.arrayList_findPathNodeToRoot) {
             System.out.print(i+" ");
         }System.out.println();
-        System.out.print("节点2和节点6的公共父节点为："+ Node.findParent(root, Node.findNode(root, 2), Node.findNode(root, 10)));
+        System.out.println("节点2和节点6的公共父节点为："+ Node.findParent(root, Node.findNode(root, 2), Node.findNode(root, 10)));
+
+        Node.maxRoute(root);
+        System.out.println("gg"+Node.maxRoute);
     }
 
 }
