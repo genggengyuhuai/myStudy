@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author lihaoyu
  * @date 2019/11/12 12:34
  */
-public class Main15 {
+public class Main15{
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -523,7 +523,7 @@ class Node {
 public class TreeTest {
 
     public static void main(String[] args) {
-        int[] a = { 5, 3, 1, 7, 2, 4, 6, 10 };
+        int[] a = { 5, 3, 1, 7, 2, 4, 6, 10};
         Node root = Node.Array_to_Tree(a);
         System.out.print("中序遍历结果为:");
         Node.visit_InOrder_NotRecursive(root);
@@ -581,7 +581,7 @@ public class TreeTest {
         System.out.println("节点2和节点6的公共父节点为："+ Node.findParent(root, Node.findNode(root, 2), Node.findNode(root, 10)));
 
         Node.maxRoute(root);
-        System.out.println("gg"+Node.maxRoute);
+        System.out.println("最大通路为："+Node.maxRoute);
     }
 
 }
