@@ -274,6 +274,12 @@ class Node {
     public static int MinLeaf(Node root) {
         if (root == null)
             return 0;
+        if(root.left == null){
+            return MinLeaf(root.right) + 1;
+        }
+        if(root.right == null){
+            return MinLeaf(root.left) + 1;
+        }
         else
             return min(MinLeaf(root.left), MinLeaf(root.right)) + 1;
     }

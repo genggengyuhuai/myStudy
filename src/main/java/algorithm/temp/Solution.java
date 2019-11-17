@@ -1,6 +1,9 @@
 package algorithm.temp;
 
 
+import java.math.BigInteger;
+import java.util.Scanner;
+
 /**
  * @author lihaoyu
  * @date 2019/9/29 11:05
@@ -11,17 +14,16 @@ package algorithm.temp;
 public class Solution {
 
     public static void main(String[] args) {
-         int[] nums = new int[10];
-         int[] dp = new int[10];
-         int  len = dp.length;
-         // dp[] 表示以此位置为结尾的数  对应的 最长递增子序列的长度
-         for(int i = 1; i < len; i++){
-             for(int j = 0; j < i; j++){
-                 if(nums[i] > nums[j] && dp[j] + 1 > dp[i]){
-                     dp[i] = dp[j] + 1;
-                 }
-             }
-         }
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        BigInteger[] res = new BigInteger[num+1];
+       res[0] =  new BigInteger("1");
+        res[1] = new BigInteger("1");
+        res[2] = new BigInteger("1");
+        for(int i = 3; i < num+1; i++){
+            res[i] = res[i - 1].add(res[i - 3]);
+        }
+        System.out.println(res[num]);
     }
 
 }
