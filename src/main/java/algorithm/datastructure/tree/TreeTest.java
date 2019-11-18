@@ -495,6 +495,18 @@ class Node {
     }
 
     /*
+     * 刺激  公共父节点
+     */
+    private static Node findParent2(Node root, Node node1, Node node2){
+        if(root == null || root == node1 || root == node2)  return root;
+        Node left = findParent2(root.left, node1, node2);
+        Node right = findParent2(root.right, node1, node2);
+        if(left != null && right != null)return root;
+        if(left != null) return left;
+        return right;
+    }
+
+    /*
      * 寻找节点和为target的路径
      * 为了偷懒使用了全局变量
      */

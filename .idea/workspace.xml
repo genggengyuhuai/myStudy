@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/HelloAndWorldUseAQS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/nio/Client1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/nio/Myserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/udp_tcp/ReceiveUdp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/udp_tcp/SendUdp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/unix_io/IOTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/ProduceConsume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/ProduceConsume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -458,7 +445,9 @@
       <workItem from="1573775881398" duration="8345000" />
       <workItem from="1573867495256" duration="10222000" />
       <workItem from="1573953716298" duration="18441000" />
-      <workItem from="1574002223846" duration="1869000" />
+      <workItem from="1574002223846" duration="1918000" />
+      <workItem from="1574037254460" duration="554000" />
+      <workItem from="1574067092104" duration="7633000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -621,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573629720080</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="多线程">
+      <created>1574004818420</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574004818420</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +665,8 @@
     <MESSAGE value="算法学习" />
     <MESSAGE value="高并发学习" />
     <MESSAGE value="小米校招" />
-    <option name="LAST_COMMIT_MESSAGE" value="小米校招" />
+    <MESSAGE value="多线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
