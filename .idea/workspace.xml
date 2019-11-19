@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -24,7 +33,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/recursivebacktrack/Node.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/recursivebacktrack/RecursiveTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/search/SearchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/contest/first/Main1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/contest/first/Main2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/contest/first/Main3.class" afterDir="false" />
@@ -39,8 +47,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/list/Link$Node.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/list/Link.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/lru/LRU.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/firsttime/Main1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/firsttime/Main2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/firsttime/Main3.class" afterDir="false" />
@@ -51,7 +57,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/firsttime/Main8.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main3.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main4.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main5.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main6.class" afterDir="false" />
@@ -254,9 +259,8 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="concurrent.thread" />
-      <recent name="design_pattern.proxy" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\temp" />
@@ -264,10 +268,12 @@
       <recent name="G:\JavaStudy\myStudy\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithm.homework.fourthtime" />
       <recent name="algorithm.leetcode" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="concurrent.thread" />
+      <recent name="design_pattern.proxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -282,13 +288,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloAndWorldUseAQS">
-    <configuration name="HelloAndWorldUseAQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.HelloAndWorldUseAQS" />
+  <component name="RunManager" selected="Application.Main1">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main30" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main3" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
+          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,12 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProduceConsume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.ProduceConsume" />
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main5" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,12 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Solution" />
+    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main6" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Temp" />
+    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main8" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,19 +355,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main30" />
-      <item itemvalue="Application.Temp" />
-      <item itemvalue="Application.ProduceConsume" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.HelloAndWorldUseAQS" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.Main6" />
+      <item itemvalue="Application.Main5" />
+      <item itemvalue="Application.Main8" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloAndWorldUseAQS" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main30" />
-        <item itemvalue="Application.ProduceConsume" />
-        <item itemvalue="Application.Temp" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main8" />
+        <item itemvalue="Application.Main5" />
+        <item itemvalue="Application.Main6" />
+        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +453,9 @@
       <workItem from="1573953716298" duration="18441000" />
       <workItem from="1574002223846" duration="1918000" />
       <workItem from="1574037254460" duration="554000" />
-      <workItem from="1574067092104" duration="7633000" />
+      <workItem from="1574067092104" duration="7716000" />
+      <workItem from="1574127113813" duration="15333000" />
+      <workItem from="1574147944855" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -617,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574004818420</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="多线程">
+      <created>1574090188046</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1574090188046</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,6 +735,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main30.java</url>
           <line>32</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main6.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main5.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main8.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
