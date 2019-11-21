@@ -4,13 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="算法作业">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main4.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/DoubleLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/lru/MyLRU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -282,13 +279,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1 (1)">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.temp.HelloWorld" />
+  <component name="RunManager" selected="Application.MyLRU">
+    <configuration name="DoubleLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.list.DoubleLink" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.temp.*" />
+          <option name="PATTERN" value="algorithm.datastructure.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,19 +299,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.contest.fourth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main1" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,20 +332,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyLRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.lru.MyLRU" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.datastructure.lru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main4" />
       <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.MyLRU" />
+      <item itemvalue="Application.DoubleLink" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLRU" />
+        <item itemvalue="Application.DoubleLink" />
         <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +450,8 @@
       <workItem from="1574165942202" duration="4662000" />
       <workItem from="1574172655372" duration="4267000" />
       <workItem from="1574214850263" duration="2324000" />
-      <workItem from="1574298191487" duration="7772000" />
+      <workItem from="1574298191487" duration="8559000" />
+      <workItem from="1574317625648" duration="11056000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -637,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574165966527</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="算法第四次课堂练习">
+      <created>1574315365772</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1574315365772</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +692,8 @@
     <MESSAGE value="小米校招" />
     <MESSAGE value="多线程" />
     <MESSAGE value="算法作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法作业" />
+    <MESSAGE value="算法第四次课堂练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法第四次课堂练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
