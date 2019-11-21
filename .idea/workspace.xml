@@ -4,19 +4,13 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main3.class" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="算法作业">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -288,7 +282,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.Main1 (1)">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.temp.HelloWorld" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fourth.Main1" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.contest.fourth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main1" />
       <module name="myStudy" />
@@ -302,12 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main3" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fourth.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
+          <option name="PATTERN" value="algorithm.contest.fourth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,38 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main5" />
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fourth.Main4" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main6" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main8" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
+          <option name="PATTERN" value="algorithm.contest.fourth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +349,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main6" />
-      <item itemvalue="Application.Main5" />
-      <item itemvalue="Application.Main8" />
       <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main4" />
+      <item itemvalue="Application.Main1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1 (1)" />
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main8" />
-        <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main6" />
-        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -456,6 +450,10 @@
       <workItem from="1574067092104" duration="7716000" />
       <workItem from="1574127113813" duration="15333000" />
       <workItem from="1574147944855" duration="41000" />
+      <workItem from="1574165942202" duration="4662000" />
+      <workItem from="1574172655372" duration="4267000" />
+      <workItem from="1574214850263" duration="2324000" />
+      <workItem from="1574298191487" duration="7772000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -632,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574090188046</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="算法作业">
+      <created>1574165966527</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1574165966527</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,7 +686,8 @@
     <MESSAGE value="高并发学习" />
     <MESSAGE value="小米校招" />
     <MESSAGE value="多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
+    <MESSAGE value="算法作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,6 +756,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main8.java</url>
           <line>49</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main4.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
