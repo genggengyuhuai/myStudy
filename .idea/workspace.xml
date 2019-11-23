@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/DoubleLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/lru/MyLRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/lru/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/lru/LRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main24.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -215,6 +217,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -279,13 +286,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyLRU">
-    <configuration name="DoubleLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.list.DoubleLink" />
+  <component name="RunManager" selected="Application.Main25">
+    <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.lru.LRU" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.datastructure.list.*" />
+          <option name="PATTERN" value="algorithm.datastructure.lru.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fourth.Main1" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.fourth.*" />
+          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fourth.Main2" />
+    <configuration name="Main20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main20" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.fourth.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,12 +326,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fourth.Main4" />
+    <configuration name="Main25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main25" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.fourth.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,19 +353,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main4" />
-      <item itemvalue="Application.Main1 (1)" />
       <item itemvalue="Application.MyLRU" />
-      <item itemvalue="Application.DoubleLink" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.LRU" />
+      <item itemvalue="Application.Main20" />
+      <item itemvalue="Application.Main25" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main25" />
+        <item itemvalue="Application.Main20" />
+        <item itemvalue="Application.LRU" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.MyLRU" />
-        <item itemvalue="Application.DoubleLink" />
-        <item itemvalue="Application.Main1 (1)" />
-        <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +458,8 @@
       <workItem from="1574172655372" duration="4267000" />
       <workItem from="1574214850263" duration="2324000" />
       <workItem from="1574298191487" duration="8559000" />
-      <workItem from="1574317625648" duration="11056000" />
+      <workItem from="1574317625648" duration="14886000" />
+      <workItem from="1574384215630" duration="7812000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -642,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574315365772</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="算法第四次课堂练习">
+      <created>1574340918291</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1574340918292</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -14,8 +14,9 @@ public class LRU<K,V> extends LinkedHashMap<K,V>{
         return size() > maxEntries;
     }
 
+    // 这里的accessOrder要设置成true
     public LRU(int initialCapacity, float loadFactor, boolean accessOrder, Integer maxEntries) {
-        super(initialCapacity, loadFactor, accessOrder);
+        super(initialCapacity, loadFactor, true);
         this.maxEntries = maxEntries;
     }
 

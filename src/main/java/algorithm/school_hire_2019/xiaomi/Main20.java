@@ -45,7 +45,7 @@ public class Main20 {
             if("END".equals(next)){
                 Set<Node> set = new HashSet<>();
                 for (Map.Entry<Node, Integer> nodeIntegerEntry : map.entrySet()) {
-                    if(nodeIntegerEntry.getValue().intValue() != 1){
+                    if(nodeIntegerEntry.getValue() != 1){
                         set.add(nodeIntegerEntry.getKey());
                     }
                 }

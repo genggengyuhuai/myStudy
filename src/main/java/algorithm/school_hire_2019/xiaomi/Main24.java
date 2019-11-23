@@ -3,6 +3,7 @@ package algorithm.school_hire_2019.xiaomi;
 import java.util.Scanner;
 
 /**
+ * 小米大礼包
  * 99 199 1999 10000 39 1499
  * 10238
  * 一个数组 ，一个target数，数组中的数的和能不能组成target数
