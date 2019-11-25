@@ -4,13 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="算法作业">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/lru/LRU.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
-    </list>
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="" />
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
@@ -460,7 +454,7 @@
       <workItem from="1574317625648" duration="14886000" />
       <workItem from="1574384215630" duration="7812000" />
       <workItem from="1574477021802" duration="10717000" />
-      <workItem from="1574652004648" duration="2159000" />
+      <workItem from="1574652004648" duration="2165000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -665,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574477152871</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="算法作业">
+      <created>1574661299552</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1574661299552</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -714,9 +715,9 @@
     <MESSAGE value="高并发学习" />
     <MESSAGE value="小米校招" />
     <MESSAGE value="多线程" />
-    <MESSAGE value="算法作业" />
     <MESSAGE value="算法第四次课堂练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法第四次课堂练习" />
+    <MESSAGE value="算法作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
