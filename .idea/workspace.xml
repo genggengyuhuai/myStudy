@@ -4,12 +4,12 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main25.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="算法作业">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/lru/LRU.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/lru/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/lru/LRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -39,7 +39,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/contest/third/Main5.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/list/Link$Node.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/list/Link.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/lru/LRU.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/firsttime/Main1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/firsttime/Main2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/homework/firsttime/Main3.class" afterDir="false" />
@@ -286,26 +285,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main25">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.lru.LRU" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.datastructure.lru.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main1" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +325,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.lru.MyLRU" />
+    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.fourthtime.Main7" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.datastructure.lru.*" />
+          <option name="PATTERN" value="algorithm.homework.fourthtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Solution" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,19 +352,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyLRU" />
-      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.LRU" />
       <item itemvalue="Application.Main20" />
       <item itemvalue="Application.Main25" />
+      <item itemvalue="Application.Main7" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main25" />
         <item itemvalue="Application.Main20" />
         <item itemvalue="Application.LRU" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.MyLRU" />
       </list>
     </recent_temporary>
   </component>
@@ -460,6 +459,8 @@
       <workItem from="1574298191487" duration="8559000" />
       <workItem from="1574317625648" duration="14886000" />
       <workItem from="1574384215630" duration="7812000" />
+      <workItem from="1574477021802" duration="10717000" />
+      <workItem from="1574652004648" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -657,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574340918292</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="算法第四次课堂练习">
+      <created>1574477152871</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1574477152871</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,6 +790,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/contest/fourth/Main4.java</url>
           <line>38</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main7.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
