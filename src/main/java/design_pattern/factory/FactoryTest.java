@@ -1,6 +1,7 @@
 package design_pattern.factory;
 
 /** 抽象工厂模式
+ * 工厂方法也就是实例工厂，只有一类产品和对应的一个工厂
  * @author lihaoyu
  * @date 2019/9/20 9:16
  */

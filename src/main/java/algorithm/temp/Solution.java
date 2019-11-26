@@ -1,40 +1,62 @@
 package algorithm.temp;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 public class Solution {
-    public ArrayList<ArrayList<Integer> > fun(int sum) {
-        int temp = 0, x = 0;
-        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
-        if(sum <= 0){
+    private static int[] cs = new int[256];
+    private static int index;
+    static{
+        for (int i = 0; i < cs.length; i++) {
+            cs[i] = -1;
+        }
+    }
+
+    public void Insert(char ch) {
+        if(cs[ch] >= 0){
+            // 已经出现过
+            cs[ch] = -2;
+        }else if(cs[ch] == -1){
+            // 没出现过
+            cs[ch] = index;
+        }
+        index++;
+    }
+
+    //return the first appearence once char in current stringstream
+    public char FirstAppearingOnce() {
+        int min = Integer.MAX_VALUE;
+        char res = '#';
+        for (int i = 0; i < cs.length; i++) {
+            if(min > cs[i] && cs[i] >= 0){
+                res = (char)i;
+                min = cs[i];
+            }
+        }
+        if(min != Integer.MAX_VALUE) {
             return res;
         }
-        for(int i = 1;i*(i+1)/2 <= sum;i++){
-            // i 是项数
-            if(2*sum % i != 0){
-                continue;
-            }
-            temp = 2*sum / i;
-            if(((temp - i + 1) & 1) == 0){
-                //  x是序列起始值
-                x = (temp - i + 1) / 2;
-                ArrayList<Integer> tempList = new ArrayList<>();
-                for(int j = x; j < x+i;j++){
-                    tempList.add(j);
-                }
-                if(tempList.size() > 1){
-                    res.add(tempList);
-                }
-            }
-
-        }
-        Collections.reverse(res);
-        return res;
+        return '#';
     }
 
     public static void main(String[] args) {
-Solution solution = new Solution();
-        System.out.println(solution.fun(100));
+        Solution solution = new Solution();
+        solution.Insert('h');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('e');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('l');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('l');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('o');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('w');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('o');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('r');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('l');
+        System.out.println(solution.FirstAppearingOnce());
+        solution.Insert('d');
+        System.out.println(solution.FirstAppearingOnce());
     }
 }
