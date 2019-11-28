@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main61.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/ms/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -68,8 +71,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/leetcode/tencent/ListNode.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/leetcode/tencent/Main23.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/leetcode/tencent/Main8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/leetcode/tencent/Temp$Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/leetcode/tencent/Temp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/school_hire_2019/disifanshi/Main1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/school_hire_2019/disifanshi/Main3.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/school_hire_2019/disifanshi/Main4.class" afterDir="false" />
@@ -288,13 +289,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
-    <configuration name="Main14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main14" />
+  <component name="RunManager" selected="Application.Main61">
+    <configuration name="Main33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main33" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,12 +303,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main153" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main153" />
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main5" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main300" />
+    <configuration name="Main61" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main61" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +356,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main14" />
-      <item itemvalue="Application.Main300" />
-      <item itemvalue="Application.Main153" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Main5" />
+      <item itemvalue="Application.Main33" />
+      <item itemvalue="Application.Main61" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main61" />
+        <item itemvalue="Application.Main33" />
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.Main153" />
-        <item itemvalue="Application.Main300" />
-        <item itemvalue="Application.Main14" />
       </list>
     </recent_temporary>
   </component>
@@ -693,7 +694,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574758879189</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary=" 微软面试算法复习">
+      <created>1574940377951</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574940377951</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -745,7 +753,8 @@
     <MESSAGE value="算法第四次课堂练习" />
     <MESSAGE value="算法作业" />
     <MESSAGE value="华泰面试" />
-    <option name="LAST_COMMIT_MESSAGE" value="华泰面试" />
+    <MESSAGE value=" 微软面试算法复习" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 微软面试算法复习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,6 +848,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main300.java</url>
           <line>14</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main61.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main61.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

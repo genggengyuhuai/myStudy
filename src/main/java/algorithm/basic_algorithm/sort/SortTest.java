@@ -23,7 +23,7 @@ public class SortTest {
     }
 
 
-    // 稳定
+    // 稳定 归排
     public static void mergeSort(int[] a, int start, int end) {
         if (start >= end) return;
         int mid = (start + end) / 2;
