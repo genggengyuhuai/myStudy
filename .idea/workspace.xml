@@ -4,14 +4,15 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="华泰面试">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main13.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -287,13 +288,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main" />
+  <component name="RunManager" selected="Application.Solution2">
+    <configuration name="Main14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main14" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fifth.Main1" />
+    <configuration name="Main153" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main153" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.fifth.*" />
+          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,12 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fifth.Main2" />
+    <configuration name="Main300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main300" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.fifth.*" />
+          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,12 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fifth.Main3" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Solution1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.fifth.*" />
+          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fifth.Main4" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Solution2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.contest.fifth.*" />
+          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,19 +355,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main4" />
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main14" />
+      <item itemvalue="Application.Main300" />
+      <item itemvalue="Application.Main153" />
+      <item itemvalue="Application.Solution1" />
+      <item itemvalue="Application.Solution2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="Application.Main153" />
+        <item itemvalue="Application.Main300" />
+        <item itemvalue="Application.Main14" />
       </list>
     </recent_temporary>
   </component>
@@ -828,6 +829,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java</url>
           <line>51</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main300.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main300.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

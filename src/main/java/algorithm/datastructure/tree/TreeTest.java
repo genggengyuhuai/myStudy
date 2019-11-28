@@ -536,6 +536,16 @@ class Node {
         return temp;
     }
 
+    // 求最大路径和
+    private static int maxPathSum = Integer.MIN_VALUE;
+    private static int maxPathSumFun(Node node){
+        if(node == null) return 0;
+        int left = Math.max(maxPathSumFun(node.left), 0);
+        int right = Math.max(maxPathSumFun(node.right), 0);
+        maxPathSum = Math.max(maxPathSum, node.key + left + right);
+        return node.key + Math.max(left, right);
+    }
+
 }
 
 public class TreeTest {
