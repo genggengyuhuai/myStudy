@@ -30,6 +30,7 @@ class App implements Observer{
     @Override
     public void update(Observable o, Object arg) {
         if(arg instanceof Float){
+            System.out.println(o.getClass());
             this.temperature = (Float) arg;
         }
     }

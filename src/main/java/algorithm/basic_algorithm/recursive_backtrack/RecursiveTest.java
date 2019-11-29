@@ -1,4 +1,4 @@
-package algorithm.basic_algorithm.recursivebacktrack;
+package algorithm.basic_algorithm.recursive_backtrack;
 
 /**
  * @author lihaoyu

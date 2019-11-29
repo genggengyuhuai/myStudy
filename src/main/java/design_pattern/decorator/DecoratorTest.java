@@ -1,5 +1,8 @@
 package design_pattern.decorator;
 
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+
 /**
  * 动态地给一个对象添加一些额外的职责
  *

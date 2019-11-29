@@ -48,7 +48,8 @@ class UserProxy implements InvocationHandler {
     }
 
     public UserService getInstance() {
-        return (UserService) Proxy.newProxyInstance(us.getClass().getClassLoader(), us.getClass().getInterfaces(), this);
+        return (UserService) Proxy.newProxyInstance(us.getClass().getClassLoader(),
+                us.getClass().getInterfaces(), this);
     }
 }
 

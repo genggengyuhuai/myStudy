@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/string_match/BM_algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/string_match/KMP_algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/ms/First.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/BackTrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/BackTrackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/EightQueenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/EightQueenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/MazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/MazeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/RecursiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/RecursiveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/ms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/ms/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/decorator/DecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/observer/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/observer/ObserverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/proxy/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interview/ms/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/observer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/design_pattern/observer/App.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -18,11 +30,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/META-INF/myStudy.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/dp/Bag_0_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/recursivebacktrack/BackTrackTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/recursivebacktrack/EightQueenTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/recursivebacktrack/MazeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/recursivebacktrack/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/recursivebacktrack/RecursiveTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/search/SearchTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/contest/first/Main1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/algorithm/contest/first/Main2.class" afterDir="false" />
@@ -281,22 +288,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main61">
+  <component name="RunManager" selected="Application.ObserverTest">
     <configuration name="Main33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main33" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main5" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -321,12 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Solution1" />
+    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_pattern.observer.ObserverTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
+          <option name="PATTERN" value="design_pattern.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,12 +328,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Solution2" />
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_pattern.proxy.ProxyTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
+          <option name="PATTERN" value="design_pattern.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.basic_algorithm.sort.SortTest" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.basic_algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,19 +355,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1" />
-      <item itemvalue="Application.Solution2" />
-      <item itemvalue="Application.Main5" />
       <item itemvalue="Application.Main33" />
       <item itemvalue="Application.Main61" />
+      <item itemvalue="Application.SortTest" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.ObserverTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverTest" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.SortTest" />
         <item itemvalue="Application.Main61" />
         <item itemvalue="Application.Main33" />
-        <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +468,8 @@
       <workItem from="1574696076398" duration="1118000" />
       <workItem from="1574734620760" duration="10861000" />
       <workItem from="1574903709301" duration="6370000" />
-      <workItem from="1574991046569" duration="1157000" />
+      <workItem from="1574991046569" duration="10733000" />
+      <workItem from="1575027193717" duration="4164000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -701,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574953950744</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=" 微软面试算法复习">
+      <created>1574992221633</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574992221633</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

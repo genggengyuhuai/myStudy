@@ -27,6 +27,7 @@ public class SortTest {
         int mid = (start + end) / 2;
         mergeSort(a, start, mid);
         mergeSort(a, mid + 1, end);
+        // 有可优化的空间，如果左边小数组的最大值小于右边大数组的最小值，则不用下面的流程。
         int[] temp = new int[end - start + 1];
         int start1 = start, start2 = mid + 1, index = 0;
         while (start1 <= mid && start2 <= end) {
@@ -108,17 +109,45 @@ public class SortTest {
         }
     }
 
-    public static void heapSort(int[] a) {
-        //
-        int n = a.length - 1;
-        for (int i = (n - 1) / 2; i >= 0; i--) {
-            while (true) {
-                if ((i + 1) * 2 - 1 > n) break;
-                if ((i + 1) * 2 == n) break;
+    // 交换数组中下标 i 和 j 的元素
+    private static void swap(int[] a, int i, int j){
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+    }
 
-            }
+    // 对第i个元素   堆化（自上而下）  len属性是必要的
+    private static void heapify(int[] a, int i, int len){
+        // maxIndex 比较自身和左右子节点的大小，最大的Index
+        int maxIndex;
+        while(true){
+            maxIndex = i;
+            if(2*i+1 < len && a[maxIndex] < a[2*i+1]) maxIndex = 2 * i + 1;
+            if(2*i+2 < len && a[maxIndex] < a[2*i+2]) maxIndex = 2 * i + 2;
+            if(maxIndex == i) break;
+            swap(a,i,maxIndex);
+            i = maxIndex;
         }
+    }
 
+    private static void buildHeap(int[] a){
+        // 从第一个非叶子节点开始，向上循环
+        for(int i = (a.length - 1) / 2; i >= 0; i--){
+            heapify(a,i,a.length);
+        }
+    }
+
+    // 堆排 不稳定   https://time.geekbang.org/column/article/69913
+    // 访问数据的方式不是顺序的，而是像树一样跳跃式的，没有局部顺序访问，对CPU不友好
+    public static void heapSort(int[] a) {
+        // 建堆
+        buildHeap(a);
+        int n = a.length - 1;
+        while(n > 0){
+            swap(a,0,n);
+            n--;
+            heapify(a,0,n);
+        }
     }
 
 
@@ -138,7 +167,7 @@ public class SortTest {
         System.out.println();
 
         int[] a3 = {1, 5, 8, 3, 4, 0};
-        selectionSort(a3);
+        heapSort(a3);
         for (int i : a3) {
             System.out.print(i + " ");
         }
