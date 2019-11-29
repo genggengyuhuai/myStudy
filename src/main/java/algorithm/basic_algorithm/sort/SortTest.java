@@ -1,7 +1,5 @@
 package algorithm.basic_algorithm.sort;
 
-import javax.xml.transform.Templates;
-
 /**
  * @author lihaoyu
  * @date 2019/9/11 20:55
@@ -40,7 +38,7 @@ public class SortTest {
         System.arraycopy(temp, 0, a, start, end - start + 1);
     }
 
-    // 不稳定
+    // 不稳定 快排
     public static void quickSort(int[] a, int start, int end) {
         if (start >= end) return;
         int key = a[start], left = start, right = end;
@@ -55,7 +53,7 @@ public class SortTest {
         quickSort(a, end + 1, right);
     }
 
-    // 不稳定
+    // 不稳定 选择排序
     public static void selectionSort(int[] a) {
         int len = a.length, min = Integer.MAX_VALUE, index = 0, temp = 0;
         for (int i = 0; i < len; i++) {
@@ -72,6 +70,7 @@ public class SortTest {
         }
     }
 
+    // 稳定 插排
     public static void insertSort(int[] a) {
         int len = a.length;
         int temp = 0;
@@ -81,21 +80,30 @@ public class SortTest {
                     temp = a[j - 1];
                     a[j - 1] = a[j];
                     a[j] = temp;
+                }else{
+                    break;
                 }
             }
         }
     }
 
+    // 稳定 冒泡
     public static void bubbleSort(int[] a) {
-        int len = a.length;
-        int temp;
+        int len = a.length, temp;
+        boolean flag;
         for (int i = 0; i < len; i++) {
+            flag = false;
             for (int j = 0; j < len - i - 1; j++) {
                 if (a[j] > a[j + 1]) {
+                    flag = true;
                     temp = a[j];
                     a[j] = a[j + 1];
                     a[j + 1] = temp;
                 }
+            }
+            if(!flag){
+                // 本次冒泡没有值交换，结束程序
+                return;
             }
         }
     }
