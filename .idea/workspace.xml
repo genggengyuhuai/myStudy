@@ -4,22 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/string_match/BM_algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/string_match/KMP_algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/ms/First.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="设计模式复习">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_pattern/proxy/HelloWorldTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/BackTrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/BackTrackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/EightQueenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/EightQueenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/MazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/MazeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursivebacktrack/RecursiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/recursive_backtrack/RecursiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/decorator/DecoratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/observer/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/observer/ObserverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_pattern/proxy/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/ms/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/observer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/design_pattern/observer/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -256,7 +248,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -288,13 +280,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObserverTest">
-    <configuration name="Main33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main33" />
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.temp.HelloWorld" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
+          <option name="PATTERN" value="concurrent.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main33" />
       <item itemvalue="Application.Main61" />
       <item itemvalue="Application.SortTest" />
       <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Application.ObserverTest" />
+      <item itemvalue="Application.HelloWorld" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.SortTest" />
         <item itemvalue="Application.Main61" />
-        <item itemvalue="Application.Main33" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +461,8 @@
       <workItem from="1574734620760" duration="10861000" />
       <workItem from="1574903709301" duration="6370000" />
       <workItem from="1574991046569" duration="10733000" />
-      <workItem from="1575027193717" duration="4164000" />
+      <workItem from="1575027193717" duration="10945000" />
+      <workItem from="1575078942329" duration="12739000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -716,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574992221633</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="设计模式复习">
+      <created>1575031392622</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1575031392622</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,7 +769,8 @@
     <MESSAGE value="算法作业" />
     <MESSAGE value="华泰面试" />
     <MESSAGE value=" 微软面试算法复习" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 微软面试算法复习" />
+    <MESSAGE value="设计模式复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式复习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
