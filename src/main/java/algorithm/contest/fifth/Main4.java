@@ -3,6 +3,7 @@ package algorithm.contest.fifth;
 import java.util.Scanner;
 
 /**
+ * 硬币最小数量
  * @author lihaoyu
  * @date 2019/11/28 9:15
  */
@@ -17,6 +18,7 @@ public class Main4 {
             int[] dp = new int[C+1];
             for (int i = 0; i < values.length; i++) {
                 values[i] = scanner.nextInt();
+                dp[values[i]] = 1;
             }
             int temp = 0;
             for(int i = 0; i < N; i++){

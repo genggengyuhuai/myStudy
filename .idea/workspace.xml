@@ -4,14 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="设计模式复习">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design_pattern/proxy/HelloWorldTest.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/review/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/review/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main322.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main5.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -280,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrent.temp.HelloWorld" />
       <module name="myStudy" />
@@ -294,12 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main61" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main61" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.review.Main" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
+          <option name="PATTERN" value="algorithm.contest.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.observer.ObserverTest" />
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.fifth.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_pattern.observer.*" />
+          <option name="PATTERN" value="algorithm.contest.fifth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.proxy.ProxyTest" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.contest.review.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_pattern.proxy.*" />
+          <option name="PATTERN" value="algorithm.contest.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.basic_algorithm.sort.SortTest" />
+    <configuration name="Main322" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main322" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.basic_algorithm.sort.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main61" />
-      <item itemvalue="Application.SortTest" />
-      <item itemvalue="Application.ProxyTest" />
-      <item itemvalue="Application.ObserverTest" />
       <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main322" />
+      <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main1 (1)" />
+        <item itemvalue="Application.Main322" />
         <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.ObserverTest" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.SortTest" />
-        <item itemvalue="Application.Main61" />
       </list>
     </recent_temporary>
   </component>
@@ -462,7 +462,9 @@
       <workItem from="1574903709301" duration="6370000" />
       <workItem from="1574991046569" duration="10733000" />
       <workItem from="1575027193717" duration="10945000" />
-      <workItem from="1575078942329" duration="12739000" />
+      <workItem from="1575078942329" duration="30246000" />
+      <workItem from="1575126640626" duration="879000" />
+      <workItem from="1575163521524" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -716,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575031392622</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="高并发 Copy On Write 机制">
+      <created>1575099551753</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1575099551753</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,7 +779,8 @@
     <MESSAGE value="华泰面试" />
     <MESSAGE value=" 微软面试算法复习" />
     <MESSAGE value="设计模式复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式复习" />
+    <MESSAGE value="高并发 Copy On Write 机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="高并发 Copy On Write 机制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,11 +789,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main1.java</url>
           <line>59</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/contest/third/Main1.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main1.java</url>
@@ -874,6 +879,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main61.java</url>
           <line>27</line>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/contest/fifth/Main1.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/contest/review/Main1.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
