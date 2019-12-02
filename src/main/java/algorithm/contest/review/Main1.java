@@ -3,35 +3,47 @@ package algorithm.contest.review;
 import java.util.Scanner;
 
 /**
- * 硬币最小数量 http://172.19.241.251/problem/Gre-4
+ *  逆序对个数
  * @author lihaoyu
  * @date 2019/11/30 15:41
  */
 public class Main1 {
 
-    private static long fun(long number){
-        if(number <= 10) return number;
-        long temp = 11;
-        while(2*temp+1 < number){
-            temp = 2* temp + 1;
+    private static int count = 0;
+
+    private static void fun(int[] a, int start, int end){
+        if(start >= end) return;
+        int mid = (start + end) / 2;
+        fun(a,start,mid);
+        fun(a,mid+1,end);
+        int[] temp = new int[end - start + 1];
+        int index = 0,leftStart = start, rightStart = mid + 1;
+        while(leftStart <= mid && rightStart <= end){
+            if(a[leftStart] <= a[rightStart]) temp[index++] = a[leftStart++];
+            else {
+                temp[index++] = a[rightStart++];
+                count += (mid - leftStart + 1);
+            }
         }
-        return number - temp;
+        while(leftStart <= mid) temp[index++] = a[leftStart++];
+        while(rightStart <= end) temp[index++] = a[rightStart++];
+        System.arraycopy(temp,0,a,start,end-start+1);
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt();
         for (int t = 0; t < T; t++) {
-            long l = scanner.nextLong();
-            long temp = (l - 1) % 12;
-            if(temp >= 0 && temp <= 4){
-                System.out.println(temp+1);
-            }else if(temp == 5 || temp == 11){
-                System.out.println("$");
-            }else{
-                System.out.println(11 - temp);
+            count = 0;
+            int N = scanner.nextInt();
+            int[] numbers = new int[N];
+            for (int i = 0; i < N; i++) {
+                numbers[i] = scanner.nextInt();
             }
+            fun(numbers,0,N-1);
+            System.out.println(count);
+        }
         }
 
     }
-}
+

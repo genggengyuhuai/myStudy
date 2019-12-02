@@ -150,6 +150,39 @@ public class SortTest {
         }
     }
 
+    // 非递归的快排
+    private static int partition(int[] a, int start, int end) {
+        int key = a[start];
+        while (start <= end) {
+            while (start <= end && a[end] >= key) end--;
+            a[end] = a[start];
+            while (start <= end && a[start] <= key) start++;
+            a[start] = a[end];
+        }
+        a[start] = key;
+        return start;
+    }
+
+    private static void inRecursiveQuickSort(int[] a, int start, int end) {
+        if(start >= end) return;
+        int[] stack = new int[a.length];
+        int top = 0;
+        // 初始化入栈
+        stack[top++] = start;
+        stack[top++] = end;
+        // 栈不空
+        while(top != 0){
+            int right = stack[--top];
+            int left = stack[--top];
+            int partition = partition(a, left, right);
+            // 左区间入栈
+            stack[top++] = left;
+            stack[top++] = partition;
+            // 右区间入栈
+            stack[top++] = partition+1;
+            stack[top++] = right;
+        }
+    }
 
     public static void main(String[] args) {
         int[] a1 = {1, 5, 8, 3, 4, 0};
