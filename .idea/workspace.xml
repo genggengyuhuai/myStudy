@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main109.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
@@ -202,13 +203,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main3">
-    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.factory.FactoryMethodTest" />
+  <component name="RunManager" selected="Application.Main17">
+    <configuration name="Main109" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.Main109" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_pattern.factory.*" />
+          <option name="PATTERN" value="algorithm.leetcode.listnode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main109" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.Main109" />
+    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main17" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.listnode.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,19 +270,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FactoryMethodTest" />
       <item itemvalue="Application.Main109" />
       <item itemvalue="Application.Main19" />
       <item itemvalue="Application.Main82" />
       <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.Main17" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main17" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main82" />
         <item itemvalue="Application.Main19" />
         <item itemvalue="Application.Main109" />
-        <item itemvalue="Application.FactoryMethodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +400,7 @@
       <workItem from="1575548241229" duration="5052000" />
       <workItem from="1575553348395" duration="6301000" />
       <workItem from="1575601418666" duration="5254000" />
-      <workItem from="1575622263079" duration="2273000" />
+      <workItem from="1575622263079" duration="6475000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -702,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575551494180</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="第一学期考试结束当天，坐高铁回家">
+      <created>1575626374027</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1575626374027</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +746,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="10-24" />
     <MESSAGE value="10-25" />
     <MESSAGE value="10-26" />
     <MESSAGE value="10-27" />
@@ -763,7 +770,8 @@
     <MESSAGE value="李传艺(高级算法)，明天考试" />
     <MESSAGE value="LeetCode 刷题" />
     <MESSAGE value="设计模式复习，明天考试" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式复习，明天考试" />
+    <MESSAGE value="第一学期考试结束当天，坐高铁回家" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一学期考试结束当天，坐高铁回家" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

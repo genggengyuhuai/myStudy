@@ -22,6 +22,7 @@ class Node {
         // TODO Auto-generated method stub
         return String.valueOf(key);
     }
+
     //构建二叉树
     public static Node Array_to_Tree(int[] a) {
         if (a.length == 0)
@@ -33,6 +34,7 @@ class Node {
             return root;
         }
     }
+
     //插入一个节点到树中，用于构建二叉树
     public static void insert_SortTree(Node temp, Node root) {
         if (temp.key > root.key) {
@@ -47,6 +49,7 @@ class Node {
                 insert_SortTree(temp, root.left);
         }
     }
+
     //递归方式先序遍历
     public static void visit_PreOrder(Node root) {
         if (root == null)
@@ -55,6 +58,7 @@ class Node {
         visit_PreOrder(root.left);
         visit_PreOrder(root.right);
     }
+
     //递归方式中序遍历
     public static void visit_InOrder(Node root) {
         if (root == null)
@@ -63,6 +67,7 @@ class Node {
         System.out.print(root.key + " ");
         visit_InOrder(root.right);
     }
+
     //递归方式后序遍历
     public static void visit_PostOrder(Node root) {
         if (root == null)
@@ -71,6 +76,7 @@ class Node {
         visit_PostOrder(root.right);
         System.out.print(root.key + " ");
     }
+
     //非递归方式先序遍历
     public static void visit_PreOrder_NotRecursive(Node root) {
         LinkedList<Node> linkedList = new LinkedList<>();
@@ -85,7 +91,8 @@ class Node {
             }
         }
     }
-    //非递归方式后序遍历    两个队列 + 反向层次遍历
+
+    //非递归方式后序遍历    两个栈 + 反向层次遍历
     public static void visit_PostOrder_NotRecursive(Node root) {
         if (root == null)
             return;
@@ -104,6 +111,7 @@ class Node {
             System.out.print(outputList.pollLast() + " ");
 
     }
+
     //非递归方式中序遍历
     public static void visit_InOrder_NotRecursive(Node root) {
         LinkedList<Node> linkedList = new LinkedList<>();
@@ -119,6 +127,7 @@ class Node {
             }
         }
     }
+
     //层序遍历
     public static void visit_Level(Node root) {
         if (root == null)
@@ -149,6 +158,7 @@ class Node {
         }
         System.out.println();
     }
+
     //统计叶节点个数
     public static int count_LeafNode(Node root) {
         if (root == null)
@@ -158,6 +168,7 @@ class Node {
         else
             return count_LeafNode(root.left) + count_LeafNode(root.right);
     }
+
     //统计非叶节点个数
     public static int count_NotLeafNode(Node root) {
         if (root == null || (root.left == null && root.right == null))
@@ -166,6 +177,7 @@ class Node {
             return count_NotLeafNode(root.left) + count_NotLeafNode(root.right) + 1;
 
     }
+
     //统计所有节点个数
     public static int count_AllNode(Node root) {
         if (root == null)
@@ -174,6 +186,7 @@ class Node {
             return count_AllNode(root.left) + count_AllNode(root.right) + 1;
 
     }
+
     // 计算第k层节点数
     public static int count_LevelNode(Node root, int k) {
         if (root == null)
@@ -206,6 +219,7 @@ class Node {
 
         return 1;
     }
+
     // 计算各层节点数
     public static int[] count_LevelNode(Node root) {
         int[] count = new int[100];
@@ -255,6 +269,7 @@ class Node {
         else
             return b;
     }
+
     //计算最大深度
     public static int depth(Node root) {
         if (root == null)
@@ -263,6 +278,7 @@ class Node {
             return max(depth(root.left), depth(root.right)) + 1;
 
     }
+
     //树的最大枝长
     public static int MaxLeaf(Node root) {
         if (root == null)
@@ -270,36 +286,20 @@ class Node {
         else
             return max(MaxLeaf(root.left), MaxLeaf(root.right)) + 1;
     }
+
     //树的最小枝长
     public static int MinLeaf(Node root) {
         if (root == null)
             return 0;
-        if(root.left == null){
+        if (root.left == null) {
             return MinLeaf(root.right) + 1;
         }
-        if(root.right == null){
+        if (root.right == null) {
             return MinLeaf(root.left) + 1;
-        }
-        else
+        } else
             return min(MinLeaf(root.left), MinLeaf(root.right)) + 1;
     }
 
-    //获取节点深度，用于判断该二叉树是否是平衡二叉树的函数
-    //注意及时return 剪枝手法
-    private static int getDepth(Node root){
-        if(root == null) return 0;
-        int left = getDepth(root.left);
-        if(left == -1) return -1;
-        int right = getDepth(root.right);
-        if(right == -1) return -1;
-        return Math.abs(left - right) >1 ? -1:1+Math.max(left, right);
-    }
-
-    //判断该二叉树是否是平衡二叉树
-    public static  boolean isBalanced(Node root) {
-        return getDepth(root) != -1;
-
-    }
     //复制一颗树
     public static Node CopyTree(Node root) {
         if (root == null)
@@ -311,6 +311,7 @@ class Node {
             return temp;
         }
     }
+
     //交换左右子树
     public static void Swap_Tree(Node root) {
         if (root == null)
@@ -323,6 +324,7 @@ class Node {
             Swap_Tree(root.right);
         }
     }
+
     // 判断两颗树是否相似
     public static boolean Tree_Like(Node root1, Node root2) {
         if (root1 == null && root2 == null)
@@ -333,17 +335,11 @@ class Node {
     }
 
     /**
-     *
-     * @param a
-     *            先序
-     * @param b
-     *            中序
-     * @param start_a
-     *            起始下标
-     * @param start_b
-     *            起始下标
-     * @param len
-     *            长度
+     * @param a       先序
+     * @param b       中序
+     * @param start_a 起始下标
+     * @param start_b 起始下标
+     * @param len     长度
      * @return
      */
     //根据先序序列和中序序列建立二叉树
@@ -362,6 +358,7 @@ class Node {
         root.right = createTreeBy_PreOrder_and_InOrder(a, b, start_a + k + 1, start_b + k + 1, len - k - 1);
         return root;
     }
+
     //根据后序序列和中序序列建立二叉树
     public static Node createTreeBy_InOrder_and_PostOrder(int[] a, int[] b, int start_a, int start_b, int len) {
         if (len <= 0)
@@ -378,6 +375,7 @@ class Node {
         root.right = createTreeBy_InOrder_and_PostOrder(a, b, start_a + k + 1, start_b + k, len - k - 1);
         return root;
     }
+
     //根据层序序列和中序序列建立二叉树
     public static Node createTreeBy_InOrder_and_LevelOrder(int[] levelOrder, int[] inOrder, int start_inOrder,
                                                            int end_inOrder) {
@@ -398,6 +396,7 @@ class Node {
         root.right = createTreeBy_InOrder_and_LevelOrder(levelOrder, inOrder, j, end_inOrder);
         return root;
     }
+
     //只访问叶子节点
     public static void visit_LeafNode(Node root) {
         if (root == null)
@@ -441,14 +440,15 @@ class Node {
             return false;
         return true;
     }
+
     //根据值获取一个节点的引用
-    public static Node findNode(Node root, int key) {
-        if(root == null) return null;
-        if(root.key == key) return root;
+    static Node findNode(Node root, int key) {
+        if (root == null) return null;
+        if (root.key == key) return root;
         Node res1 = findNode(root.left, key);
-        if(res1 != null) return res1;
+        if (res1 != null) return res1;
         Node res2 = findNode(root.right, key);
-        if(res2 != null) return res2;
+        if (res2 != null) return res2;
         return null;
     }
 
@@ -456,18 +456,19 @@ class Node {
      * 寻找一个节点到根节点的路径
      * 为了偷懒使用了全局变量
      */
-    public static ArrayList<Node> arrayList_findPathNodeToRoot = new ArrayList<>();
+    static ArrayList<Node> arrayList_findPathNodeToRoot = new ArrayList<>();
     private static ArrayList<Node> temp_findPathNodeToRoot = new ArrayList<>();
-    public static void findPathNodeToRoot(Node root, Node node) {
-        if(root == null) return;
+    static void findPathNodeToRoot(Node root, Node node) {
+        if (root == null) return;
         temp_findPathNodeToRoot.add(root);
-        if(root == node) {
+        if (root == node) {
             //注意这里要复制一份temp保存起来，防止在回溯过程中其中的引用被改变
             arrayList_findPathNodeToRoot = new ArrayList<>(temp_findPathNodeToRoot);
-            return;}
+            return;
+        }
         findPathNodeToRoot(root.left, node);
         findPathNodeToRoot(root.right, node);
-        temp_findPathNodeToRoot.remove(temp_findPathNodeToRoot.size()-1);
+        temp_findPathNodeToRoot.remove(temp_findPathNodeToRoot.size() - 1);
     }
 
     /*
@@ -486,24 +487,12 @@ class Node {
         findPathNodeToRoot(root, node2);
         ArrayList<Node> list2 = new ArrayList<>(arrayList_findPathNodeToRoot);
         //下面开始
-        for(int i = 0; i < list1.size() && i < list2.size(); i++) {
-            if(i == list1.size()-1 || i == list2.size()-1) return list1.get(i);
-            if(list1.get(i+1) != list2.get(i+1)) return list1.get(i);
+        for (int i = 0; i < list1.size() && i < list2.size(); i++) {
+            if (i == list1.size() - 1 || i == list2.size() - 1) return list1.get(i);
+            if (list1.get(i + 1) != list2.get(i + 1)) return list1.get(i);
         }
 
-        return list1.get(list1.size()-1);
-    }
-
-    /*
-     * 刺激  公共父节点
-     */
-    private static Node findParent2(Node root, Node node1, Node node2){
-        if(root == null || root == node1 || root == node2)  return root;
-        Node left = findParent2(root.left, node1, node2);
-        Node right = findParent2(root.right, node1, node2);
-        if(left != null && right != null)return root;
-        if(left != null) return left;
-        return right;
+        return list1.get(list1.size() - 1);
     }
 
     /*
@@ -512,34 +501,61 @@ class Node {
      */
     public static ArrayList<ArrayList<Node>> arrayList_findSumPath = new ArrayList<>();
     public static ArrayList<Node> temp_findSumPath = new ArrayList<>();
+
     public static void findSumPath(Node root, int target) {
         if (root == null)
             return;
         temp_findSumPath.add(root);
         target = target - root.key;
-        if(target == 0) {arrayList_findSumPath.add(new ArrayList<>(temp_findSumPath));}
+        if (target == 0) {
+            arrayList_findSumPath.add(new ArrayList<>(temp_findSumPath));
+        }
         findSumPath(root.left, target);
         findSumPath(root.right, target);
-        temp_findSumPath.remove(temp_findSumPath.size()-1);
+        temp_findSumPath.remove(temp_findSumPath.size() - 1);
     }
 
-    // 求最大通路
-    public static int maxRoute = 0;
-    public static int maxRoute(Node root){
-        if(root == null){
-            return 0;
-        }
+    //获取节点深度，用于判断该二叉树是否是平衡二叉树的函数
+    //注意及时return 剪枝手法
+    private static int getDepth(Node root) {
+        if (root == null) return 0;
+        int left = getDepth(root.left);
+        if (left == -1) return -1;
+        int right = getDepth(root.right);
+        if (right == -1) return -1;
+        return Math.abs(left - right) > 1 ? -1 : 1 + Math.max(left, right);
+    }
+
+    //判断该二叉树是否是平衡二叉树
+    public static boolean isBalanced(Node root) {
+        return getDepth(root) != -1;
+    }
+
+    // 求公共父节点  刺激三连
+    private static Node findParent2(Node root, Node node1, Node node2) {
+        if (root == null || root == node1 || root == node2) return root;
+        Node left = findParent2(root.left, node1, node2);
+        Node right = findParent2(root.right, node1, node2);
+        if (left != null && right != null) return root;
+        if (left != null) return left;
+        return right;
+    }
+
+    // 求最大通路的长度 刺激
+    static int maxRoute = 0;
+    static int maxRoute(Node root) {
+        if (root == null)return 0;
         int left = maxRoute(root.left);
         int right = maxRoute(root.right);
-        int temp = Math.max(left, right) + 1;
-        maxRoute = Math.max(left+right+1, maxRoute);
-        return temp;
+        maxRoute = Math.max(left + right + 1, maxRoute);
+        return Math.max(left, right) + 1;
     }
 
-    // 求最大路径和
+    // 求最大路径和  非常刺激
+    // LeetCode 困难级别
     private static int maxPathSum = Integer.MIN_VALUE;
-    private static int maxPathSumFun(Node node){
-        if(node == null) return 0;
+    private static int maxPathSumFun(Node node) {
+        if (node == null) return 0;
         int left = Math.max(maxPathSumFun(node.left), 0);
         int right = Math.max(maxPathSumFun(node.right), 0);
         maxPathSum = Math.max(maxPathSum, node.key + left + right);
@@ -551,7 +567,7 @@ class Node {
 public class TreeTest {
 
     public static void main(String[] args) {
-        int[] a = { 5, 3, 1, 7, 2, 4, 6, 10};
+        int[] a = {5, 3, 1, 7, 2, 4, 6, 10};
         Node root = Node.Array_to_Tree(a);
         System.out.print("中序遍历结果为:");
         Node.visit_InOrder_NotRecursive(root);
@@ -577,17 +593,17 @@ public class TreeTest {
         System.out.print("两个树是否相等:" + Node.Tree_Like(root, root2));
         System.out.println("   第k层节点数为:" + Node.count_LevelNode(root, 2));
         Node.count_LevelNode(root);
-        Node r1 = Node.createTreeBy_PreOrder_and_InOrder(new int[] { 2, 3, 4, 5, 6 }, new int[] { 4, 3, 5, 2, 6 }, 0, 0,
+        Node r1 = Node.createTreeBy_PreOrder_and_InOrder(new int[]{2, 3, 4, 5, 6}, new int[]{4, 3, 5, 2, 6}, 0, 0,
                 5);
         System.out.print("由前序和中序确定的二叉树的后序遍历为 : ");
         Node.visit_PostOrder(r1);
         System.out.println();
-        Node r2 = Node.createTreeBy_InOrder_and_PostOrder(new int[] { 4, 3, 5, 2, 6 }, new int[] { 4, 5, 3, 6, 2 }, 0,
+        Node r2 = Node.createTreeBy_InOrder_and_PostOrder(new int[]{4, 3, 5, 2, 6}, new int[]{4, 5, 3, 6, 2}, 0,
                 0, 5);
         System.out.print("由中序和后序确定的二叉树的前序遍历为 : ");
         Node.visit_PreOrder(r2);
         System.out.println();
-        Node r3 = Node.createTreeBy_InOrder_and_LevelOrder(new int[] { 1, 2, 3, 4, 5 }, new int[] { 2, 4, 1, 5, 3 }, 0,
+        Node r3 = Node.createTreeBy_InOrder_and_LevelOrder(new int[]{1, 2, 3, 4, 5}, new int[]{2, 4, 1, 5, 3}, 0,
                 5);
         System.out.print("由层序和中序确定的二叉树的后序遍历为 : ");
         Node.visit_PostOrder(r3);
@@ -595,21 +611,22 @@ public class TreeTest {
         System.out.print("路径和为12的路径有：");
         Node.findSumPath(root, 12);
         for (ArrayList<Node> temp : Node.arrayList_findSumPath) {
-            for(Node i : temp)
-                System.out.print(i.key+"  ");
+            for (Node i : temp)
+                System.out.print(i.key + "  ");
             System.out.print(" # ");
         }
         System.out.println();
-        System.out.println("获取值为1的节点："+ Node.findNode(root, 1));
+        System.out.println("获取值为1的节点：" + Node.findNode(root, 1));
         System.out.print("从根节点到节点2的路径为：");
         Node.findPathNodeToRoot(root, Node.findNode(root, 2));
         for (Node i : Node.arrayList_findPathNodeToRoot) {
-            System.out.print(i+" ");
-        }System.out.println();
-        System.out.println("节点2和节点6的公共父节点为："+ Node.findParent(root, Node.findNode(root, 2), Node.findNode(root, 10)));
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        System.out.println("节点2和节点6的公共父节点为：" + Node.findParent(root, Node.findNode(root, 2), Node.findNode(root, 10)));
 
         Node.maxRoute(root);
-        System.out.println("最大通路为："+Node.maxRoute);
+        System.out.println("最大通路为：" + Node.maxRoute);
     }
 
 }
