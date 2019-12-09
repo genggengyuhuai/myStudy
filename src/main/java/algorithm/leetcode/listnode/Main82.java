@@ -42,13 +42,34 @@ public class Main82 {
         return newNode.next;
     }
 
+    private static ListNode reverse(ListNode head){
+        if(head.next == null){
+            return head;
+        }
+        ListNode res = reverse(head.next);
+        head.next.next = head;
+        head.next = null;
+        return res;
+    }
+
     public static void main(String[] args) {
-        ListNode node5 = new ListNode(4, null);
+        ListNode node5 = new ListNode(5, null);
         ListNode node4 = new ListNode(4, node5);
-        ListNode node3 = new ListNode(4, node4);
-        ListNode node2 = new ListNode(1, node3);
+        ListNode node3 = new ListNode(3, node4);
+        ListNode node2 = new ListNode(2, node3);
         ListNode node1 = new ListNode(1, node2);
-        ListNode listNode = deleteDuplicates(node1);
+        ListNode temp = node1;
+        while(temp!= null){
+            System.out.print(temp.val+" ");
+            temp = temp.next;
+        }
         System.out.println();
+        ListNode reverse = reverse(node1);
+        temp = reverse;
+        while(temp!= null){
+            System.out.print(temp.val+" ");
+            temp = temp.next;
+        }
+
     }
 }
