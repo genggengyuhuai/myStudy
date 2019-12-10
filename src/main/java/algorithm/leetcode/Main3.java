@@ -1,11 +1,14 @@
 package algorithm.leetcode;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
- *  滑动窗口 ！
+ *  头延伸，尾收缩的    滑动窗口 ！
+ *  abcdcqwer 输出 dcqwer 6
  *
  * @author lihaoyu
  * @date 2019/12/6 13:14
@@ -14,25 +17,40 @@ public class Main3 {
 
 
     public static int lengthOfLongestSubstring(String s) {
+        if(s == null || s.length() == 0) return 0;
         char[] cs = s.toCharArray();
-        int maxLen = 1;
-        List<Character> list = new LinkedList<>();
-        for(int i = 0; i < s.length(); i++){
-            if(list.isEmpty()){
-                list.add(cs[i]);
-                continue;
+        Set<Character> set = new HashSet<>(32);
+        int i = 0, j = 0, maxLen = 1;
+        while(i < cs.length){
+            while(j < cs.length && !set.contains(cs[j])){
+                set.add(cs[j]);
+                j++;
+                maxLen = Math.max(maxLen,set.size());
             }
-            int index = list.indexOf(cs[i]);
-
-            if(index >= 0){
-
-            }
+            if(j == cs.length) return maxLen;
+            set.remove(cs[i]);
+            i++;
         }
         return maxLen;
     }
 
+    public static int lengthOfLongestSubstring2(String s) {
+        if(s == null || s.length() == 0) return 0;
+        char[] cs = s.toCharArray();
+        Map<Character,Integer> map = new HashMap<>(32);
+        int i = 0, j = 0, maxLen = 1;
+        while(j < cs.length) {
+            if(map.containsKey(cs[j])){
+                i = Math.max(i,map.get(cs[j])+1);
+            }
+            maxLen = Math.max(maxLen, j-i+1);
+            map.put(cs[j], j);
+            j++;
+        }
+        return maxLen;
+    }
 
     public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(lengthOfLongestSubstring2("abcdcqwer"));
     }
 }

@@ -334,6 +334,18 @@ class Node {
         return false;
     }
 
+    // 判断是否是二叉排序树
+    public static boolean validateBST(Node root){
+        if(root == null) return true;
+        if(root.left != null && root.left.key > root.key) return false;
+        if(root.right != null && root.right.key < root.key) return false;
+        boolean left = validateBST(root.left);
+        if(!left) return false;
+        boolean right = validateBST(root.right);
+        if(!right) return false;
+        return true;
+    }
+
     /**
      * @param a       先序
      * @param b       中序
