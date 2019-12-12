@@ -1,4 +1,4 @@
-package algorithm.leetcode;
+package algorithm.leetcode.tree;
 
 import java.util.LinkedList;
 

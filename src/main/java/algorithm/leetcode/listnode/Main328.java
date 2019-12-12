@@ -1,6 +1,4 @@
-package algorithm.leetcode;
-
-import java.util.List;
+package algorithm.leetcode.listnode;
 
 /**
  * 奇偶链表

@@ -1,4 +1,4 @@
-package algorithm.leetcode;
+package algorithm.leetcode.listnode;
 
 /**
  * K 个一组翻转链表  逆序

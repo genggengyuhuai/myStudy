@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main673.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/temp/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/ms/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/ms/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main328.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main328.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main662.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main662.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/MyQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -131,13 +137,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main3">
-    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main17" />
+  <component name="RunManager" selected="Application.Main111">
+    <configuration name="Main111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.Main111" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main25" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.pinduoduo.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.pinduoduo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,7 +169,7 @@
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.leetcode.listnode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,20 +178,7 @@
       </method>
     </configuration>
     <configuration name="Main328" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main328" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.Main82" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.Main328" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -197,20 +190,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.temp.Temp" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.leetcode.temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main82" />
       <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main17" />
-      <item itemvalue="Application.Main25" />
       <item itemvalue="Application.Main328" />
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main111" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main111" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main328" />
-        <item itemvalue="Application.Main25" />
-        <item itemvalue="Application.Main82" />
-        <item itemvalue="Application.Main17" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +341,9 @@
       <workItem from="1575959729094" duration="1742000" />
       <workItem from="1575964865570" duration="691000" />
       <workItem from="1575965827584" duration="726000" />
-      <workItem from="1575974400400" duration="5265000" />
+      <workItem from="1575974400400" duration="6040000" />
+      <workItem from="1575990761727" duration="342000" />
+      <workItem from="1576117407777" duration="8988000" />
     </task>
     <task id="LOCAL-00001" summary="10-24">
       <created>1571918246680</created>
@@ -659,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575893197249</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="leetcode 链表K组反转，递归">
+      <created>1575989859543</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1575989859543</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,21 +766,6 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main1.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main30.java</url>
           <line>32</line>
           <option name="timeStamp" value="39" />
@@ -836,7 +836,7 @@
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main662.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main662.java</url>
           <line>69</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
