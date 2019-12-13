@@ -1,5 +1,8 @@
 package algorithm.school_hire_2019.xiaomi;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -11,33 +14,68 @@ import java.util.Scanner;
  * @date 2019/11/5 20:12
  */
 public class Main7 {
+
+    private static class Point implements Comparable<Point>{
+        int start;
+        int end;
+
+        public Point(int start, int end) {
+            this.start = start;
+            this.end = end;
+        }
+
+        @Override
+        public int compareTo(Point o) {
+            if((end - start) != (o.end - o.start)){
+              return  (end - start) - (o.end - o.start);
+            }
+            return start - o.start;
+        }
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while(scanner.hasNext()){
             String text = scanner.next();
             String pattern = scanner.next();
-            if(text.equals("aaabcac") && pattern.equals("ac")){
-                System.out.println("5 6");
-                continue;
-            }
-            int i = 0, j = 0;
-            int start = -1;
-            while(i < text.length() && j < pattern.length()){
-                if(text.charAt(i) == pattern.charAt(j)){
-                    if(j == 0){
-                        start = i;
+            int i = 0, j = 0, k = 0;
+            int start = -1, end = -1;
+            List<Point> res = new ArrayList<>();
+            while(k < text.length()){
+                start = -1;
+                end = -1;
+                i = k;
+                j = 0;
+                while(i < text.length() && j < pattern.length()){
+                    if(text.charAt(i) == pattern.charAt(j)){
+                        if(j == 0){
+                            start = i;
+                        }
+                        if(j == pattern.length() - 1){
+                            end = i;
+                            break;
+                        }
+                        i++;
+                        j++;
+                    }else{
+                        i++;
                     }
-                    i++;
-                    j++;
-                }else{
-                    i++;
+                }
+                if(end != -1){
+                    res.add(new Point(start,end));
+//                    System.out.println(start + "   "+ end);
+                }
+                k++;
+                while(k < text.length() && text.charAt(k) != pattern.charAt(0)){
+                    k++;
                 }
             }
-            if(j == pattern.length()){
-                System.out.println(start+" "+(i-1));
-            }else{
-                System.out.println(-1+" -1");
+            if(res.isEmpty()){
+                System.out.println("-1 -1");
+                continue;
             }
+            Collections.sort(res);
+            System.out.println(res.get(0).start+" " +res.get(0).end);
         }
 
     }
