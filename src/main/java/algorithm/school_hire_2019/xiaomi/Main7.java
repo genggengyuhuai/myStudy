@@ -63,7 +63,6 @@ public class Main7 {
                 }
                 if(end != -1){
                     res.add(new Point(start,end));
-//                    System.out.println(start + "   "+ end);
                 }
                 k++;
                 while(k < text.length() && text.charAt(k) != pattern.charAt(0)){
@@ -72,10 +71,11 @@ public class Main7 {
             }
             if(res.isEmpty()){
                 System.out.println("-1 -1");
-                continue;
             }
-            Collections.sort(res);
-            System.out.println(res.get(0).start+" " +res.get(0).end);
+            else{
+                Collections.sort(res);
+                System.out.println(res.get(0).start+" " +res.get(0).end);
+            }
         }
 
     }
