@@ -1,6 +1,7 @@
 package algorithm.leetcode;
 
 /**
+ * 编辑距离，二维空间到一维的优化，重点是把 dp[i-1][j-1] 记录成 prev
  * @author lihaoyu
  * @date 2019/12/16 9:29
  */
@@ -32,5 +33,6 @@ public class Main72 {
 
     public static void main(String[] args) {
         System.out.println(minDistance("intention", "execution"));
+
     }
 }
