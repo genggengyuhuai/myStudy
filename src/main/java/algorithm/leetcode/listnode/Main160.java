@@ -12,16 +12,10 @@ public class Main160 {
         ListNode(int x) {
             val = x;
         }
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA == null || headB == null) return null;
-
         int len1 = 1;
         int len2 = 1;
         ListNode temp1 = headA;

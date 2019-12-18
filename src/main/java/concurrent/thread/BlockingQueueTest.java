@@ -5,7 +5,6 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 
 import java.util.concurrent.ArrayBlockingQueue;
-import java.util.logging.Logger;
 
 /**
  * @author lihaoyu
