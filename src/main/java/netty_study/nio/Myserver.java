@@ -1,6 +1,7 @@
 package netty_study.nio;
 
-import javax.sound.midi.Soundbank;
+import com.google.common.primitives.Bytes;
+
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -23,16 +24,18 @@ public class Myserver {
         Selector selector = Selector.open();
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
         while (true) {
+            System.out.println("111");
             selector.select();
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
             Iterator<SelectionKey> iterator = selectionKeys.iterator();
             while (iterator.hasNext()) {
                 SelectionKey key = iterator.next();
-                if (key.isValid() == false) {
+                if (!key.isValid()) {
                     continue;
                 }
                 if (key.isAcceptable())//代码①
                 {
+                    System.out.println("接受连接");
                     //这里的channel和上文的serverSocketChannel是相同对象
                     ServerSocketChannel channel = (ServerSocketChannel) key.channel();
                     SocketChannel clientChannel = channel.accept();
@@ -46,11 +49,13 @@ public class Myserver {
                     if (read == -1)//关闭分支
                     {
                         //通道连接关闭，可以取消这个注册键，后续不在触发。
+                        System.out.println("关闭连接");
                         key.cancel();
                         clientChannel.close();
                     } else//读写分支
                     {
-                        System.out.println(read);
+                        System.out.println("read and write");
+                        System.out.println(read +"  "+ new String(buffer.array()));
                         buffer.flip();
                         clientChannel.write(buffer);
                     }
