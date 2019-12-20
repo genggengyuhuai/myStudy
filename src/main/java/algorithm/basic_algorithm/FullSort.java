@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 求 全排列
+ * 求 全排列  两种方法
  *
  * @author lihaoyu
  * @date 2019/12/12 14:41
@@ -32,8 +32,27 @@ public class FullSort {
         }
     }
 
+    // 用 flags 标记来求全排列
+    private static void fun(int[] nums, int j, boolean[] flags, String sb, List<String> res) {
+        if (j >= nums.length) {
+            res.add(sb);
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (!flags[i]) {
+                flags[i] = true;
+                fun(nums, j + 1, flags, sb+nums[i], res);
+                flags[i] = false;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         fun(new char[]{'1','2','3'},0);
+        System.out.println(res);
+
+        res.clear();
+        fun(new int[]{1,2,3},0,new boolean[3],"",res);
         System.out.println(res);
     }
 

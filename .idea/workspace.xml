@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/BadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/DeathLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main55.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main54.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/BlockingQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/BlockingQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/ReentrantLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/ReentrantLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty_study/nio/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty_study/nio/Client1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty_study/nio/Myserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty_study/nio/Myserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/FullSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/FullSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main78.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -139,13 +140,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main54">
-    <configuration name="BadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.temp.BadLock" />
+  <component name="RunManager" selected="Application.Main34">
+    <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.basic_algorithm.FullSort" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.temp.*" />
+          <option name="PATTERN" value="algorithm.basic_algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,34 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeathLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.DeathLock" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.temp.HelloWorld" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.temp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main54" />
+    <configuration name="Main34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main34" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -192,12 +167,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.ReentrantLockTest" />
+    <configuration name="Main39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main39" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main46" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main55" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main55" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +207,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="Application.BadLock" />
-      <item itemvalue="Application.ReentrantLockTest" />
-      <item itemvalue="Application.DeathLock" />
-      <item itemvalue="Application.Main54" />
+      <item itemvalue="Application.Main39" />
+      <item itemvalue="Application.Main46" />
+      <item itemvalue="Application.FullSort" />
+      <item itemvalue="Application.Main55" />
+      <item itemvalue="Application.Main34" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main54" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.DeathLock" />
-        <item itemvalue="Application.ReentrantLockTest" />
-        <item itemvalue="Application.BadLock" />
+        <item itemvalue="Application.Main34" />
+        <item itemvalue="Application.Main55" />
+        <item itemvalue="Application.FullSort" />
+        <item itemvalue="Application.Main46" />
+        <item itemvalue="Application.Main39" />
       </list>
     </recent_temporary>
   </component>
@@ -361,14 +362,10 @@
       <workItem from="1576565276398" duration="1957000" />
       <workItem from="1576575642140" duration="853000" />
       <workItem from="1576636148734" duration="23245000" />
-      <workItem from="1576717896089" duration="16863000" />
-    </task>
-    <task id="LOCAL-00006" summary="10-26">
-      <created>1572069184333</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1572069184333</updated>
+      <workItem from="1576717896089" duration="16911000" />
+      <workItem from="1576805957001" duration="2218000" />
+      <workItem from="1576809267300" duration="1919000" />
+      <workItem from="1576812845967" duration="10087000" />
     </task>
     <task id="LOCAL-00007" summary="10-26">
       <created>1572069754727</created>
@@ -706,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576657895837</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="并发">
+      <created>1576768612924</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1576768612924</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +746,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="高并发学习" />
     <MESSAGE value="小米校招" />
     <MESSAGE value="多线程" />
     <MESSAGE value="算法第四次课堂练习" />
@@ -767,7 +770,8 @@
     <MESSAGE value="通常情况下，若dp 用到了 dp[i-1][j], dp[i][j-1], dp[i-1][j-1] 这三个值, 优化成一维空间时，把dp[i-1][j-1] 记成 pre。&#10;&#10;int temp = dp[j];&#10;dp[j] = ...&#10;pre = temp;" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="每天坚持leetcode一两题，保持一种感觉。&#10;学习了 NIO 真正的底层原理，系统调用。&#10;所有的系统I/O都分为两个阶段：等待就绪和真正操作。例如读分为准备读和真正读&#10;阻塞是指：进程发起一个系统调用后，上面的准备读和真正读两个阶段都有阻塞。&#10;NIO一个重要的特点是：socket主要的读、写、注册和接收函数，在等待就绪阶段都是非阻塞的，真正的I/O操作是同步阻塞的（消耗CPU但性能非常高，几乎不耗时）。&#10;使用 IO 多路复用方式，系统在等待一个 IO 操作完成的这段时间内不需要被阻塞，可以去(轮询)处理其它请求。通过将这个等待时间利用起来，使得 CPU 利用率大大提高。" />
-    <option name="LAST_COMMIT_MESSAGE" value="每天坚持leetcode一两题，保持一种感觉。&#10;学习了 NIO 真正的底层原理，系统调用。&#10;所有的系统I/O都分为两个阶段：等待就绪和真正操作。例如读分为准备读和真正读&#10;阻塞是指：进程发起一个系统调用后，上面的准备读和真正读两个阶段都有阻塞。&#10;NIO一个重要的特点是：socket主要的读、写、注册和接收函数，在等待就绪阶段都是非阻塞的，真正的I/O操作是同步阻塞的（消耗CPU但性能非常高，几乎不耗时）。&#10;使用 IO 多路复用方式，系统在等待一个 IO 操作完成的这段时间内不需要被阻塞，可以去(轮询)处理其它请求。通过将这个等待时间利用起来，使得 CPU 利用率大大提高。" />
+    <MESSAGE value="并发" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
