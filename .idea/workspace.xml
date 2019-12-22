@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/BeanA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/BeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -137,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstTest">
+  <component name="RunManager" selected="Application.SortTest">
     <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_study.spring_bean.FirstTest" />
       <module name="myStudy" />
@@ -151,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main34" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
+          <option name="PATTERN" value="algorithm.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main55" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tencent.Main55" />
+    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.basic_algorithm.sort.SortTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tencent.*" />
+          <option name="PATTERN" value="algorithm.basic_algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main55" />
-      <item itemvalue="Application.Main34" />
       <item itemvalue="Application.Main43" />
       <item itemvalue="Application.FirstTest" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.SortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortTest" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main43" />
         <item itemvalue="Application.FirstTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main43" />
-        <item itemvalue="Application.Main34" />
-        <item itemvalue="Application.Main55" />
       </list>
     </recent_temporary>
   </component>
@@ -363,14 +360,12 @@
       <workItem from="1576805957001" duration="2218000" />
       <workItem from="1576809267300" duration="1919000" />
       <workItem from="1576812845967" duration="12572000" />
-      <workItem from="1576895046145" duration="18353000" />
-    </task>
-    <task id="LOCAL-00009" summary="10-27">
-      <created>1572140041264</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1572140041264</updated>
+      <workItem from="1576895046145" duration="19185000" />
+      <workItem from="1576928972220" duration="6001000" />
+      <workItem from="1576995483593" duration="594000" />
+      <workItem from="1577001222945" duration="37000" />
+      <workItem from="1577002169057" duration="2915000" />
+      <workItem from="1577007024303" duration="1773000" />
     </task>
     <task id="LOCAL-00010" summary="10-29">
       <created>1572314693641</created>
@@ -708,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576848181794</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Spring Bean 生命后期  和启动流程&#10;&#10;1.通过构造方法或工厂方法实例化&#10;2.设置对象属性(依赖注入)&#10;3.工厂调用setBeanName和setBeanFactory方法&#10;(如果Bean实现了NameAware  FactoryAware .&#10;目的是这个Bean本身能获取到自已在容器中的名&#10;字和构造自己的factory)&#10;4.将Bean实例传给前置处理器(如果有)&#10;5.调用Bean的初始化方法&#10;(如果实现了InitializingBean接口)&#10;6.将Bean实例传递给后置处理器(如果有)&#10;7.使用Bean&#10;8.destroy (如果有)">
+      <created>1576924825028</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1576924825028</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,7 +746,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="多线程" />
     <MESSAGE value="算法第四次课堂练习" />
     <MESSAGE value="算法作业" />
     <MESSAGE value="华泰面试" />
@@ -769,7 +770,8 @@
     <MESSAGE value="每天坚持leetcode一两题，保持一种感觉。&#10;学习了 NIO 真正的底层原理，系统调用。&#10;所有的系统I/O都分为两个阶段：等待就绪和真正操作。例如读分为准备读和真正读&#10;阻塞是指：进程发起一个系统调用后，上面的准备读和真正读两个阶段都有阻塞。&#10;NIO一个重要的特点是：socket主要的读、写、注册和接收函数，在等待就绪阶段都是非阻塞的，真正的I/O操作是同步阻塞的（消耗CPU但性能非常高，几乎不耗时）。&#10;使用 IO 多路复用方式，系统在等待一个 IO 操作完成的这段时间内不需要被阻塞，可以去(轮询)处理其它请求。通过将这个等待时间利用起来，使得 CPU 利用率大大提高。" />
     <MESSAGE value="并发" />
     <MESSAGE value="写错了，连续练习了两天leetcode, 例如组合数，排列数，等等" />
-    <option name="LAST_COMMIT_MESSAGE" value="写错了，连续练习了两天leetcode, 例如组合数，排列数，等等" />
+    <MESSAGE value="Spring Bean 生命后期  和启动流程&#10;&#10;1.通过构造方法或工厂方法实例化&#10;2.设置对象属性(依赖注入)&#10;3.工厂调用setBeanName和setBeanFactory方法&#10;(如果Bean实现了NameAware  FactoryAware .&#10;目的是这个Bean本身能获取到自已在容器中的名&#10;字和构造自己的factory)&#10;4.将Bean实例传给前置处理器(如果有)&#10;5.调用Bean的初始化方法&#10;(如果实现了InitializingBean接口)&#10;6.将Bean实例传递给后置处理器(如果有)&#10;7.使用Bean&#10;8.destroy (如果有)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Bean 生命后期  和启动流程&#10;&#10;1.通过构造方法或工厂方法实例化&#10;2.设置对象属性(依赖注入)&#10;3.工厂调用setBeanName和setBeanFactory方法&#10;(如果Bean实现了NameAware  FactoryAware .&#10;目的是这个Bean本身能获取到自已在容器中的名&#10;字和构造自己的factory)&#10;4.将Bean实例传给前置处理器(如果有)&#10;5.调用Bean的初始化方法&#10;(如果实现了InitializingBean接口)&#10;6.将Bean实例传递给后置处理器(如果有)&#10;7.使用Bean&#10;8.destroy (如果有)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,6 +895,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/netty_study/nio/Myserver.java</url>
           <line>45</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/spring_study/spring_bean/BeanB.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="140" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

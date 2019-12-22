@@ -44,10 +44,10 @@ public class SortTest {
         if (start >= end) return;
         int key = a[start], left = start, right = end;
         while (start < end) {
-            while (start < end && a[start] >= key) end--;
-            a[end] = a[start];
-            while (start < end && a[start] <= key) start++;
+            while (start < end && a[end] >= key) end--;
             a[start] = a[end];
+            while (start < end && a[start] <= key) start++;
+            a[end] = a[start];
         }
         a[end] = key;
         quickSort(a, left, end - 1);
@@ -140,7 +140,7 @@ public class SortTest {
     // 堆排 不稳定   https://time.geekbang.org/column/article/69913
     // 访问数据的方式不是顺序的，而是像树一样跳跃式的，没有局部顺序访问，对CPU不友好
     public static void heapSort(int[] a) {
-        // 建堆
+        // 建堆   O(n)
         buildHeap(a);
         int n = a.length - 1;
         while(n > 0){
@@ -153,11 +153,11 @@ public class SortTest {
     // 非递归的快排
     private static int partition(int[] a, int start, int end) {
         int key = a[start];
-        while (start <= end) {
-            while (start <= end && a[end] >= key) end--;
-            a[end] = a[start];
-            while (start <= end && a[start] <= key) start++;
+        while (start < end) {
+            while (start < end && a[end] >= key) end--;
             a[start] = a[end];
+            while (start < end && a[start] <= key) start++;
+            a[end] = a[start];
         }
         a[start] = key;
         return start;
@@ -176,15 +176,28 @@ public class SortTest {
             int left = stack[--top];
             int partition = partition(a, left, right);
             // 左区间入栈
-            stack[top++] = left;
-            stack[top++] = partition;
+            if(left < partition - 1){
+                stack[top++] = left;
+                stack[top++] = partition - 1;
+            }
             // 右区间入栈
-            stack[top++] = partition+1;
-            stack[top++] = right;
+            if(right > partition + 1){
+                stack[top++] = partition+1;
+                stack[top++] = right;
+            }
+
         }
     }
 
     public static void main(String[] args) {
+
+        int[] a8 = {1, 5, 8, 3, 4, 0};
+        inRecursiveQuickSort(a8, 0, a8.length - 1);
+        for (int i : a8) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
         int[] a1 = {1, 5, 8, 3, 4, 0};
         mergeSort(a1, 0, a1.length - 1);
         for (int i : a1) {
@@ -193,8 +206,8 @@ public class SortTest {
         System.out.println();
 
         int[] a2 = {1, 5, 8, 3, 4, 0};
-        quickSort(a1, 0, a1.length - 1);
-        for (int i : a1) {
+        quickSort(a2, 0, a2.length - 1);
+        for (int i : a2) {
             System.out.print(i + " ");
         }
         System.out.println();
