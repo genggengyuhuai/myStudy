@@ -12,7 +12,7 @@ public class BlockingQueueTest {
 
     private static ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<>(5,false);
     public static void main(String[] args) {
-        queue.add("asd");
+        System.out.println();
 
     }
 }
