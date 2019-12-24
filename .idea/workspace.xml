@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/bytedance/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/bytedance/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/wangyihuyu/Main6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/bytedance/Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main322.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/BlockingQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/BlockingQueueTest.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -136,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main24">
+  <component name="RunManager" selected="Application.Main29">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.bytedance.Main1" />
       <module name="myStudy" />
@@ -163,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main322" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main322" />
+    <configuration name="Main29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main29" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -176,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main518" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main518" />
+    <configuration name="Main31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main31" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -189,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.wangyihuyu.Main6" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.bytedance.Temp" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.wangyihuyu.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.bytedance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +200,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main518" />
-      <item itemvalue="Application.Main322" />
-      <item itemvalue="Application.Main6" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main24" />
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.Main31" />
+      <item itemvalue="Application.Main29" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main29" />
+        <item itemvalue="Application.Main31" />
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.Main24" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main6" />
-        <item itemvalue="Application.Main322" />
-        <item itemvalue="Application.Main518" />
       </list>
     </recent_temporary>
   </component>
@@ -374,14 +371,9 @@
       <workItem from="1577071819551" duration="225000" />
       <workItem from="1577072298954" duration="757000" />
       <workItem from="1577083049779" duration="9346000" />
-      <workItem from="1577159172450" duration="4645000" />
-    </task>
-    <task id="LOCAL-00011" summary="11-3">
-      <created>1572765772815</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1572765772815</updated>
+      <workItem from="1577159172450" duration="4711000" />
+      <workItem from="1577169351538" duration="2145000" />
+      <workItem from="1577188792023" duration="4585000" />
     </task>
     <task id="LOCAL-00012" summary="11-3">
       <created>1572934991986</created>
@@ -719,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577026294383</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="牛客。昨天没写。">
+      <created>1577167909588</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1577167909588</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +754,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="算法作业" />
     <MESSAGE value="华泰面试" />
     <MESSAGE value=" 微软面试算法复习" />
     <MESSAGE value="设计模式复习" />
@@ -780,7 +778,8 @@
     <MESSAGE value="写错了，连续练习了两天leetcode, 例如组合数，排列数，等等" />
     <MESSAGE value="Spring Bean 生命后期  和启动流程&#10;&#10;1.通过构造方法或工厂方法实例化&#10;2.设置对象属性(依赖注入)&#10;3.工厂调用setBeanName和setBeanFactory方法&#10;(如果Bean实现了NameAware  FactoryAware .&#10;目的是这个Bean本身能获取到自已在容器中的名&#10;字和构造自己的factory)&#10;4.将Bean实例传给前置处理器(如果有)&#10;5.调用Bean的初始化方法&#10;(如果实现了InitializingBean接口)&#10;6.将Bean实例传递给后置处理器(如果有)&#10;7.使用Bean&#10;8.destroy (如果有)" />
     <MESSAGE value="傻乎乎的周日。参加一个英语沙龙，太烂了英语" />
-    <option name="LAST_COMMIT_MESSAGE" value="傻乎乎的周日。参加一个英语沙龙，太烂了英语" />
+    <MESSAGE value="牛客。昨天没写。" />
+    <option name="LAST_COMMIT_MESSAGE" value="牛客。昨天没写。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
