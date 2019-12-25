@@ -60,7 +60,7 @@ class Main93 {
 
         List<String> res = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
-        String string = "192100";
+        String string = "19216801";
         fun(string, 0,0,sb,res);
         Set<String> resSet = new HashSet<>();
         System.out.println(res);

@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/bytedance/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/temp/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main93.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -133,13 +135,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main29">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.bytedance.Main1" />
+  <component name="RunManager" selected="Application.Main93">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.temp.Main" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.bytedance.*" />
+          <option name="PATTERN" value="algorithm.leetcode.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main24" />
+    <configuration name="Main22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main22" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,8 +175,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main31" />
+    <configuration name="Main42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main42" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -186,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.bytedance.Temp" />
+    <configuration name="Main93" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main93" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.bytedance.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main24" />
-      <item itemvalue="Application.Temp" />
-      <item itemvalue="Application.Main31" />
       <item itemvalue="Application.Main29" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main42" />
+      <item itemvalue="Application.Main22" />
+      <item itemvalue="Application.Main93" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main93" />
+        <item itemvalue="Application.Main22" />
+        <item itemvalue="Application.Main42" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main29" />
-        <item itemvalue="Application.Main31" />
-        <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.Main24" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -373,14 +375,8 @@
       <workItem from="1577083049779" duration="9346000" />
       <workItem from="1577159172450" duration="4711000" />
       <workItem from="1577169351538" duration="2145000" />
-      <workItem from="1577188792023" duration="4585000" />
-    </task>
-    <task id="LOCAL-00012" summary="11-3">
-      <created>1572934991986</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1572934991986</updated>
+      <workItem from="1577188792023" duration="4643000" />
+      <workItem from="1577245415222" duration="5915000" />
     </task>
     <task id="LOCAL-00013" summary="11-5">
       <created>1572936459725</created>
@@ -718,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577167909588</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="leetcode。悲惨的 12.26 DDL    论文PPT">
+      <created>1577199511453</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1577199511454</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -754,7 +757,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="华泰面试" />
     <MESSAGE value=" 微软面试算法复习" />
     <MESSAGE value="设计模式复习" />
     <MESSAGE value="高并发 Copy On Write 机制" />
@@ -779,7 +781,8 @@
     <MESSAGE value="Spring Bean 生命后期  和启动流程&#10;&#10;1.通过构造方法或工厂方法实例化&#10;2.设置对象属性(依赖注入)&#10;3.工厂调用setBeanName和setBeanFactory方法&#10;(如果Bean实现了NameAware  FactoryAware .&#10;目的是这个Bean本身能获取到自已在容器中的名&#10;字和构造自己的factory)&#10;4.将Bean实例传给前置处理器(如果有)&#10;5.调用Bean的初始化方法&#10;(如果实现了InitializingBean接口)&#10;6.将Bean实例传递给后置处理器(如果有)&#10;7.使用Bean&#10;8.destroy (如果有)" />
     <MESSAGE value="傻乎乎的周日。参加一个英语沙龙，太烂了英语" />
     <MESSAGE value="牛客。昨天没写。" />
-    <option name="LAST_COMMIT_MESSAGE" value="牛客。昨天没写。" />
+    <MESSAGE value="leetcode。悲惨的 12.26 DDL    论文PPT" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode。悲惨的 12.26 DDL    论文PPT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
