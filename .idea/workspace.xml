@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/temp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main386.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main93.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -135,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main93">
+  <component name="RunManager" selected="Application.Main386">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.temp.Main" />
       <module name="myStudy" />
@@ -162,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main29" />
+    <configuration name="Main386" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main386" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -202,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main29" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main42" />
       <item itemvalue="Application.Main22" />
       <item itemvalue="Application.Main93" />
+      <item itemvalue="Application.Main386" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main386" />
         <item itemvalue="Application.Main93" />
         <item itemvalue="Application.Main22" />
         <item itemvalue="Application.Main42" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main29" />
       </list>
     </recent_temporary>
   </component>
@@ -377,13 +373,8 @@
       <workItem from="1577169351538" duration="2145000" />
       <workItem from="1577188792023" duration="4643000" />
       <workItem from="1577245415222" duration="5915000" />
-    </task>
-    <task id="LOCAL-00013" summary="11-5">
-      <created>1572936459725</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1572936459725</updated>
+      <workItem from="1577273743166" duration="701000" />
+      <workItem from="1577286103931" duration="398000" />
     </task>
     <task id="LOCAL-00014" summary="牛客19校招">
       <created>1572966487981</created>
@@ -721,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577199511454</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔">
+      <created>1577273843096</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1577273843096</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -757,7 +755,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value=" 微软面试算法复习" />
     <MESSAGE value="设计模式复习" />
     <MESSAGE value="高并发 Copy On Write 机制" />
     <MESSAGE value="算法考试复习" />
@@ -782,7 +779,8 @@
     <MESSAGE value="傻乎乎的周日。参加一个英语沙龙，太烂了英语" />
     <MESSAGE value="牛客。昨天没写。" />
     <MESSAGE value="leetcode。悲惨的 12.26 DDL    论文PPT" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode。悲惨的 12.26 DDL    论文PPT" />
+    <MESSAGE value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
