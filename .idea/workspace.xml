@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main386.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Model1.pnml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Model2.pnml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Model3.pnml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main103.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -93,7 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bigdata/mapreduce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/algorithm/homework/big" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -106,6 +112,7 @@
       <recent name="design_pattern.proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\big" />
       <recent name="G:\JavaStudy\myStudy\src\main\java\bigdata\mapreduce" />
       <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\temp" />
       <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
@@ -131,13 +138,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main386">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.temp.Main" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.homework.big.Main" />
       <module name="myStudy" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.temp.*" />
+          <option name="PATTERN" value="algorithm.homework.big.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,7 +158,7 @@
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,7 +171,7 @@
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,7 +184,7 @@
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,7 +197,7 @@
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +206,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main42" />
       <item itemvalue="Application.Main22" />
       <item itemvalue="Application.Main93" />
       <item itemvalue="Application.Main386" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main386" />
         <item itemvalue="Application.Main93" />
         <item itemvalue="Application.Main22" />
         <item itemvalue="Application.Main42" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -375,13 +383,10 @@
       <workItem from="1577245415222" duration="5915000" />
       <workItem from="1577273743166" duration="701000" />
       <workItem from="1577286103931" duration="398000" />
-    </task>
-    <task id="LOCAL-00014" summary="牛客19校招">
-      <created>1572966487981</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1572966487981</updated>
+      <workItem from="1577327666855" duration="619000" />
+      <workItem from="1577354901142" duration="7376000" />
+      <workItem from="1577413795654" duration="2601000" />
+      <workItem from="1577421959834" duration="5696000" />
     </task>
     <task id="LOCAL-00015" summary="Java并发学习">
       <created>1573032603950</created>
@@ -719,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577273843096</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="···">
+      <created>1577327690415</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1577327690415</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +767,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="设计模式复习" />
     <MESSAGE value="高并发 Copy On Write 机制" />
     <MESSAGE value="算法考试复习" />
     <MESSAGE value="Deque是双端队列&#10;Queue是定长单向队列&#10;队列实现需要head,tail,size，否则就要多占一个空间用于判满判空" />
@@ -780,7 +791,8 @@
     <MESSAGE value="牛客。昨天没写。" />
     <MESSAGE value="leetcode。悲惨的 12.26 DDL    论文PPT" />
     <MESSAGE value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
+    <MESSAGE value="···" />
+    <option name="LAST_COMMIT_MESSAGE" value="···" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,7 +1,7 @@
 package algorithm.temp;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author lihaoyu
@@ -9,24 +9,23 @@ import java.util.Scanner;
  */
 public class Main2 {
 
-    private static boolean fun(int[] a){
-        Arrays.sort(a);
-        for(int i = 1; i < a.length - 1; i++){
-            if(a[i] * 2 != a[i-1]+a[i+1]){
-                return false;
-            }
+    private static List<List<Integer>> res = new ArrayList<>();
+    private static List<Integer> temp = new ArrayList<>();
+    private static List<Integer> list1 = new ArrayList<>();
+    private static List<Integer> list2 = new ArrayList<>();
+
+    private void fun(int i, int j){
+        if(i == 3 && j == 3){
+
         }
-        return true;
     }
 
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
-        int[] nums = new int[N];
-        for (int i = 0; i < N; i++) {
-            nums[i] = scanner.nextInt();
-        }
-        System.out.println(fun(nums) ? "Possible" : "Impossible");
+        list1.add(1);
+        list1.add(2);
+        list1.add(3);
+        list2.add(4);
+        list2.add(5);
+        list2.add(6);
     }
 }
