@@ -4,15 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Model1.pnml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Model2.pnml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/big/Model3.pnml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main103.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -138,14 +137,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.homework.big.Main" />
+  <component name="RunManager" selected="Application.Main28">
+    <configuration name="Main25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main25" />
       <module name="myStudy" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.homework.big.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main22" />
+    <configuration name="Main26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main26" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main386" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main386" />
+    <configuration name="Main27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main27" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main42" />
+    <configuration name="Main28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main28" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main93" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main93" />
+    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.pinduoduo.Main6" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.pinduoduo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main42" />
-      <item itemvalue="Application.Main22" />
-      <item itemvalue="Application.Main93" />
-      <item itemvalue="Application.Main386" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main6" />
+      <item itemvalue="Application.Main25" />
+      <item itemvalue="Application.Main26" />
+      <item itemvalue="Application.Main27" />
+      <item itemvalue="Application.Main28" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main386" />
-        <item itemvalue="Application.Main93" />
-        <item itemvalue="Application.Main22" />
-        <item itemvalue="Application.Main42" />
+        <item itemvalue="Application.Main28" />
+        <item itemvalue="Application.Main27" />
+        <item itemvalue="Application.Main26" />
+        <item itemvalue="Application.Main25" />
+        <item itemvalue="Application.Main6" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +384,8 @@
       <workItem from="1577327666855" duration="619000" />
       <workItem from="1577354901142" duration="7376000" />
       <workItem from="1577413795654" duration="2601000" />
-      <workItem from="1577421959834" duration="5696000" />
-    </task>
-    <task id="LOCAL-00015" summary="Java并发学习">
-      <created>1573032603950</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1573032603950</updated>
+      <workItem from="1577421959834" duration="7350000" />
+      <workItem from="1577511410418" duration="6880000" />
     </task>
     <task id="LOCAL-00016" summary="Java并发学习">
       <created>1573174866740</created>
@@ -731,7 +723,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577327690415</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="leetcode">
+      <created>1577457679926</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1577457679926</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +781,6 @@
     <MESSAGE value="刚拿到offer，开周会葛老师布置第二学期的科研任务，无奈透露出实习的事，当众被批评，私下又说可以，只要如果有任务不冲突。其实发现在陷入自卑的时候，被很多人羡慕，要好好珍惜机会。" />
     <MESSAGE value="周末 shit" />
     <MESSAGE value="通常情况下，若dp 用到了 dp[i-1][j], dp[i][j-1], dp[i-1][j-1] 这三个值, 优化成一维空间时，把dp[i-1][j-1] 记成 pre。&#10;&#10;int temp = dp[j];&#10;dp[j] = ...&#10;pre = temp;" />
-    <MESSAGE value="leetcode" />
     <MESSAGE value="每天坚持leetcode一两题，保持一种感觉。&#10;学习了 NIO 真正的底层原理，系统调用。&#10;所有的系统I/O都分为两个阶段：等待就绪和真正操作。例如读分为准备读和真正读&#10;阻塞是指：进程发起一个系统调用后，上面的准备读和真正读两个阶段都有阻塞。&#10;NIO一个重要的特点是：socket主要的读、写、注册和接收函数，在等待就绪阶段都是非阻塞的，真正的I/O操作是同步阻塞的（消耗CPU但性能非常高，几乎不耗时）。&#10;使用 IO 多路复用方式，系统在等待一个 IO 操作完成的这段时间内不需要被阻塞，可以去(轮询)处理其它请求。通过将这个等待时间利用起来，使得 CPU 利用率大大提高。" />
     <MESSAGE value="并发" />
     <MESSAGE value="写错了，连续练习了两天leetcode, 例如组合数，排列数，等等" />
@@ -792,7 +790,8 @@
     <MESSAGE value="leetcode。悲惨的 12.26 DDL    论文PPT" />
     <MESSAGE value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
     <MESSAGE value="···" />
-    <option name="LAST_COMMIT_MESSAGE" value="···" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -926,6 +925,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/spring_study/spring_bean/BeanB.java</url>
           <line>24</line>
           <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main5.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main25.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="143" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
