@@ -4,14 +4,13 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main6.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="牛客">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/wangyihuyu/Main7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/wangyihuyu/Main8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/BeanA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -102,7 +101,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -137,26 +136,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main28">
-    <configuration name="Main25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main25" />
+  <component name="RunManager" selected="Application.Main8">
+    <configuration name="Main111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.Main111" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main26" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
+          <option name="PATTERN" value="algorithm.leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +176,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.pinduoduo.Main6" />
+    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.wangyihuyu.Main7" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.pinduoduo.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.wangyihuyu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.wangyihuyu.Main8" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.wangyihuyu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main6" />
-      <item itemvalue="Application.Main25" />
-      <item itemvalue="Application.Main26" />
       <item itemvalue="Application.Main27" />
       <item itemvalue="Application.Main28" />
+      <item itemvalue="Application.Main111" />
+      <item itemvalue="Application.Main7" />
+      <item itemvalue="Application.Main8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main8" />
+        <item itemvalue="Application.Main7" />
+        <item itemvalue="Application.Main111" />
         <item itemvalue="Application.Main28" />
         <item itemvalue="Application.Main27" />
-        <item itemvalue="Application.Main26" />
-        <item itemvalue="Application.Main25" />
-        <item itemvalue="Application.Main6" />
       </list>
     </recent_temporary>
   </component>
@@ -386,13 +385,12 @@
       <workItem from="1577413795654" duration="2601000" />
       <workItem from="1577421959834" duration="7350000" />
       <workItem from="1577511410418" duration="6880000" />
-    </task>
-    <task id="LOCAL-00016" summary="Java并发学习">
-      <created>1573174866740</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1573174866740</updated>
+      <workItem from="1577520713340" duration="932000" />
+      <workItem from="1577523960735" duration="306000" />
+      <workItem from="1577530948555" duration="1520000" />
+      <workItem from="1577534131059" duration="76000" />
+      <workItem from="1577587688475" duration="659000" />
+      <workItem from="1577632350255" duration="1833000" />
     </task>
     <task id="LOCAL-00017" summary="Java并发学习">
       <created>1573185664778</created>
@@ -730,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577457679926</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="牛客">
+      <created>1577520758911</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1577520758911</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,7 +771,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="高并发 Copy On Write 机制" />
     <MESSAGE value="算法考试复习" />
     <MESSAGE value="Deque是双端队列&#10;Queue是定长单向队列&#10;队列实现需要head,tail,size，否则就要多占一个空间用于判满判空" />
     <MESSAGE value="大数据demo尝试" />
@@ -791,7 +795,8 @@
     <MESSAGE value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
     <MESSAGE value="···" />
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="牛客" />
+    <option name="LAST_COMMIT_MESSAGE" value="牛客" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -918,7 +923,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java</url>
-          <line>30</line>
+          <line>29</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -935,6 +940,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main25.java</url>
           <line>44</line>
           <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main111.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

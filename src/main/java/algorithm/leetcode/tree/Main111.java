@@ -1,6 +1,9 @@
 package algorithm.leetcode.tree;
 
 
+import java.util.Collections;
+import java.util.List;
+
 /**
  * 二叉树的最小深度
  * 用的递归，不如层序
@@ -49,5 +52,9 @@ public class Main111 {
         TreeNode node3 = new TreeNode(3,node5,node4);
         TreeNode node1 = new TreeNode(1,node3, node2);
         System.out.println(fun(node1));
+
+        List<Integer> list = Collections.singletonList(1);
+        Integer integer = list.get(0);
+        System.out.println(integer);
     }
 }
