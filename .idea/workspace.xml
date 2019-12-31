@@ -4,17 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="牛客">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/hanwuji/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/wangyihuyu/Main9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mq_study/helloworld/RabbitConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mq_study/helloworld/RabbitProducer.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mail/SimpleEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -144,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RabbitProducer">
+  <component name="RunManager" selected="Application.SimpleEmail">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.hanwuji.Main1" />
       <module name="myStudy" />
@@ -158,25 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.wangyihuyu.Main8" />
+    <configuration name="Main29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main29" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.wangyihuyu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.wangyihuyu.Main9" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.wangyihuyu.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,20 +191,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mail.SimpleEmail" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main8" />
-      <item itemvalue="Application.Main9" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.RabbitProducer" />
       <item itemvalue="Application.RabbitConsumer" />
+      <item itemvalue="Application.Main29" />
+      <item itemvalue="Application.SimpleEmail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleEmail" />
+        <item itemvalue="Application.Main29" />
         <item itemvalue="Application.RabbitProducer" />
         <item itemvalue="Application.RabbitConsumer" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main9" />
-        <item itemvalue="Application.Main8" />
       </list>
     </recent_temporary>
   </component>
@@ -400,13 +394,9 @@
       <workItem from="1577587688475" duration="659000" />
       <workItem from="1577632350255" duration="3624000" />
       <workItem from="1577682065478" duration="11287000" />
-    </task>
-    <task id="LOCAL-00018" summary="Java并发学习">
-      <created>1573205328981</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1573205328981</updated>
+      <workItem from="1577721367339" duration="49000" />
+      <workItem from="1577759632744" duration="595000" />
+      <workItem from="1577767995102" duration="11138000" />
     </task>
     <task id="LOCAL-00019" summary="Java并发学习">
       <created>1573222273786</created>
@@ -744,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577634202360</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="牛客   + rabbit-mq">
+      <created>1577721387611</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1577721387611</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -780,7 +777,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="算法考试复习" />
     <MESSAGE value="Deque是双端队列&#10;Queue是定长单向队列&#10;队列实现需要head,tail,size，否则就要多占一个空间用于判满判空" />
     <MESSAGE value="大数据demo尝试" />
     <MESSAGE value="李传艺(高级算法)，明天考试" />
@@ -805,7 +801,8 @@
     <MESSAGE value="···" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="牛客" />
-    <option name="LAST_COMMIT_MESSAGE" value="牛客" />
+    <MESSAGE value="牛客   + rabbit-mq" />
+    <option name="LAST_COMMIT_MESSAGE" value="牛客   + rabbit-mq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
