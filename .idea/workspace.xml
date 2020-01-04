@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/jingdong/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -128,7 +130,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main10">
+  <component name="RunManager" selected="Application.Main16">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.jingdong.Main1" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.jingdong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main10" />
       <module name="myStudy" />
@@ -142,38 +157,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.netesay.Main16" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.netesay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main23" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.kuaishou.Main29" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.kuaishou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RabbitProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mq_study.helloworld.RabbitProducer" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mq_study.helloworld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RabbitProducer" />
-      <item itemvalue="Application.Main29" />
       <item itemvalue="Application.SimpleEmail" />
       <item itemvalue="Application.Main23" />
       <item itemvalue="Application.Main10" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main16" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main16" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main10" />
         <item itemvalue="Application.Main23" />
         <item itemvalue="Application.SimpleEmail" />
-        <item itemvalue="Application.Main29" />
-        <item itemvalue="Application.RabbitProducer" />
       </list>
     </recent_temporary>
   </component>
@@ -389,14 +391,9 @@
       <workItem from="1577767995102" duration="18076000" />
       <workItem from="1577867558616" duration="3452000" />
       <workItem from="1577881919083" duration="1000" />
-      <workItem from="1577966811074" duration="247000" />
-    </task>
-    <task id="LOCAL-00021" summary="高并发学习">
-      <created>1573468102454</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1573468102454</updated>
+      <workItem from="1577966811074" duration="2672000" />
+      <workItem from="1578015132975" duration="4949000" />
+      <workItem from="1578124568218" duration="444000" />
     </task>
     <task id="LOCAL-00022" summary="高并发学习">
       <created>1573554851452</created>
@@ -734,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577870133765</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="2020.1.2   redis网课">
+      <created>1577967086331</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1577967086332</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,7 +774,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="李传艺(高级算法)，明天考试" />
     <MESSAGE value="LeetCode 刷题" />
     <MESSAGE value="设计模式复习，明天考试" />
     <MESSAGE value="第一学期考试结束当天，坐高铁回家" />
@@ -795,7 +798,8 @@
     <MESSAGE value="牛客   + rabbit-mq" />
     <MESSAGE value="最大m字段和 博客。  Java email" />
     <MESSAGE value="leetcode 动归" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 动归" />
+    <MESSAGE value="2020.1.2   redis网课" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.1.2   redis网课" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
