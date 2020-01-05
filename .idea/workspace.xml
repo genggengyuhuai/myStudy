@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/jingdong/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -393,14 +391,9 @@
       <workItem from="1577881919083" duration="1000" />
       <workItem from="1577966811074" duration="2672000" />
       <workItem from="1578015132975" duration="4949000" />
-      <workItem from="1578124568218" duration="444000" />
-    </task>
-    <task id="LOCAL-00022" summary="高并发学习">
-      <created>1573554851452</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1573554851452</updated>
+      <workItem from="1578124568218" duration="553000" />
+      <workItem from="1578226028737" duration="160000" />
+      <workItem from="1578230804951" duration="8000" />
     </task>
     <task id="LOCAL-00023" summary="小米校招">
       <created>1573629720080</created>
@@ -738,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577967086332</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666">
+      <created>1578125103961</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1578125103961</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -774,7 +774,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="LeetCode 刷题" />
     <MESSAGE value="设计模式复习，明天考试" />
     <MESSAGE value="第一学期考试结束当天，坐高铁回家" />
     <MESSAGE value="12.8号，在家里，好冷" />
@@ -799,7 +798,8 @@
     <MESSAGE value="最大m字段和 博客。  Java email" />
     <MESSAGE value="leetcode 动归" />
     <MESSAGE value="2020.1.2   redis网课" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.1.2   redis网课" />
+    <MESSAGE value="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
