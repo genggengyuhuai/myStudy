@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="在苏州租好房，明天第一天上班。写了个shiro+springboot的总结blog">
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -128,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main16">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.jingdong.Main1" />
       <module name="myStudy" />
@@ -168,6 +168,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main2" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main23" />
       <module name="myStudy" />
@@ -181,33 +194,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mail.SimpleEmail" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SimpleEmail" />
       <item itemvalue="Application.Main23" />
       <item itemvalue="Application.Main10" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main16" />
+      <item itemvalue="Application.Main2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main16" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main10" />
         <item itemvalue="Application.Main23" />
-        <item itemvalue="Application.SimpleEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -394,14 +394,8 @@
       <workItem from="1578124568218" duration="553000" />
       <workItem from="1578226028737" duration="160000" />
       <workItem from="1578230804951" duration="271000" />
-      <workItem from="1578313657001" duration="655000" />
-    </task>
-    <task id="LOCAL-00024" summary="多线程">
-      <created>1574004818420</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1574004818420</updated>
+      <workItem from="1578313657001" duration="1310000" />
+      <workItem from="1578404211836" duration="1554000" />
     </task>
     <task id="LOCAL-00025" summary="多线程">
       <created>1574090188046</created>
@@ -739,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578230853715</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei">
+      <created>1578320373684</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1578320373685</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +776,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="第一学期考试结束当天，坐高铁回家" />
     <MESSAGE value="12.8号，在家里，好冷" />
     <MESSAGE value="leetcode 链表K组反转，递归" />
     <MESSAGE value="牛客算法" />
@@ -800,7 +800,8 @@
     <MESSAGE value="2020.1.2   redis网课" />
     <MESSAGE value="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666" />
     <MESSAGE value="在苏州租好房，明天第一天上班。写了个shiro+springboot的总结blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="在苏州租好房，明天第一天上班。写了个shiro+springboot的总结blog" />
+    <MESSAGE value="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei" />
+    <option name="LAST_COMMIT_MESSAGE" value="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
