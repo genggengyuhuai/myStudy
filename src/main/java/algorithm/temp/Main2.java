@@ -56,12 +56,24 @@ public class Main2 {
     }
 
     // 选择数
+    private static void select(int i){
+        if(temp.size() == selectNum){
+            res.add(new ArrayList<>(temp));
+            return;
+        }
+        for(int j = i; j < nums.length; j++){
+            temp.add(nums[j]);
+            select(j+1);
+            temp.remove(temp.size()-1);
+        }
+    }
 
 
     public static void main(String[] args) {
-        fun2();
-        for (int i = 0; i < res.size(); i++) {
-            System.out.println(res.get(i));
+//        fun2();
+            select(0);
+        for (List<Integer> re : res) {
+            System.out.println(re);
         }
     }
 }

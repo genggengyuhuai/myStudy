@@ -395,14 +395,8 @@
       <workItem from="1578226028737" duration="160000" />
       <workItem from="1578230804951" duration="271000" />
       <workItem from="1578313657001" duration="1310000" />
-      <workItem from="1578404211836" duration="1554000" />
-    </task>
-    <task id="LOCAL-00025" summary="多线程">
-      <created>1574090188046</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1574090188046</updated>
+      <workItem from="1578404211836" duration="2184000" />
+      <workItem from="1578486463954" duration="1319000" />
     </task>
     <task id="LOCAL-00026" summary="算法作业">
       <created>1574165966527</created>
@@ -740,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578320373685</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="第二天安装软件，等待代码库权限">
+      <created>1578405808518</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1578405808518</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +777,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="12.8号，在家里，好冷" />
     <MESSAGE value="leetcode 链表K组反转，递归" />
     <MESSAGE value="牛客算法" />
     <MESSAGE value="通过微软面试，好像该学C#了" />
@@ -801,7 +801,8 @@
     <MESSAGE value="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666" />
     <MESSAGE value="在苏州租好房，明天第一天上班。写了个shiro+springboot的总结blog" />
     <MESSAGE value="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei" />
-    <option name="LAST_COMMIT_MESSAGE" value="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei" />
+    <MESSAGE value="第二天安装软件，等待代码库权限" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二天安装软件，等待代码库权限" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
