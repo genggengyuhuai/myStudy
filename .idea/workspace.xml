@@ -4,9 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="" />
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
@@ -396,14 +394,7 @@
       <workItem from="1578313657001" duration="1310000" />
       <workItem from="1578404211836" duration="2184000" />
       <workItem from="1578486463954" duration="2839000" />
-      <workItem from="1578575113615" duration="599000" />
-    </task>
-    <task id="LOCAL-00027" summary="算法第四次课堂练习">
-      <created>1574315365772</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1574315365772</updated>
+      <workItem from="1578575113615" duration="1444000" />
     </task>
     <task id="LOCAL-00028" summary="算法第四次课堂练习">
       <created>1574340918291</created>
@@ -741,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578492140237</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="day fourth. maintemplate.json 和 parameters.json， 以及 deployment">
+      <created>1578580099200</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1578580099200</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -777,7 +775,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="牛客算法" />
     <MESSAGE value="通过微软面试，好像该学C#了" />
     <MESSAGE value="刚拿到offer，开周会葛老师布置第二学期的科研任务，无奈透露出实习的事，当众被批评，私下又说可以，只要如果有任务不冲突。其实发现在陷入自卑的时候，被很多人羡慕，要好好珍惜机会。" />
     <MESSAGE value="周末 shit" />
@@ -802,7 +799,8 @@
     <MESSAGE value="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei" />
     <MESSAGE value="第二天安装软件，等待代码库权限" />
     <MESSAGE value="第三天，理解 Azure Market Resource Management" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三天，理解 Azure Market Resource Management" />
+    <MESSAGE value="day fourth. maintemplate.json 和 parameters.json， 以及 deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="day fourth. maintemplate.json 和 parameters.json， 以及 deployment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
