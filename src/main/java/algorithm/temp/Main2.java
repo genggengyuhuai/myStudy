@@ -2,6 +2,7 @@ package algorithm.temp;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author lihaoyu
@@ -69,11 +70,53 @@ public class Main2 {
     }
 
 
+    public static int quickSortPartition(int[] a, int start, int end){
+        int index = start;
+        while(start < end){
+            while(start < end && a[end] >= a[index]) end--;
+            a[start] = a[end];
+            while(start < end && a[start] <= a[index]) start++;
+            a[end] = a[start];
+        }
+        a[start] = a[index];
+        return start;
+    }
+
+    public static void quickSort(int[] a){
+        int start = a[0], end = a.length - 1;
+        if(start == end) return;
+        Stack<Integer> stack = new Stack<>();
+        stack.add(start);
+        stack.add(end);
+        int tempStart, tempEnd, index;
+        while(!stack.isEmpty()){
+            tempEnd = stack.pop();
+            tempStart = stack.pop();
+            index = quickSortPartition(a, tempStart, tempEnd);
+            if(index - 1 > tempStart){
+                stack.add(tempStart);
+                stack.add(index-1);
+            }
+            if(index + 1 < tempEnd){
+            stack.add(index+1);
+            stack.add(tempEnd);
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
+        int[] arr = new int[]{5,1,8,2,-3,9,4};
+        quickSort(arr);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(" "+arr[i]);
+        }
+
+
 //        fun2();
             select(0);
         for (List<Integer> re : res) {
-            System.out.println(re);
+//            System.out.println(re);
         }
     }
 }
