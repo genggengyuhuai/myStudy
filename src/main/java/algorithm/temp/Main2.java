@@ -83,7 +83,7 @@ public class Main2 {
     }
 
     public static void quickSort(int[] a){
-        int start = a[0], end = a.length - 1;
+        int start = 0, end = a.length - 1;
         if(start == end) return;
         Stack<Integer> stack = new Stack<>();
         stack.add(start);
