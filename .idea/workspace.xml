@@ -4,11 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/temp/SynTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
-    </list>
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="" />
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
@@ -401,14 +397,7 @@
       <workItem from="1578575113615" duration="1444000" />
       <workItem from="1578670181687" duration="1227000" />
       <workItem from="1578753362365" duration="4370000" />
-      <workItem from="1578802203741" duration="925000" />
-    </task>
-    <task id="LOCAL-00030" summary="算法作业">
-      <created>1574661299552</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1574661299552</updated>
+      <workItem from="1578802203741" duration="973000" />
     </task>
     <task id="LOCAL-00031" summary="算法作业">
       <created>1574682090465</created>
@@ -746,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578758062291</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。">
+      <created>1578822388476</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1578822388476</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +778,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="周末 shit" />
     <MESSAGE value="通常情况下，若dp 用到了 dp[i-1][j], dp[i][j-1], dp[i-1][j-1] 这三个值, 优化成一维空间时，把dp[i-1][j-1] 记成 pre。&#10;&#10;int temp = dp[j];&#10;dp[j] = ...&#10;pre = temp;" />
     <MESSAGE value="每天坚持leetcode一两题，保持一种感觉。&#10;学习了 NIO 真正的底层原理，系统调用。&#10;所有的系统I/O都分为两个阶段：等待就绪和真正操作。例如读分为准备读和真正读&#10;阻塞是指：进程发起一个系统调用后，上面的准备读和真正读两个阶段都有阻塞。&#10;NIO一个重要的特点是：socket主要的读、写、注册和接收函数，在等待就绪阶段都是非阻塞的，真正的I/O操作是同步阻塞的（消耗CPU但性能非常高，几乎不耗时）。&#10;使用 IO 多路复用方式，系统在等待一个 IO 操作完成的这段时间内不需要被阻塞，可以去(轮询)处理其它请求。通过将这个等待时间利用起来，使得 CPU 利用率大大提高。" />
     <MESSAGE value="并发" />
@@ -807,7 +802,8 @@
     <MESSAGE value="day fourth. maintemplate.json 和 parameters.json， 以及 deployment" />
     <MESSAGE value="fifth day. 根据 maintemplate.json 修改 7个 &#10;: 4个 HA，3个NonHA" />
     <MESSAGE value="周六休息" />
-    <option name="LAST_COMMIT_MESSAGE" value="周六休息" />
+    <MESSAGE value="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。" />
+    <option name="LAST_COMMIT_MESSAGE" value="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
