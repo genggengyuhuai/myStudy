@@ -403,14 +403,8 @@
       <workItem from="1578802203741" duration="973000" />
       <workItem from="1578927181725" duration="654000" />
       <workItem from="1579014130637" duration="148000" />
-      <workItem from="1579094376335" duration="1806000" />
-    </task>
-    <task id="LOCAL-00033" summary=" 微软面试算法复习">
-      <created>1574940377951</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1574940377951</updated>
+      <workItem from="1579094376335" duration="2750000" />
+      <workItem from="1579185249231" duration="1627000" />
     </task>
     <task id="LOCAL-00034" summary=" 微软面试算法复习">
       <created>1574953950744</created>
@@ -748,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579014220756</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="周三，new intern orientation">
+      <created>1579100686325</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1579100686325</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,7 +785,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="并发" />
     <MESSAGE value="写错了，连续练习了两天leetcode, 例如组合数，排列数，等等" />
     <MESSAGE value="Spring Bean 生命后期  和启动流程&#10;&#10;1.通过构造方法或工厂方法实例化&#10;2.设置对象属性(依赖注入)&#10;3.工厂调用setBeanName和setBeanFactory方法&#10;(如果Bean实现了NameAware  FactoryAware .&#10;目的是这个Bean本身能获取到自已在容器中的名&#10;字和构造自己的factory)&#10;4.将Bean实例传给前置处理器(如果有)&#10;5.调用Bean的初始化方法&#10;(如果实现了InitializingBean接口)&#10;6.将Bean实例传递给后置处理器(如果有)&#10;7.使用Bean&#10;8.destroy (如果有)" />
     <MESSAGE value="傻乎乎的周日。参加一个英语沙龙，太烂了英语" />
@@ -809,7 +809,8 @@
     <MESSAGE value="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。" />
     <MESSAGE value="周一。改两天gjd的卷子t了" />
     <MESSAGE value="周二。完成对 SmallNonHA的部署，其中有 availability Set 的重新设置，managed 和 unmanaged disk 区别" />
-    <option name="LAST_COMMIT_MESSAGE" value="周二。完成对 SmallNonHA的部署，其中有 availability Set 的重新设置，managed 和 unmanaged disk 区别" />
+    <MESSAGE value="周三，new intern orientation" />
+    <option name="LAST_COMMIT_MESSAGE" value="周三，new intern orientation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
