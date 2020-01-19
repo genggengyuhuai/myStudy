@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="链表归排" />
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
@@ -407,14 +404,7 @@
       <workItem from="1579185249231" duration="1696000" />
       <workItem from="1579221944643" duration="95000" />
       <workItem from="1579359264150" duration="1281000" />
-      <workItem from="1579432466186" duration="4778000" />
-    </task>
-    <task id="LOCAL-00037" summary="高并发 Copy On Write 机制">
-      <created>1575099551753</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1575099551753</updated>
+      <workItem from="1579432466186" duration="5277000" />
     </task>
     <task id="LOCAL-00038" summary="算法考试复习">
       <created>1575164591555</created>
@@ -752,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579360235244</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="链表归排">
+      <created>1579438873719</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1579438873719</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -788,7 +785,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="傻乎乎的周日。参加一个英语沙龙，太烂了英语" />
     <MESSAGE value="牛客。昨天没写。" />
     <MESSAGE value="leetcode。悲惨的 12.26 DDL    论文PPT" />
     <MESSAGE value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
@@ -813,7 +809,8 @@
     <MESSAGE value="周三，new intern orientation" />
     <MESSAGE value="gg" />
     <MESSAGE value="miss" />
-    <option name="LAST_COMMIT_MESSAGE" value="miss" />
+    <MESSAGE value="链表归排" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表归排" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
