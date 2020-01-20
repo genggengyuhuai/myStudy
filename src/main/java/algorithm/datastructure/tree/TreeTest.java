@@ -574,6 +574,18 @@ class Node {
         return node.key + Math.max(left, right);
     }
 
+    // 左视图, 先序遍历
+     static ArrayList<Node> leftSee = new ArrayList<>();
+     static void leftSee(Node node, int depth){
+        if(node == null) return;
+        if(leftSee.size() <= depth){
+            leftSee.add(node);
+        }
+        leftSee(node.left,depth+1);
+        leftSee(node.right,depth+1);
+    }
+
+
 }
 
 public class TreeTest {
@@ -581,6 +593,10 @@ public class TreeTest {
     public static void main(String[] args) {
         int[] a = {5, 3, 1, 7, 2, 4, 6, 10};
         Node root = Node.Array_to_Tree(a);
+        System.out.print("左视图为 : ");
+        Node.leftSee(root, 0);
+        Node.leftSee.forEach(s -> System.out.print(s.key+" "));
+        System.out.println();
         System.out.print("中序遍历结果为:");
         Node.visit_InOrder_NotRecursive(root);
         System.out.println();
