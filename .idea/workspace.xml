@@ -4,11 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="链表归排">
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main236.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -413,14 +412,8 @@
       <workItem from="1579439604884" duration="451000" />
       <workItem from="1579440806813" duration="666000" />
       <workItem from="1579443954653" duration="544000" />
-      <workItem from="1579518414643" duration="3447000" />
-    </task>
-    <task id="LOCAL-00039" summary="Deque是双端队列&#10;Queue是定长单向队列&#10;队列实现需要head,tail,size，否则就要多占一个空间用于判满判空">
-      <created>1575290016513</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1575290016513</updated>
+      <workItem from="1579518414643" duration="3490000" />
+      <workItem from="1579609909695" duration="3026000" />
     </task>
     <task id="LOCAL-00040" summary="大数据demo尝试">
       <created>1575376218292</created>
@@ -758,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579439409497</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="miss">
+      <created>1579532184077</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1579532184077</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -817,9 +817,9 @@
     <MESSAGE value="周二。完成对 SmallNonHA的部署，其中有 availability Set 的重新设置，managed 和 unmanaged disk 区别" />
     <MESSAGE value="周三，new intern orientation" />
     <MESSAGE value="gg" />
-    <MESSAGE value="miss" />
     <MESSAGE value="链表归排" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表归排" />
+    <MESSAGE value="miss" />
+    <option name="LAST_COMMIT_MESSAGE" value="miss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
