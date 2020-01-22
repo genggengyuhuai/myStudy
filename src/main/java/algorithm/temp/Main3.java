@@ -1,33 +1,29 @@
 package algorithm.temp;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author lihaoyu
  * @date 2020/1/3 15:20
  */
 public class Main3 {
-    private static class Line implements Comparable<Line>{
-        int left;
-        int right;
+    public static void inOrder(int[] nums, int i, ArrayList<Integer> subset, List<List<Integer>> res) {
+        if (i >= nums.length) return;
+        subset = new ArrayList<Integer>(subset);
 
-        @Override
-        public int compareTo(Line o) {
-            return right - o.right;
-        }
+        res.add(subset);
+
+        inOrder(nums, i + 1, subset, res);
+        subset.add(nums[i]);
+
+        inOrder(nums, i + 1, subset, res);
     }
 
     public static void main(String[] args) {
-        Line[] lines = new Line[3];
-
-        Arrays.sort(lines);
-        int count = 0, j = 0; // 注意 j 的作用
-        for(int i = 1; i < lines.length; i++)
-            if(lines[i].left >= lines[j].right) {
-                count++; j = i;
-            }
-
-
+        List<List<Integer>> res = new ArrayList<>();
+        inOrder(new int[]{1, 2, 3}, 0, new ArrayList<>(), res);
+        System.out.println(res);
     }
 
 

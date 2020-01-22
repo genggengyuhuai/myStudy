@@ -2,6 +2,7 @@ package algorithm.datastructure.tree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 class Node {
     int key;
@@ -157,6 +158,18 @@ class Node {
 
         }
         System.out.println();
+    }
+
+    // 递归进行层次遍历
+    public static List<List<Node>> visitLevelRecursiveList = new ArrayList<>();
+    public static void visitLevelRecursive(Node root, int depth) {
+            if(root == null) return;
+            if(visitLevelRecursiveList.size() <= depth){
+                visitLevelRecursiveList.add(depth,new ArrayList<>());
+            }
+        visitLevelRecursiveList.get(depth).add(root);
+        visitLevelRecursive(root.left, depth+1);
+        visitLevelRecursive(root.right, depth+1);
     }
 
     //统计叶节点个数
@@ -603,6 +616,9 @@ public class TreeTest {
         System.out.print("后序遍历结果为:");
         Node.visit_PostOrder_NotRecursive(root);
         System.out.println();
+        System.out.print("递归进行层次遍历结果为 : ");
+        Node.visitLevelRecursive(root,0);
+        System.out.println(Node.visitLevelRecursiveList);
         System.out.print("层次遍历结果为:");
         Node.visit_Level(root);
         System.out.print("从左到右遍历叶子节点结果为:");

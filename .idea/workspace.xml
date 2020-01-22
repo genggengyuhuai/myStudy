@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main145.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tree/Main236.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -129,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="LinkNodeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.LinkNodeSortTest" />
       <module name="myStudy" />
@@ -156,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.netesay.Main16" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.netesay.*" />
+          <option name="PATTERN" value="algorithm.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main2" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main3" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -197,18 +199,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main16" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.LinkNodeSortTest" />
       <item itemvalue="Application.TreeTest" />
+      <item itemvalue="Application.Main3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.TreeTest" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.LinkNodeSortTest" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main16" />
       </list>
     </recent_temporary>
   </component>
@@ -413,14 +415,9 @@
       <workItem from="1579440806813" duration="666000" />
       <workItem from="1579443954653" duration="544000" />
       <workItem from="1579518414643" duration="3490000" />
-      <workItem from="1579609909695" duration="3026000" />
-    </task>
-    <task id="LOCAL-00040" summary="大数据demo尝试">
-      <created>1575376218292</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1575376218292</updated>
+      <workItem from="1579609909695" duration="3632000" />
+      <workItem from="1579621049664" duration="153000" />
+      <workItem from="1579701026802" duration="1692000" />
     </task>
     <task id="LOCAL-00041" summary="李传艺(高级算法)，明天考试">
       <created>1575469142037</created>
@@ -758,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579532184077</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="leetcode">
+      <created>1579620424662</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1579620424662</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +802,6 @@
     <MESSAGE value="leetcode。悲惨的 12.26 DDL    论文PPT" />
     <MESSAGE value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
     <MESSAGE value="···" />
-    <MESSAGE value="leetcode" />
     <MESSAGE value="牛客" />
     <MESSAGE value="牛客   + rabbit-mq" />
     <MESSAGE value="最大m字段和 博客。  Java email" />
@@ -819,7 +822,8 @@
     <MESSAGE value="gg" />
     <MESSAGE value="链表归排" />
     <MESSAGE value="miss" />
-    <option name="LAST_COMMIT_MESSAGE" value="miss" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -973,6 +977,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java</url>
           <line>27</line>
           <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
