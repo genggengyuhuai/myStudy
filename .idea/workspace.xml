@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -414,14 +416,7 @@
       <workItem from="1579609909695" duration="3632000" />
       <workItem from="1579621049664" duration="153000" />
       <workItem from="1579701026802" duration="1985000" />
-      <workItem from="1579790686091" duration="306000" />
-    </task>
-    <task id="LOCAL-00042" summary="LeetCode 刷题">
-      <created>1575534923423</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1575534923423</updated>
+      <workItem from="1579790686091" duration="2484000" />
     </task>
     <task id="LOCAL-00043" summary="设计模式复习，明天考试">
       <created>1575551494180</created>
@@ -759,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579704919072</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="工作日最后一天，学了一天《powershell 从入门到入土》">
+      <created>1579791037791</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1579791037791</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +797,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="leetcode。悲惨的 12.26 DDL    论文PPT" />
     <MESSAGE value="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔" />
     <MESSAGE value="···" />
     <MESSAGE value="牛客" />
@@ -820,7 +821,8 @@
     <MESSAGE value="miss" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="~" />
-    <option name="LAST_COMMIT_MESSAGE" value="~" />
+    <MESSAGE value="工作日最后一天，学了一天《powershell 从入门到入土》" />
+    <option name="LAST_COMMIT_MESSAGE" value="工作日最后一天，学了一天《powershell 从入门到入土》" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

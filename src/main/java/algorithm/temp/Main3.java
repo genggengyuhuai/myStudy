@@ -10,14 +10,14 @@ import java.util.List;
 public class Main3 {
     public static void inOrder(int[] nums, int i, ArrayList<Integer> subset, List<List<Integer>> res) {
         if (i >= nums.length) return;
-        subset = new ArrayList<Integer>(subset);
+        ArrayList<Integer> tempList = new ArrayList<>(subset);
 
-        res.add(subset);
+        res.add(tempList);
 
-        inOrder(nums, i + 1, subset, res);
-        subset.add(nums[i]);
+        inOrder(nums, i + 1, tempList, res);
+        tempList.add(nums[i]);
 
-        inOrder(nums, i + 1, subset, res);
+        inOrder(nums, i + 1, tempList, res);
     }
 
     public static void main(String[] args) {
