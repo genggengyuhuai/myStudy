@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -128,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main3">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="LinkNodeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.LinkNodeSortTest" />
       <module name="myStudy" />
@@ -203,11 +203,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.TreeTest" />
-        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.LinkNodeSortTest" />
-        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -420,6 +420,8 @@
       <workItem from="1579965745106" duration="113000" />
       <workItem from="1580048167735" duration="172000" />
       <workItem from="1580136446625" duration="597000" />
+      <workItem from="1580138190257" duration="23000" />
+      <workItem from="1580272378017" duration="1264000" />
     </task>
     <task id="LOCAL-00046" summary="leetcode 链表K组反转，递归">
       <created>1575893197249</created>

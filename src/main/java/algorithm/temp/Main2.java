@@ -2,6 +2,7 @@ package algorithm.temp;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author lihaoyu
@@ -84,15 +85,38 @@ public class Main2 {
         System.arraycopy(temp,0,a,start,end-start+1);
     }
 
+    private static int[] a = new int[]{1,2,3};
+    private static int[] b = new int[]{4,5,6};
 
+
+    private static void fun3(int i, int j){
+        if(i == -1 && j == -1){
+            res.add(new ArrayList<>(temp));
+            return;
+        }
+        if(i >= 0){
+            temp.add(a[i]);
+            fun3(i-1,j);
+            temp.remove(temp.size()-1);
+        }
+
+
+        if(j >= 0){
+            temp.add(b[j]);
+            fun3(i,j-1);
+            temp.remove(temp.size()-1);
+        }
+
+    }
 
     public static void main(String[] args) {
         int[] arr = new int[]{5,1,8,2,-3,9,4};
         fun(arr, 0, arr.length-1);
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(" "+arr[i]);
+//            System.out.print(" "+arr[i]);
         }
-
+        fun3(a.length-1,b.length-1);
+        System.out.println(res);
 
 //        fun2();
             select(0);
