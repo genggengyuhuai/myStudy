@@ -10,14 +10,14 @@ import java.util.Stack;
  */
 public class Main2 {
 
-    private static List<List<Integer>> res = new ArrayList<>();
-    private static List<Integer> temp = new ArrayList<>();
-    private static int[] nums = new int[]{1, 2, 3, 4};
-    private static boolean[] flags = new boolean[nums.length];
-    private static int selectNum = 2;
+    private static List<List<Integer>> res = new ArrayList<>();  // 用于存放最终结果
+    private static List<Integer> temp = new ArrayList<>();  // 用于递归时存放临时数据
+    private static int[] nums = new int[]{1, 2, 3, 4};   // 数据源
+    private static boolean[] flags = new boolean[nums.length];  // 用于基于flag标志的全排列算法
+    private static int selectNum = 2; // 用于选择数，选几个
 
     // 全排列, 基于交换
-    private static void fun(int i) {
+    private static void permute(int i) {
         if (i == nums.length) {
             temp = new ArrayList<>();
             for (int k = 0; k < nums.length; k++) {
@@ -28,7 +28,7 @@ public class Main2 {
         }
         for (int j = i; j < nums.length; j++) {
             swap(i, j);
-            fun(i + 1);
+            permute(i + 1);
             swap(i, j);
         }
     }
@@ -40,7 +40,7 @@ public class Main2 {
     }
 
     // 全排列， 基于 flag
-    private static void fun2() {
+    private static void permute2() {
         if (temp.size() == nums.length) {
             res.add(new ArrayList<>(temp));
             return;
@@ -49,7 +49,7 @@ public class Main2 {
             if (!flags[i]) {
                 temp.add(i + 1);
                 flags[i] = true;
-                fun2();
+                permute2();
                 flags[i] = false;
                 temp.remove(temp.size() - 1);
             }
@@ -115,13 +115,13 @@ public class Main2 {
         for (int i = 0; i < arr.length; i++) {
 //            System.out.print(" "+arr[i]);
         }
-        fun3(a.length-1,b.length-1);
-        System.out.println(res);
+//        fun3(a.length-1,b.length-1);
+//        System.out.println(res);
 
-//        fun2();
-            select(0);
+        permute(0);
+//            select(0);
         for (List<Integer> re : res) {
-//            System.out.println(re);
+            System.out.println(re);
         }
     }
 }

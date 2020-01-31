@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
@@ -88,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/algorithm/homework/big" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -129,12 +131,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main2">
-    <configuration name="LinkNodeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.LinkNodeSortTest" />
+    <configuration name="Link" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.list.Link" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.listnode.*" />
+          <option name="PATTERN" value="algorithm.datastructure.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.jingdong.Main1" />
+    <configuration name="LinkNodeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.LinkNodeSortTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.jingdong.*" />
+          <option name="PATTERN" value="algorithm.leetcode.listnode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.LinkNodeSortTest" />
       <item itemvalue="Application.TreeTest" />
       <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.Link" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Link" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.TreeTest" />
         <item itemvalue="Application.LinkNodeSortTest" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -422,6 +424,8 @@
       <workItem from="1580136446625" duration="597000" />
       <workItem from="1580138190257" duration="23000" />
       <workItem from="1580272378017" duration="1264000" />
+      <workItem from="1580349036100" duration="9170000" />
+      <workItem from="1580461720160" duration="2394000" />
     </task>
     <task id="LOCAL-00046" summary="leetcode 链表K组反转，递归">
       <created>1575893197249</created>
@@ -979,13 +983,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java</url>
           <line>14</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

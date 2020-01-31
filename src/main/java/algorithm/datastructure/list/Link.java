@@ -35,11 +35,71 @@ public class Link {
         return resNode.key;
     }
 
+    private static Node sort(Node head){
+        if(head == null || head.next == null) return head;
+        Node slow = head, fast = head.next;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        Node secondHead = slow.next;
+        slow.next = null;
+        Node temp1 = sort(head);
+        Node temp2 = sort(secondHead);
+        Node dummy = new Node(1,null), temp = dummy;
+        while(temp1 != null && temp2 != null){
+            if(temp1.key <= temp2.key){
+                temp.next = temp1;
+                temp1 = temp1.next;
+            }else{
+                temp.next = temp2;
+                temp2 = temp2.next;
+            }
+            temp = temp.next;
+        }
+        if(temp1 != null){
+            temp.next = temp1;
+        }else{
+            temp.next = temp2;
+        }
+        return dummy.next;
+    }
+
+    //  k 个一组反转
+    private static Node groupReverse(Node node, int k){
+        if(k <= 0) return node;
+        Node tempNode = node;
+        int tempK = 1;
+        while(tempK != k && tempNode != null){
+            tempNode = tempNode.next;
+            tempK++;
+        }
+        if(tempK != k || tempNode == null) return node; // 不够一组
+        Node nextGroupHead = tempNode.next;
+        tempNode.next = null;
+        Node newHead = reverse(node);
+        node.next = groupReverse(nextGroupHead, k);
+        return newHead;
+    }
+
+    private static Node reverse(Node node){
+        if(node == null || node.next == null) return node;
+        Node temp = reverse(node.next);
+        node.next.next = node;
+        node.next = null;
+        return temp;
+    }
+
     public static void main(String[] args) throws Exception{
-        Node dNode = new Node(4,null);
+        Node eNode = new Node(5,null);
+        Node dNode = new Node(4,eNode);
         Node cNode = new Node(3, dNode);
         Node bNode = new Node(2, cNode);
         Node aNode = new Node(1, bNode);
-        System.out.println(fun(aNode, 0));
+//      System.out.println(fun(aNode, 0));
+//      System.out.println(sort(aNode));
+        Node reverse = groupReverse(aNode,2);
+        System.out.println();
+
     }
 }

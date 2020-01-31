@@ -1,6 +1,7 @@
 package algorithm.leetcode.listnode;
 
 /**
+ * 链表排序，归排
  * @author lihaoyu
  * @date 2020/1/19 19:40
  */
@@ -26,7 +27,7 @@ public class LinkNodeSortTest {
         // 断开
         Node secondFirst = slow.next;
         slow.next = null;
-        // 注意返回值的使用
+        // 注意返回值的使用,函数返回的是排序后的链表首节点
         Node node = sortList(first);
         Node node1 = sortList(secondFirst);
         return merge(node, node1);
