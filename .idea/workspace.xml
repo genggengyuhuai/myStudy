@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -425,14 +422,8 @@
       <workItem from="1580138190257" duration="23000" />
       <workItem from="1580272378017" duration="1264000" />
       <workItem from="1580349036100" duration="9170000" />
-      <workItem from="1580461720160" duration="2394000" />
-    </task>
-    <task id="LOCAL-00046" summary="leetcode 链表K组反转，递归">
-      <created>1575893197249</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1575893197249</updated>
+      <workItem from="1580461720160" duration="2500000" />
+      <workItem from="1580551436159" duration="606000" />
     </task>
     <task id="LOCAL-00047" summary="leetcode 链表K组反转，递归">
       <created>1575989859543</created>
@@ -770,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580048288589</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="复习">
+      <created>1580479486446</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1580479486447</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -806,7 +804,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="牛客   + rabbit-mq" />
     <MESSAGE value="最大m字段和 博客。  Java email" />
     <MESSAGE value="leetcode 动归" />
     <MESSAGE value="2020.1.2   redis网课" />
@@ -831,7 +828,8 @@
     <MESSAGE value="除夕" />
     <MESSAGE value="powershell中 select-object 选择对象的一些属性， where-object 选择出符合条件的一些对象" />
     <MESSAGE value="powershell" />
-    <option name="LAST_COMMIT_MESSAGE" value="powershell" />
+    <MESSAGE value="复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
