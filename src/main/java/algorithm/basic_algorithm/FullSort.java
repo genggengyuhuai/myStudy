@@ -32,7 +32,7 @@ public class FullSort {
         }
     }
 
-    // 用 flags 标记来求全排列
+    // 用 flags 标记来求全排列   注意：这种方法符合字典序
     private static void fun(int[] nums, int j, boolean[] flags, String sb, List<String> res) {
         if (j >= nums.length) {
             res.add(sb);
@@ -52,7 +52,7 @@ public class FullSort {
         System.out.println(res);
 
         res.clear();
-        fun(new int[]{1,2,3},0,new boolean[3],"",res);
+        fun(new int[]{1,2,3,4},0,new boolean[4],"",res);
         System.out.println(res);
     }
 

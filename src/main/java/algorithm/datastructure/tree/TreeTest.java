@@ -24,7 +24,7 @@ class Node {
         return String.valueOf(key);
     }
 
-    //构建二叉树
+    //构建二叉查找树
     public static Node Array_to_Tree(int[] a) {
         if (a.length == 0)
             return null;
@@ -36,7 +36,7 @@ class Node {
         }
     }
 
-    //插入一个节点到树中，用于构建二叉树
+    //插入一个节点到树中，用于构建二叉查找树
     public static void insert_SortTree(Node temp, Node root) {
         if (temp.key > root.key) {
             if (root.right == null)
@@ -50,6 +50,25 @@ class Node {
                 insert_SortTree(temp, root.left);
         }
     }
+
+    // 构建完全二叉树
+    public static Node createCompletelyTree(int[] a, int i){
+        if(i >= a.length) return null;
+        Node root = new Node(a[i]);
+        root.left = createCompletelyTree(a, 2*i+1);
+        root.right = createCompletelyTree(a, 2*i+2);
+        return root;
+    }
+
+    // 反序列化构建二叉树   数组中为0的元素代表 null
+    public static Node OverSerializeTree(int[] a, int i){
+        if(i >= a.length || a[i] == 0) return null;
+        Node root = new Node(a[i]);
+        root.left = OverSerializeTree(a, 2*i+1);
+        root.right = OverSerializeTree(a, 2*i+2);
+        return root;
+    }
+
 
     //递归方式先序遍历
     public static void visit_PreOrder(Node root) {
@@ -93,6 +112,22 @@ class Node {
         }
     }
 
+    //非递归方式中序遍历
+    public static void visit_InOrder_NotRecursive(Node root) {
+        LinkedList<Node> linkedList = new LinkedList<>();
+        while (root != null || !linkedList.isEmpty()) {
+            while (root != null) {
+                linkedList.addLast(root);
+                root = root.left;
+            }
+            if (!linkedList.isEmpty()) {
+                Node temp = linkedList.pollLast();
+                System.out.print(temp + " ");
+                root = temp.right;
+            }
+        }
+    }
+
     //非递归方式后序遍历    两个栈 + 反向层次遍历
     public static void visit_PostOrder_NotRecursive(Node root) {
         if (root == null)
@@ -113,51 +148,26 @@ class Node {
 
     }
 
-    //非递归方式中序遍历
-    public static void visit_InOrder_NotRecursive(Node root) {
-        LinkedList<Node> linkedList = new LinkedList<>();
-        while (root != null || !linkedList.isEmpty()) {
-            while (root != null) {
-                linkedList.addLast(root);
-                root = root.left;
-            }
-            if (!linkedList.isEmpty()) {
-                Node temp = linkedList.pollLast();
-                System.out.print(temp + " ");
-                root = temp.right;
-            }
-        }
-    }
-
-    //层序遍历
+    //层序遍历   带层节点数目
     public static void visit_Level(Node root) {
         if (root == null)
             return;
-        else {
-            LinkedList<Node> linkedList = new LinkedList<>();
-            linkedList.addLast(root);
-            int level = 0, curLevelNode = 1, nextLevelNode = 0;
-            while (!linkedList.isEmpty()) {
-                Node temp = linkedList.pollFirst();
-                System.out.print(temp.key + "(" + level + ")" + " ");
-                curLevelNode--;
-                if (temp.left != null) {
-                    linkedList.addLast(temp.left);
-                    nextLevelNode++;
-                }
-                if (temp.right != null) {
-                    linkedList.addLast(temp.right);
-                    nextLevelNode++;
-                }
-                if (curLevelNode == 0) {
-                    level++;
-                    curLevelNode = nextLevelNode;
-                    nextLevelNode = 0;
-                }
+        List<List<Node>> res = new ArrayList<>();
+        List<Node> tempRes = new ArrayList<>();
+        LinkedList<Node> linkedList = new LinkedList<>();
+        linkedList.addLast(root);
+        while(!linkedList.isEmpty()){
+            int size = linkedList.size();
+            for (int i = 0; i < size; i++) {
+                Node node = linkedList.pollFirst();
+                tempRes.add(node);
+                if(node.left != null) linkedList.addLast(node.left);
+                if(node.right != null) linkedList.addLast(node.right);
             }
-
+            res.add(new ArrayList<>(tempRes));
+            tempRes.clear();
         }
-        System.out.println();
+        System.out.println(res);
     }
 
     // 递归进行层次遍历
@@ -198,75 +208,6 @@ class Node {
         else
             return count_AllNode(root.left) + count_AllNode(root.right) + 1;
 
-    }
-
-    // 计算第k层节点数
-    public static int count_LevelNode(Node root, int k) {
-        if (root == null)
-            return 0;
-        int depth = 0;
-        int current_LevelNode = 1;
-        int next_LevelNode = 0;
-        LinkedList<Node> linkedList = new LinkedList<>();
-        linkedList.addLast(root);
-        while (!linkedList.isEmpty()) {
-            Node temp = linkedList.pollFirst();
-            current_LevelNode--;
-            if (temp.left != null) {
-                linkedList.addLast(temp.left);
-                next_LevelNode++;
-            }
-            if (temp.right != null) {
-                linkedList.addLast(temp.right);
-                next_LevelNode++;
-            }
-            if (current_LevelNode == 0) {
-                current_LevelNode = next_LevelNode;
-                next_LevelNode = 0;
-                depth++;
-            }
-            if (depth == k) {
-                return current_LevelNode;
-            }
-        }
-
-        return 1;
-    }
-
-    // 计算各层节点数
-    public static int[] count_LevelNode(Node root) {
-        int[] count = new int[100];
-        if (root == null)
-            return null;
-        LinkedList<Node> linkedList = new LinkedList<>();
-        int start = 0, end = 0, level = 0, last = 1;
-        linkedList.addLast(root);
-        end++;
-        while (!linkedList.isEmpty()) {
-            Node temp = linkedList.pollFirst();
-            start++;
-            count[level]++;
-
-            if (temp.left != null) {
-                linkedList.addLast(temp.left);
-                end++;
-            }
-            if (temp.right != null) {
-                linkedList.addLast(temp.right);
-                end++;
-            }
-            if (start == last) {
-                last = end;
-                level++;
-            }
-        }
-        System.out.print("各层节点数为:");
-        for (int i = 0; i < level; i++) {
-            int j = count[i];
-            System.out.print(j + " ");
-        }
-        System.out.println();
-        return count;
     }
 
     private static int max(int a, int b) {
@@ -599,13 +540,18 @@ class Node {
     }
 
 
+
 }
 
 public class TreeTest {
 
     public static void main(String[] args) {
         int[] a = {5, 3, 1, 7, 2, 4, 6, 10};
-        Node root = Node.Array_to_Tree(a);
+        int[] serializable = {1,2,3,0,0,4,0};
+        Node root;
+        root = Node.createCompletelyTree(a,0);
+        root = Node.OverSerializeTree(serializable,0);
+        root = Node.Array_to_Tree(a);
         System.out.print("左视图为 : ");
         Node.leftSee(root, 0);
         Node.leftSee.forEach(s -> System.out.print(s.key+" "));
@@ -635,8 +581,7 @@ public class TreeTest {
         Node.Swap_Tree(root2);
         Node.visit_Level(root2);
         System.out.print("两个树是否相等:" + Node.Tree_Like(root, root2));
-        System.out.println("   第k层节点数为:" + Node.count_LevelNode(root, 2));
-        Node.count_LevelNode(root);
+
         Node r1 = Node.createTreeBy_PreOrder_and_InOrder(new int[]{2, 3, 4, 5, 6}, new int[]{4, 3, 5, 2, 6}, 0, 0,
                 5);
         System.out.print("由前序和中序确定的二叉树的后序遍历为 : ");

@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/shopee/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/shopee/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/FullSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/FullSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -127,13 +136,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="Link" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.list.Link" />
+  <component name="RunManager" selected="Application.Main4">
+    <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.basic_algorithm.FullSort" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.datastructure.list.*" />
+          <option name="PATTERN" value="algorithm.basic_algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,25 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkNodeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.listnode.LinkNodeSortTest" />
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.mogujie.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.listnode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main2" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.mogujie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,7 +164,20 @@
       </method>
     </configuration>
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main3" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.mogujie.Main3" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.mogujie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main4" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -180,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.tree.TreeTest" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.shopee.Temp" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.datastructure.tree.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.shopee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.LinkNodeSortTest" />
-      <item itemvalue="Application.TreeTest" />
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.Main2 (1)" />
+      <item itemvalue="Application.FullSort" />
       <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Link" />
+      <item itemvalue="Application.Main4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Link" />
+        <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.TreeTest" />
-        <item itemvalue="Application.LinkNodeSortTest" />
+        <item itemvalue="Application.Main2 (1)" />
+        <item itemvalue="Application.FullSort" />
+        <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -423,14 +432,9 @@
       <workItem from="1580272378017" duration="1264000" />
       <workItem from="1580349036100" duration="9170000" />
       <workItem from="1580461720160" duration="2500000" />
-      <workItem from="1580551436159" duration="606000" />
-    </task>
-    <task id="LOCAL-00047" summary="leetcode 链表K组反转，递归">
-      <created>1575989859543</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1575989859543</updated>
+      <workItem from="1580551436159" duration="1326000" />
+      <workItem from="1580606765899" duration="14580000" />
+      <workItem from="1580635885428" duration="4738000" />
     </task>
     <task id="LOCAL-00048" summary="牛客算法">
       <created>1576142747519</created>
@@ -768,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580479486447</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="powershell">
+      <created>1580568913429</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1580568913431</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,9 +838,9 @@
     <MESSAGE value="工作日最后一天，学了一天《powershell 从入门到入土》" />
     <MESSAGE value="除夕" />
     <MESSAGE value="powershell中 select-object 选择对象的一些属性， where-object 选择出符合条件的一些对象" />
-    <MESSAGE value="powershell" />
     <MESSAGE value="复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="复习" />
+    <MESSAGE value="powershell" />
+    <option name="LAST_COMMIT_MESSAGE" value="powershell" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -993,6 +1004,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java</url>
           <line>101</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/shopee/Main1.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
