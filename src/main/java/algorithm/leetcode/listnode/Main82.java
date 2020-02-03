@@ -20,10 +20,10 @@ public class Main82 {
     }
 
     public static ListNode deleteDuplicates(ListNode head) {
-        ListNode newNode = new ListNode(2);
-        newNode.next = head;
+        ListNode dummy = new ListNode(2);
+        dummy.next = head;
         ListNode cur = head;
-        ListNode par = newNode;
+        ListNode par = dummy;
         while(cur != null){
             if(cur.next == null){
                 break;
@@ -39,7 +39,7 @@ public class Main82 {
             par.next = cur.next;
             cur = cur.next;
         }
-        return newNode.next;
+        return dummy.next;
     }
 
     private static ListNode reverse(ListNode head){

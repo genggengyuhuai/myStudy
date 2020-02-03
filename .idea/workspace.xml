@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/mogujie/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/shopee/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/shopee/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/FullSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/FullSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main82.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main82.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -136,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main4">
+  <component name="RunManager" selected="Application.Main3 (1)">
     <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.basic_algorithm.FullSort" />
       <module name="myStudy" />
@@ -156,6 +149,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.school_hire_2019.mogujie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main3" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,33 +195,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.shopee.Temp" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.shopee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Temp" />
       <item itemvalue="Application.Main2 (1)" />
       <item itemvalue="Application.FullSort" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main4" />
+      <item itemvalue="Application.Main3 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3 (1)" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.FullSort" />
-        <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -435,13 +428,8 @@
       <workItem from="1580551436159" duration="1326000" />
       <workItem from="1580606765899" duration="14580000" />
       <workItem from="1580635885428" duration="4738000" />
-    </task>
-    <task id="LOCAL-00048" summary="牛客算法">
-      <created>1576142747519</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1576142747519</updated>
+      <workItem from="1580654486840" duration="1396000" />
+      <workItem from="1580702054752" duration="5036000" />
     </task>
     <task id="LOCAL-00049" summary="通过微软面试，好像该学C#了">
       <created>1576235742843</created>
@@ -779,7 +767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580568913431</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="牛客">
+      <created>1580654510084</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1580654510084</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +810,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="最大m字段和 博客。  Java email" />
     <MESSAGE value="leetcode 动归" />
     <MESSAGE value="2020.1.2   redis网课" />
     <MESSAGE value="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666" />
@@ -840,7 +834,8 @@
     <MESSAGE value="powershell中 select-object 选择对象的一些属性， where-object 选择出符合条件的一些对象" />
     <MESSAGE value="复习" />
     <MESSAGE value="powershell" />
-    <option name="LAST_COMMIT_MESSAGE" value="powershell" />
+    <MESSAGE value="牛客" />
+    <option name="LAST_COMMIT_MESSAGE" value="牛客" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,11 +991,6 @@
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java</url>
           <line>101</line>
           <option name="timeStamp" value="149" />
@@ -1009,6 +999,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/shopee/Main1.java</url>
           <line>22</line>
           <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="153" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
