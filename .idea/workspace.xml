@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/huawei/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main82.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/Main82.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -129,13 +128,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main3 (1)">
-    <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.basic_algorithm.FullSort" />
+  <component name="RunManager" selected="Application.Main1">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.huawei.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.basic_algorithm.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,18 +196,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main2 (1)" />
-      <item itemvalue="Application.FullSort" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main4" />
       <item itemvalue="Application.Main3 (1)" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main3 (1)" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2 (1)" />
-        <item itemvalue="Application.FullSort" />
       </list>
     </recent_temporary>
   </component>
@@ -429,14 +428,8 @@
       <workItem from="1580606765899" duration="14580000" />
       <workItem from="1580635885428" duration="4738000" />
       <workItem from="1580654486840" duration="1396000" />
-      <workItem from="1580702054752" duration="5036000" />
-    </task>
-    <task id="LOCAL-00049" summary="通过微软面试，好像该学C#了">
-      <created>1576235742843</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1576235742843</updated>
+      <workItem from="1580702054752" duration="7490000" />
+      <workItem from="1580782144788" duration="4232000" />
     </task>
     <task id="LOCAL-00050" summary="刚拿到offer，开周会葛老师布置第二学期的科研任务，无奈透露出实习的事，当众被批评，私下又说可以，只要如果有任务不冲突。其实发现在陷入自卑的时候，被很多人羡慕，要好好珍惜机会。">
       <created>1576339150125</created>
@@ -774,7 +767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580654510084</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="牛客">
+      <created>1580736867447</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1580736867447</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1004,6 +1004,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java</url>
           <line>14</line>
           <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/huawei/Main1.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
