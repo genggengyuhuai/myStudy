@@ -4,20 +4,35 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main132.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main330.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main376.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main45.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/apache/pool/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/lru/LRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/SdAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/SdCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/TfCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/observer/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/observer/WeatherData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/AddOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/Algorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/MultipleOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/Beverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/Tea.class" beforeDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -101,7 +116,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -139,13 +154,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main376">
-    <configuration name="Main132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main132" />
+  <component name="RunManager" selected="Application.BadLock">
+    <configuration name="BadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.temp.BadLock" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="concurrent.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main140" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main140" />
+    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_pattern.factory.FactoryMethodTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="design_pattern.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main376" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main376" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_pattern.flyWeight.Main" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="design_pattern.flyWeight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main45" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.disifanshi.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.disifanshi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.tree.TreeTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apache.pool.Test" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.datastructure.tree.*" />
+          <option name="PATTERN" value="apache.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main140" />
-      <item itemvalue="Application.Main132" />
-      <item itemvalue="Application.Main45" />
-      <item itemvalue="Application.TreeTest" />
-      <item itemvalue="Application.Main376" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.FactoryMethodTest" />
+      <item itemvalue="Application.BadLock" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main376" />
-        <item itemvalue="Application.TreeTest" />
-        <item itemvalue="Application.Main45" />
-        <item itemvalue="Application.Main132" />
-        <item itemvalue="Application.Main140" />
+        <item itemvalue="Application.BadLock" />
+        <item itemvalue="Application.FactoryMethodTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -446,14 +461,13 @@
       <workItem from="1580999803358" duration="675000" />
       <workItem from="1581001046620" duration="402000" />
       <workItem from="1581039587483" duration="9073000" />
-      <workItem from="1581051767777" duration="12337000" />
-    </task>
-    <task id="LOCAL-00052" summary="通常情况下，若dp 用到了 dp[i-1][j], dp[i][j-1], dp[i-1][j-1] 这三个值, 优化成一维空间时，把dp[i-1][j-1] 记成 pre。&#10;&#10;int temp = dp[j];&#10;dp[j] = ...&#10;pre = temp;">
-      <created>1576465435504</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1576465435504</updated>
+      <workItem from="1581051767777" duration="12552000" />
+      <workItem from="1581087649119" duration="387000" />
+      <workItem from="1581127070568" duration="1915000" />
+      <workItem from="1581134979118" duration="18993000" />
+      <workItem from="1581214574685" duration="2134000" />
+      <workItem from="1581217532962" duration="220000" />
+      <workItem from="1581217784810" duration="250000" />
     </task>
     <task id="LOCAL-00053" summary="leetcode">
       <created>1576596846975</created>
@@ -791,7 +805,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580999832609</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="leetcode">
+      <created>1581086531041</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1581086531042</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -850,9 +871,9 @@
     <MESSAGE value="复习" />
     <MESSAGE value="powershell" />
     <MESSAGE value="牛客" />
-    <MESSAGE value="leetcode" />
     <MESSAGE value="~" />
-    <option name="LAST_COMMIT_MESSAGE" value="~" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
