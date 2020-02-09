@@ -30,6 +30,7 @@ class SingleTon2{
 class SingleTon3{
     private SingleTon3(){}
     private static class Handler{
+        // 静态的内部类有一个外部类的引用
         private static SingleTon3 instance = new SingleTon3();
     }
     public static SingleTon3 getInstance(){

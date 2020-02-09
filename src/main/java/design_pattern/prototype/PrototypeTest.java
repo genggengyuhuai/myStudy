@@ -2,6 +2,7 @@ package design_pattern.prototype;
 
 /**
  * 原型模式，复制对象，从缓冲池中取个对象然后复制返回
+ * 就是Java 的 clone
  *
  * @author lihaoyu
  * @date 2019/12/5 19:29

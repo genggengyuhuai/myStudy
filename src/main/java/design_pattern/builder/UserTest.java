@@ -3,6 +3,7 @@ package design_pattern.builder;
 /**
  * 建造者模式
  * 只调用外部类的静态变量，静态方法时，静态内部类不会被加载
+ * 内部类拥有和外部类完全相同的属性
  *
  * @author lihaoyu
  * @date 2019/10/26 10:34
@@ -74,7 +75,7 @@ class User {
 
 public class UserTest {
     public static void main(String[] args) {
-        User user = User.builder().id("id123").age(23).name("Francis").build();
+        User user = User.builder().id("id123").name("Francis").build();
         System.out.println(user);
     }
 
