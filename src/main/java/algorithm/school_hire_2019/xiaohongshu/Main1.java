@@ -1,5 +1,6 @@
 package algorithm.school_hire_2019.xiaohongshu;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -26,6 +27,7 @@ public class Main1 {
             aSet.add(a[i]);
             bSet.add(b[i]);
             // 对于 a[i] 进行查找
+
 
             aSet.clear();
             bSet.clear();

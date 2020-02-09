@@ -1,8 +1,11 @@
 package algorithm.datastructure.tree;
 
+import javafx.util.Pair;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 class Node {
     int key;
@@ -539,6 +542,21 @@ class Node {
         leftSee(node.right,depth+1);
     }
 
+    // 非传统 后序非递归遍历
+    public static void spPostOrderVisit(Node root){
+        Stack<Pair<Node, Boolean>> stack = new Stack<>();
+        stack.add(new Pair<>(root, false));
+        while(!stack.isEmpty()){
+            Pair<Node, Boolean> pair = stack.pop();
+            if(pair.getKey() == null) continue;
+            if(pair.getValue()) System.out.print(pair.getKey());
+            else{
+                stack.add(new Pair<>(pair.getKey(), true));
+                stack.add(new Pair<>(pair.getKey().right, false));
+                stack.add(new Pair<>(pair.getKey().left, false));
+            }
+        }
+    }
 
 
 }
@@ -552,6 +570,7 @@ public class TreeTest {
         root = Node.createCompletelyTree(a,0);
         root = Node.OverSerializeTree(serializable,0);
         root = Node.Array_to_Tree(a);
+        Node.spPostOrderVisit(root);
         System.out.print("左视图为 : ");
         Node.leftSee(root, 0);
         Node.leftSee.forEach(s -> System.out.print(s.key+" "));
