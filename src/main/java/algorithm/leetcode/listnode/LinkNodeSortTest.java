@@ -17,6 +17,7 @@ public class LinkNodeSortTest {
         }
     }
 
+    // 链表归排
     private static Node sortList(Node first){
         if(first == null || first.next ==  null) return first;
         Node fast = first, slow = first;

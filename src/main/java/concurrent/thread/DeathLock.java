@@ -46,9 +46,9 @@ public class DeathLock implements Runnable{
         Thread t1 = new Thread(test1);
         Thread t2 = new Thread(test2);
         t1.start();t2.start();
-//        t1.join();t2.join();
+        t1.join();t2.join();
         Thread.sleep(1000);
-//        t1.interrupt();
+        t1.interrupt();
         System.out.println("所有线程运行完毕");
     }
 
