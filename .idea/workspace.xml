@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/netesay/Main18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/zhaohang/Main9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/listnode/LinkNodeSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/SingleTonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/SingleTonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apache/pool/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/pool/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/DeathLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/DeathLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mail/SimpleEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/mail/SimpleEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/basic_algorithm/sort/SortTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/lru/LRU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/datastructure/tree/TreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/homework/secondtime/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/temp/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/PC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/SdAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/SdCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/adapter/TfCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/observer/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/observer/WeatherData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/AddOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/Algorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/strategy/MultipleOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/Beverage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/design_pattern/templateMethod/Tea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/kuaishou/Main29.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -154,20 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeathLock">
-    <configuration name="BadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.temp.BadLock" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.temp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main9">
     <configuration name="DeathLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrent.thread.DeathLock" />
       <module name="myStudy" />
@@ -181,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.factory.FactoryMethodTest" />
+    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.netesay.Main17" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_pattern.factory.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.netesay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +158,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tools.pool.Test" />
+    <configuration name="Main18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.netesay.Main18" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tools.pool.*" />
+          <option name="PATTERN" value="algorithm.school_hire_2019.netesay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.zhaohang.Main9" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.zhaohang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.FactoryMethodTest" />
-      <item itemvalue="Application.BadLock" />
       <item itemvalue="Application.UserTest" />
       <item itemvalue="Application.DeathLock" />
+      <item itemvalue="Application.Main17" />
+      <item itemvalue="Application.Main18" />
+      <item itemvalue="Application.Main9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main9" />
+        <item itemvalue="Application.Main18" />
+        <item itemvalue="Application.Main17" />
         <item itemvalue="Application.DeathLock" />
         <item itemvalue="Application.UserTest" />
-        <item itemvalue="Application.BadLock" />
-        <item itemvalue="Application.FactoryMethodTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -472,14 +449,9 @@
       <workItem from="1581299908024" duration="1088000" />
       <workItem from="1581306865028" duration="599000" />
       <workItem from="1581340645434" duration="538000" />
-      <workItem from="1581429419374" duration="442000" />
-    </task>
-    <task id="LOCAL-00055" summary="并发">
-      <created>1576768612924</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1576768612924</updated>
+      <workItem from="1581429419374" duration="727000" />
+      <workItem from="1581431085892" duration="1512000" />
+      <workItem from="1581498347380" duration="9130000" />
     </task>
     <task id="LOCAL-00056" summary="并发">
       <created>1576848053848</created>
@@ -817,7 +789,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581253278250</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="恢复工作">
+      <created>1581429906601</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1581429906602</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -853,7 +832,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666" />
     <MESSAGE value="在苏州租好房，明天第一天上班。写了个shiro+springboot的总结blog" />
     <MESSAGE value="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei" />
     <MESSAGE value="第二天安装软件，等待代码库权限" />
@@ -878,7 +856,8 @@
     <MESSAGE value="leetcode" />
     <MESSAGE value="Commons Pool2" />
     <MESSAGE value="设计模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式" />
+    <MESSAGE value="恢复工作" />
+    <option name="LAST_COMMIT_MESSAGE" value="恢复工作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

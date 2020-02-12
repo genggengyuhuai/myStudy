@@ -1,13 +1,14 @@
 package algorithm.school_hire_2019.kuaishou;
 
 /**
- * 最大 m 字段和
+ *
  *
  * @author lihaoyu
  * @date 2019/12/31 12:56
  */
 public class Main29 {
 
+    // 最大 m 字段和
     private static void fun(int N, int M, int[] nums){
         int[][] dp = new int[M+1][N+1];
         for (int i = 1; i <= M; i++) {
