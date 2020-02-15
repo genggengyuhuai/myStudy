@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main279.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/leetcode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/leetcode/Main1114.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/tencent/Main54.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -128,13 +131,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main279">
-    <configuration name="DeathLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.DeathLock" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.leetcode.Main" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.*" />
+          <option name="PATTERN" value="concurrent.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.netesay.Main17" />
+    <configuration name="Main1114" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.leetcode.Main1114" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.netesay.*" />
+          <option name="PATTERN" value="concurrent.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeathLock" />
-      <item itemvalue="Application.Main17" />
       <item itemvalue="Application.Main18" />
       <item itemvalue="Application.Main9" />
       <item itemvalue="Application.Main279" />
+      <item itemvalue="Application.Main1114" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main1114" />
         <item itemvalue="Application.Main279" />
         <item itemvalue="Application.Main9" />
         <item itemvalue="Application.Main18" />
-        <item itemvalue="Application.Main17" />
-        <item itemvalue="Application.DeathLock" />
       </list>
     </recent_temporary>
   </component>
@@ -451,13 +454,8 @@
       <workItem from="1581498347380" duration="9147000" />
       <workItem from="1581590160801" duration="1131000" />
       <workItem from="1581595947874" duration="754000" />
-    </task>
-    <task id="LOCAL-00057" summary="写错了，连续练习了两天leetcode, 例如组合数，排列数，等等">
-      <created>1576848181794</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1576848181794</updated>
+      <workItem from="1581605063457" duration="33000" />
+      <workItem from="1581683576178" duration="11586000" />
     </task>
     <task id="LOCAL-00058" summary="Spring Bean 生命后期  和启动流程&#10;&#10;1.通过构造方法或工厂方法实例化&#10;2.设置对象属性(依赖注入)&#10;3.工厂调用setBeanName和setBeanFactory方法&#10;(如果Bean实现了NameAware  FactoryAware .&#10;目的是这个Bean本身能获取到自已在容器中的名&#10;字和构造自己的factory)&#10;4.将Bean实例传给前置处理器(如果有)&#10;5.调用Bean的初始化方法&#10;(如果实现了InitializingBean接口)&#10;6.将Bean实例传递给后置处理器(如果有)&#10;7.使用Bean&#10;8.destroy (如果有)">
       <created>1576924825028</created>
@@ -795,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581519152298</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="miss">
+      <created>1581605092860</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1581605092860</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -843,7 +848,6 @@
     <MESSAGE value="周三，new intern orientation" />
     <MESSAGE value="gg" />
     <MESSAGE value="链表归排" />
-    <MESSAGE value="miss" />
     <MESSAGE value="工作日最后一天，学了一天《powershell 从入门到入土》" />
     <MESSAGE value="除夕" />
     <MESSAGE value="powershell中 select-object 选择对象的一些属性， where-object 选择出符合条件的一些对象" />
@@ -856,7 +860,8 @@
     <MESSAGE value="设计模式" />
     <MESSAGE value="恢复工作" />
     <MESSAGE value="newer" />
-    <option name="LAST_COMMIT_MESSAGE" value="newer" />
+    <MESSAGE value="miss" />
+    <option name="LAST_COMMIT_MESSAGE" value="miss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

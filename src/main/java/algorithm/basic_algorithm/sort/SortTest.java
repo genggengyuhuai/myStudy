@@ -126,7 +126,7 @@ public class SortTest {
             if(2*i+2 < len && a[maxIndex] < a[2*i+2]) maxIndex = 2 * i + 2;
             if(maxIndex == i) break; // 如果比两个子节点都大，停止
             swap(a,i,maxIndex);
-            i = maxIndex;
+            i = maxIndex; // 这一句特别容易忘
         }
     }
 
