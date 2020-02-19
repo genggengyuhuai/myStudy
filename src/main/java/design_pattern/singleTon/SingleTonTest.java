@@ -16,9 +16,10 @@ class SingleTon2{
     private SingleTon2(){}
     private static volatile SingleTon2 instance;
     public static SingleTon2 getInstance(){
-        if(instance != null){
+        if(instance == null){
             synchronized (SingleTon2.class){
-                if(instance != null){
+                if(instance == null){
+                    // 用  volatile 的原因是这里 Instance 的初始化需要一个过程，防止其他线程获取未
                     instance = new SingleTon2();
                 }
             }

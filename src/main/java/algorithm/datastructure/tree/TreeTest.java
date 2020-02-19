@@ -558,6 +558,17 @@ class Node {
         }
     }
 
+    // 二叉排序树中第 k 小数
+    private static int kMinFindIndex = 0;
+    public static void kMinFind(Node root, int target){
+         if(root == null) return;
+         kMinFind(root.left, target);
+         if(kMinFindIndex++ == target){
+             System.out.println(root);
+             return;
+         }
+        kMinFind(root.right, target);
+    }
 
 }
 
@@ -570,6 +581,8 @@ public class TreeTest {
         root = Node.createCompletelyTree(a,0);
         root = Node.OverSerializeTree(serializable,0);
         root = Node.Array_to_Tree(a);
+        Node.kMinFind(root, 4);
+
         Node.spPostOrderVisit(root);
         System.out.print("左视图为 : ");
         Node.leftSee(root, 0);
