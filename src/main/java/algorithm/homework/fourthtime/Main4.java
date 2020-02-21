@@ -1,7 +1,7 @@
 package algorithm.homework.fourthtime;
 
 /**
- * 棋盘覆盖
+ * 棋盘覆盖   L覆盖
  * @author lihaoyu
  * @date 2019/12/4 15:53
  */
@@ -13,9 +13,11 @@ public class Main4 {
 
     private static void fun(int startX, int startY, int knownX, int knownY, int size){
         if(size == 1) return;
-        int t = countL++;
-        size /= size;
+        // t 代表次数，也是 L 方块的 块号
+        int t = ++countL;
+        size /= 2;
 
+        // 总共四种情况，是并行的，   分别是  左上，右上，左下，右下
         if(knownX < startX + size && knownY < startY + size){
             fun(startX,startY,knownX,knownY,size);
         }else{
@@ -26,9 +28,20 @@ public class Main4 {
         if(knownX >= startX + size && knownY < startY + size){
             fun(startX + size,startY,knownX,knownY,size);
         }else{
+            board[startX+size][startY + size - 1] = t;
+
         }
 
 
+    }
+
+    private static void print(int[][] board){
+        for (int[] ints : board) {
+            for (int anInt : ints) {
+                System.out.print(" "+anInt);
+            }
+            System.out.println();
+        }
     }
 
 
