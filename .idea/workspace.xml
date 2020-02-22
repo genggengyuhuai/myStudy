@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/RpcConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/RpcInitFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/RpcRquest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/client/ClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/client/CommonClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/client/DemoRemoteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/client/Idemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/server/DemoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/server/ProviderServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/server/RpcRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty_study/rpc/server/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main31.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/fourthtime/Main4.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -143,26 +131,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientMain">
+  <component name="RunManager" selected="Application.Main31">
     <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty_study.rpc.client.ClientMain" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="netty_study.rpc.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.leetcode.Main" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,6 +158,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main31" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main347" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty_study.rpc.server.ServerMain" />
       <module name="myStudy" />
@@ -196,33 +197,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.tree.TreeTest" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.datastructure.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TreeTest" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Application.ClientMain" />
       <item itemvalue="Application.ServerMain" />
+      <item itemvalue="Application.Main347" />
+      <item itemvalue="Application.Main31" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main31" />
+        <item itemvalue="Application.Main347" />
         <item itemvalue="Application.ClientMain" />
         <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.TreeTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -478,14 +466,8 @@
       <workItem from="1582199010069" duration="6656000" />
       <workItem from="1582249472211" duration="7687000" />
       <workItem from="1582275238195" duration="2322000" />
-      <workItem from="1582290734162" duration="598000" />
-    </task>
-    <task id="LOCAL-00061" summary="leetcode。悲惨的 12.26 DDL    论文PPT">
-      <created>1577199511453</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1577199511454</updated>
+      <workItem from="1582290734162" duration="641000" />
+      <workItem from="1582365445968" duration="9446000" />
     </task>
     <task id="LOCAL-00062" summary="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔">
       <created>1577273843096</created>
@@ -823,7 +805,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582121308188</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary=".">
+      <created>1582299786516</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1582299786517</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1128,6 +1117,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/netty_study/rpc/server/ProviderServer.java</url>
           <line>45</line>
           <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main31.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
