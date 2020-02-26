@@ -65,7 +65,7 @@ public class Link {
         return dummy.next;
     }
 
-    //  k 个一组反转
+    //  k 个一组反转   K组
     private static Node groupReverse(Node node, int k){
         if(k <= 0) return node;
         Node tempNode = node;

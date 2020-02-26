@@ -131,7 +131,7 @@ class Node {
         }
     }
 
-    //非递归方式后序遍历    两个栈 + 反向层次遍历
+    //非递归方式后序遍历    两个栈 + 层次遍历
     public static void visit_PostOrder_NotRecursive(Node root) {
         if (root == null)
             return;

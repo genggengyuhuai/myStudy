@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main347.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/bytedance/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_study/mybatis/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_study/mybatis/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userDao-mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -90,7 +97,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/极客时间/玩转Spring全家桶/geektime-spring-family-master/Chapter 3/mybatis-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -131,13 +138,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main31">
-    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty_study.rpc.client.ClientMain" />
+  <component name="RunManager" selected="Application.FirstTest">
+    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_study.spring_bean.FirstTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty_study.rpc.client.*" />
+          <option name="PATTERN" value="spring_study.spring_bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Main3" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.bytedance.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
+          <option name="PATTERN" value="interview.bytedance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main347" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_study.mybatis.MainTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="spring_study.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty_study.rpc.server.ServerMain" />
+    <configuration name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.tree.TreeTest" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty_study.rpc.server.*" />
+          <option name="PATTERN" value="algorithm.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.ClientMain" />
-      <item itemvalue="Application.ServerMain" />
-      <item itemvalue="Application.Main347" />
       <item itemvalue="Application.Main31" />
+      <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.TreeTest" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.FirstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstTest" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.TreeTest" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.Main31" />
-        <item itemvalue="Application.Main347" />
-        <item itemvalue="Application.ClientMain" />
-        <item itemvalue="Application.ServerMain" />
-        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -468,6 +475,20 @@
       <workItem from="1582275238195" duration="2322000" />
       <workItem from="1582290734162" duration="641000" />
       <workItem from="1582365445968" duration="9446000" />
+      <workItem from="1582384020284" duration="1446000" />
+      <workItem from="1582419534613" duration="9577000" />
+      <workItem from="1582440322514" duration="1777000" />
+      <workItem from="1582505531815" duration="1010000" />
+      <workItem from="1582507614629" duration="972000" />
+      <workItem from="1582510120777" duration="3475000" />
+      <workItem from="1582543897761" duration="2357000" />
+      <workItem from="1582555643862" duration="396000" />
+      <workItem from="1582615968542" duration="119000" />
+      <workItem from="1582617435676" duration="1962000" />
+      <workItem from="1582677741492" duration="236000" />
+      <workItem from="1582686964314" duration="1676000" />
+      <workItem from="1582710281202" duration="113000" />
+      <workItem from="1582728389046" duration="1112000" />
     </task>
     <task id="LOCAL-00062" summary="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔">
       <created>1577273843096</created>
@@ -999,16 +1020,6 @@
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/spring_study/spring_bean/MessageServiceImpl.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/spring_study/spring_bean/BeanB.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/pinduoduo/Main5.java</url>
           <line>34</line>
           <option name="timeStamp" value="141" />
@@ -1122,6 +1133,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main31.java</url>
           <line>32</line>
           <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/spring_study/mybatis/MainTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository/org/mybatis/mybatis/3.5.2/mybatis-3.5.2-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository/org/mybatis/mybatis/3.5.2/mybatis-3.5.2-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>1101</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="193" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
