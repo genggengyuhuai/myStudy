@@ -20,6 +20,11 @@ public class Main1 {
             }
             stack.add(a[i]);
         }
+        // 最后 stack 的可能需要裁剪
+        int len = stack.size() - k;
+        for (int i = 0; i < len; i++) {
+            stack.pop();
+        }
 
     }
 

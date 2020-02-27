@@ -4,18 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/bytedance/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring_study/mybatis/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring_study/mybatis/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/userDao-mapping.xml" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main51.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/list/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_study/spring_bean/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic_algorithm/Main1.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -138,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstTest">
+  <component name="RunManager" selected="Application.Main51">
     <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_study.spring_bean.FirstTest" />
       <module name="myStudy" />
@@ -165,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.xiaomi.Main31" />
+    <configuration name="Main41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main41" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.xiaomi.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_study.mybatis.MainTest" />
+    <configuration name="Main51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main51" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_study.mybatis.*" />
+          <option name="PATTERN" value="algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main31" />
-      <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.TreeTest" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.FirstTest" />
+      <item itemvalue="Application.Main41" />
+      <item itemvalue="Application.Main51" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main51" />
+        <item itemvalue="Application.Main41" />
         <item itemvalue="Application.FirstTest" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.TreeTest" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.Main31" />
       </list>
     </recent_temporary>
   </component>
@@ -488,14 +481,10 @@
       <workItem from="1582677741492" duration="236000" />
       <workItem from="1582686964314" duration="1676000" />
       <workItem from="1582710281202" duration="113000" />
-      <workItem from="1582728389046" duration="1112000" />
-    </task>
-    <task id="LOCAL-00062" summary="leetcode 每天两题，保持感觉。&#10;在做论文ppt,讲的真是一坨shit。&#10;ms的入职时间还没定，真是慢的一笔">
-      <created>1577273843096</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1577273843096</updated>
+      <workItem from="1582728389046" duration="1824000" />
+      <workItem from="1582775590197" duration="587000" />
+      <workItem from="1582776246494" duration="1481000" />
+      <workItem from="1582780204452" duration="1410000" />
     </task>
     <task id="LOCAL-00063" summary="···">
       <created>1577327690415</created>
@@ -833,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582299786517</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="leetcode">
+      <created>1582729526909</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1582729526910</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,7 +882,6 @@
     <MESSAGE value="powershell" />
     <MESSAGE value="牛客" />
     <MESSAGE value="~" />
-    <MESSAGE value="leetcode" />
     <MESSAGE value="Commons Pool2" />
     <MESSAGE value="设计模式" />
     <MESSAGE value="恢复工作" />
@@ -894,7 +889,8 @@
     <MESSAGE value="miss" />
     <MESSAGE value="多线程" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
