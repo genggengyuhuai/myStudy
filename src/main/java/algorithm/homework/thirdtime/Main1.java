@@ -30,7 +30,7 @@ public class Main1 {
         backTrack(s1,list,sb,dp,len1,len2);
         if(!list.isEmpty()){
         Collections.sort(list);
-        list.forEach(s-> System.out.println(s));
+        list.forEach(System.out::println);
         }
     }
 

@@ -1,4 +1,4 @@
-package concurrent.temp;
+package concurrent.thread;
 
 /**
  * @author lihaoyu

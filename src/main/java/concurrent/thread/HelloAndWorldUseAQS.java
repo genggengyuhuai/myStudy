@@ -22,7 +22,8 @@ public class HelloAndWorldUseAQS {
         new Thread(()->{
             while(true){
                 lock.lock();
-                if((count & 1) == 0){
+                //   用 While 防止伪唤醒
+                while((count & 1) == 0){
                     condition.awaitUninterruptibly();
                 }
                 count++;
