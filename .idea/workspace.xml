@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/interview/Main1009.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/homework/thirdtime/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Temp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/temp/BadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/BadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/BlockingQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/HelloAndWorldUseAQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/HelloAndWorldUseAQS.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -492,14 +487,9 @@
       <workItem from="1583159941471" duration="1043000" />
       <workItem from="1583161647915" duration="597000" />
       <workItem from="1583235948967" duration="1377000" />
-      <workItem from="1583244041093" duration="2606000" />
-    </task>
-    <task id="LOCAL-00064" summary="leetcode">
-      <created>1577457679926</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1577457679926</updated>
+      <workItem from="1583244041093" duration="3259000" />
+      <workItem from="1583282011426" duration="3237000" />
+      <workItem from="1583294207108" duration="798000" />
     </task>
     <task id="LOCAL-00065" summary="牛客">
       <created>1577520758911</created>
@@ -837,7 +827,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582816139279</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="byteDance 三轮技术 + 一轮HR">
+      <created>1583246902098</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1583246902099</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -873,7 +870,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="day fourth. maintemplate.json 和 parameters.json， 以及 deployment" />
     <MESSAGE value="fifth day. 根据 maintemplate.json 修改 7个 &#10;: 4个 HA，3个NonHA" />
     <MESSAGE value="周六休息" />
     <MESSAGE value="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。" />
@@ -898,7 +894,8 @@
     <MESSAGE value="." />
     <MESSAGE value="leetcode" />
     <MESSAGE value="offer 怎么这么难" />
-    <option name="LAST_COMMIT_MESSAGE" value="offer 怎么这么难" />
+    <MESSAGE value="byteDance 三轮技术 + 一轮HR" />
+    <option name="LAST_COMMIT_MESSAGE" value="byteDance 三轮技术 + 一轮HR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
