@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
@@ -99,8 +99,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="netty_study.rpc" />
+      <recent name="design_pattern.flyWeight" />
+      <recent name="concurrent.thread" />
+      <recent name="design_pattern.proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\big" />
@@ -110,14 +113,12 @@
       <recent name="G:\JavaStudy\myStudy\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithm.newcoderOJ" />
       <recent name="algorithm.homework.fourthtime" />
       <recent name="algorithm.leetcode" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="netty_study.rpc" />
-      <recent name="design_pattern.flyWeight" />
-      <recent name="concurrent.thread" />
-      <recent name="design_pattern.proxy" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,9 +133,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main4">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.vivo.Main1" />
+  <component name="RunManager" selected="Application.Main3 (1)">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.vivo.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -146,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.vivo.Main2" />
+    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.newcoderOJ.Main3" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.school_hire_2019.vivo.*" />
+          <option name="PATTERN" value="algorithm.newcoderOJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,27 +186,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Temp" />
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.school_hire_2019.vivo.Main5" />
       <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.school_hire_2019.vivo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Temp" />
-      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main4" />
+      <item itemvalue="Application.Main5" />
+      <item itemvalue="Application.Main3 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3 (1)" />
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -494,14 +501,10 @@
       <workItem from="1583294207108" duration="798000" />
       <workItem from="1583333081652" duration="141000" />
       <workItem from="1583403032904" duration="3197000" />
-      <workItem from="1583416199062" duration="4539000" />
-    </task>
-    <task id="LOCAL-00066" summary="牛客">
-      <created>1577634202360</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1577634202360</updated>
+      <workItem from="1583416199062" duration="4553000" />
+      <workItem from="1583454710674" duration="1574000" />
+      <workItem from="1583552988729" duration="2521000" />
+      <workItem from="1583589055788" duration="3076000" />
     </task>
     <task id="LOCAL-00067" summary="牛客   + rabbit-mq">
       <created>1577721387611</created>
@@ -839,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583333138440</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="...">
+      <created>1583421268721</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1583421268722</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -875,7 +885,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="周六休息" />
     <MESSAGE value="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。" />
     <MESSAGE value="周一。改两天gjd的卷子t了" />
     <MESSAGE value="周二。完成对 SmallNonHA的部署，其中有 availability Set 的重新设置，managed 和 unmanaged disk 区别" />
@@ -900,7 +909,8 @@
     <MESSAGE value="offer 怎么这么难" />
     <MESSAGE value="byteDance 三轮技术 + 一轮HR" />
     <MESSAGE value="Netty Reactor 模式， 面向 Selector 编程//&#10; TCP 粘包拆包" />
-    <option name="LAST_COMMIT_MESSAGE" value="Netty Reactor 模式， 面向 Selector 编程//&#10; TCP 粘包拆包" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1184,6 +1194,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main3.java</url>
           <line>28</line>
           <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main5.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main5.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main3.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main3.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
