@@ -3,7 +3,7 @@ package algorithm.school_hire_2019.xiaomi;
 import java.util.Scanner;
 
 /**
- * 小米	最优分割	326	23.73%
+ * 小米	最优分割	326	23.73%     漆狗屋
  * 依次给出n个正整数A1，A2，… ，An，将这n个数分割成m段，每一段内的所有数的和记为这一段的权重，
  * m段权重的最大值记为本次分割的权重。问所有分割方案中分割权重的最小值是多少？
  * @author lihaoyu

@@ -55,20 +55,20 @@ class Node {
     }
 
     // 构建完全二叉树
-    public static Node createCompletelyTree(int[] a, int i){
-        if(i >= a.length) return null;
+    public static Node createCompletelyTree(int[] a, int i) {
+        if (i >= a.length) return null;
         Node root = new Node(a[i]);
-        root.left = createCompletelyTree(a, 2*i+1);
-        root.right = createCompletelyTree(a, 2*i+2);
+        root.left = createCompletelyTree(a, 2 * i + 1);
+        root.right = createCompletelyTree(a, 2 * i + 2);
         return root;
     }
 
     // 反序列化构建二叉树   数组中为0的元素代表 null
-    public static Node OverSerializeTree(int[] a, int i){
-        if(i >= a.length || a[i] == 0) return null;
+    public static Node OverSerializeTree(int[] a, int i) {
+        if (i >= a.length || a[i] == 0) return null;
         Node root = new Node(a[i]);
-        root.left = OverSerializeTree(a, 2*i+1);
-        root.right = OverSerializeTree(a, 2*i+2);
+        root.left = OverSerializeTree(a, 2 * i + 1);
+        root.right = OverSerializeTree(a, 2 * i + 2);
         return root;
     }
 
@@ -159,13 +159,13 @@ class Node {
         List<Node> tempRes = new ArrayList<>();
         LinkedList<Node> linkedList = new LinkedList<>();
         linkedList.addLast(root);
-        while(!linkedList.isEmpty()){
+        while (!linkedList.isEmpty()) {
             int size = linkedList.size();
             for (int i = 0; i < size; i++) {
                 Node node = linkedList.pollFirst();
                 tempRes.add(node);
-                if(node.left != null) linkedList.addLast(node.left);
-                if(node.right != null) linkedList.addLast(node.right);
+                if (node.left != null) linkedList.addLast(node.left);
+                if (node.right != null) linkedList.addLast(node.right);
             }
             res.add(new ArrayList<>(tempRes));
             tempRes.clear();
@@ -175,14 +175,15 @@ class Node {
 
     // 递归进行层次遍历
     public static List<List<Node>> visitLevelRecursiveList = new ArrayList<>();
+
     public static void visitLevelRecursive(Node root, int depth) {
-            if(root == null) return;
-            if(visitLevelRecursiveList.size() <= depth){
-                visitLevelRecursiveList.add(depth,new ArrayList<>());
-            }
+        if (root == null) return;
+        if (visitLevelRecursiveList.size() <= depth) {
+            visitLevelRecursiveList.add(depth, new ArrayList<>());
+        }
         visitLevelRecursiveList.get(depth).add(root);
-        visitLevelRecursive(root.left, depth+1);
-        visitLevelRecursive(root.right, depth+1);
+        visitLevelRecursive(root.left, depth + 1);
+        visitLevelRecursive(root.right, depth + 1);
     }
 
     //统计叶节点个数
@@ -292,14 +293,14 @@ class Node {
     }
 
     // 判断是否是二叉排序树
-    public static boolean validateBST(Node root){
-        if(root == null) return true;
-        if(root.left != null && root.left.key > root.key) return false;
-        if(root.right != null && root.right.key < root.key) return false;
+    public static boolean validateBST(Node root) {
+        if (root == null) return true;
+        if (root.left != null && root.left.key > root.key) return false;
+        if (root.right != null && root.right.key < root.key) return false;
         boolean left = validateBST(root.left);
-        if(!left) return false;
+        if (!left) return false;
         boolean right = validateBST(root.right);
-        if(!right) return false;
+        if (!right) return false;
         return true;
     }
 
@@ -312,36 +313,38 @@ class Node {
      * @return
      */
     //根据先序序列和中序序列建立二叉树
-    public static Node createTreeBy_PreOrder_and_InOrder(int[] a, int[] b, int start_a, int start_b, int len) {
-        if (len <= 0)
-            return null;
-        Node root = new Node(a[start_a]);
-        int k = 0;
-        for (int i = 0; i < len; i++) {
-            if (b[i] == root.key) {
-                k = i;
+    public static Node createTreeBy_PreOrder_and_InOrder(int[] pre, int[] in, int start_pre, int start_in, int len) {
+        if (len <= 0) return null;
+        Node root = new Node(pre[start_pre]);
+        int index = 0;
+        for (int i = start_in; i < start_in + len; i++) {
+            if (in[i] == root.key) {
+                index = i;
                 break;
             }
         }
-        root.left = createTreeBy_PreOrder_and_InOrder(a, b, start_a + 1, start_b, k);
-        root.right = createTreeBy_PreOrder_and_InOrder(a, b, start_a + k + 1, start_b + k + 1, len - k - 1);
+        int leftLen = index - start_in;
+        int rightLen = len - leftLen - 1;
+        root.left = createTreeBy_PreOrder_and_InOrder(pre, in, start_pre + 1, start_in, leftLen);
+        root.right = createTreeBy_PreOrder_and_InOrder(pre, in, start_pre + leftLen + 1, index + 1, rightLen);
         return root;
     }
 
     //根据后序序列和中序序列建立二叉树
-    public static Node createTreeBy_InOrder_and_PostOrder(int[] a, int[] b, int start_a, int start_b, int len) {
-        if (len <= 0)
-            return null;
-        Node root = new Node(b[start_b + len - 1]);
-        int k = 0;
-        for (int i = 0; i < len; i++) {
-            if (a[i] == root.key) {
-                k = i;
+    public static Node createTreeBy_InOrder_and_PostOrder(int[] in, int[] post, int start_in, int end_post, int len) {
+        if (len <= 0) return null;
+        Node root = new Node(post[end_post]);
+        int index = 0;
+        for (int i = start_in; i < start_in + len; i++) {
+            if (in[i] == root.key) {
+                index = i;
                 break;
             }
         }
-        root.left = createTreeBy_InOrder_and_PostOrder(a, b, start_a, start_b, k);
-        root.right = createTreeBy_InOrder_and_PostOrder(a, b, start_a + k + 1, start_b + k, len - k - 1);
+        int leftLen = index - start_in;
+        int rightLen = len - leftLen - 1;
+        root.left = createTreeBy_InOrder_and_PostOrder(in, post, start_in, end_post - 1 - rightLen, leftLen);
+        root.right = createTreeBy_InOrder_and_PostOrder(in, post, index + 1, end_post - 1, rightLen);
         return root;
     }
 
@@ -365,6 +368,42 @@ class Node {
         root.right = createTreeBy_InOrder_and_LevelOrder(levelOrder, inOrder, j, end_inOrder);
         return root;
     }
+
+    // 根据前序和后序遍历返回 任一符合的 二叉树
+    public static Node createTreeBy_PreOrder_and_PostOrder(int[] pre, int[] post,
+                                                           int start_pre, int end_pre, int start_post) {
+        if (start_pre > end_pre) return null;
+        Node root = new Node(pre[start_pre]);
+        if (start_pre == end_pre) return root;
+        int index = 0;
+        for (int i = 0; i < post.length; i++) {
+            if (post[i] == pre[start_pre + 1]) {
+                index = i;
+                break;
+            }
+        }
+        int len = index - start_post + 1;
+        root.left = createTreeBy_PreOrder_and_PostOrder(pre, post, start_pre + 1, start_pre + len, start_post);
+        root.right = createTreeBy_PreOrder_and_PostOrder(pre, post, start_pre + 1 + len, end_pre, start_post + len);
+        return root;
+    }
+
+     // 根据先序和 排序二叉树条件 ， 构造二叉树
+     public Node createBinaryTreeByInOrder(int[] preorder, int start, int end) {
+        if(start > end) return null;
+        Node root = new Node(preorder[start]);
+        // index 是左子树的最后一个 index
+        int index = end;
+         for (int i = start; i <= end; i++) {
+             if(preorder[i] > preorder[start]){
+                 index = i - 1;
+                 break;
+             }
+         }
+         root.left = createBinaryTreeByInOrder(preorder, start+1, index);
+         root.right = createBinaryTreeByInOrder(preorder, index+1, end);
+        return root;
+     }
 
     //只访问叶子节点
     public static void visit_LeafNode(Node root) {
@@ -427,6 +466,7 @@ class Node {
      */
     static ArrayList<Node> arrayList_findPathNodeToRoot = new ArrayList<>();
     private static ArrayList<Node> temp_findPathNodeToRoot = new ArrayList<>();
+
     static void findPathNodeToRoot(Node root, Node node) {
         if (root == null) return;
         temp_findPathNodeToRoot.add(root);
@@ -512,8 +552,9 @@ class Node {
 
     // 求最大通路的长度 刺激
     static int maxRoute = 0;
+
     static int maxRoute(Node root) {
-        if (root == null)return 0;
+        if (root == null) return 0;
         int left = maxRoute(root.left);
         int right = maxRoute(root.right);
         maxRoute = Math.max(left + right + 1, maxRoute);
@@ -523,6 +564,7 @@ class Node {
     // 求最大路径和  非常刺激
     // LeetCode 困难级别
     private static int maxPathSum = Integer.MIN_VALUE;
+
     private static int maxPathSumFun(Node node) {
         if (node == null) return 0;
         int left = Math.max(maxPathSumFun(node.left), 0);
@@ -532,25 +574,26 @@ class Node {
     }
 
     // 左视图, 先序遍历
-     static ArrayList<Node> leftSee = new ArrayList<>();
-     static void leftSee(Node node, int depth){
-        if(node == null) return;
-        if(leftSee.size() <= depth){
+    static ArrayList<Node> leftSee = new ArrayList<>();
+
+    static void leftSee(Node node, int depth) {
+        if (node == null) return;
+        if (leftSee.size() <= depth) {
             leftSee.add(node);
         }
-        leftSee(node.left,depth+1);
-        leftSee(node.right,depth+1);
+        leftSee(node.left, depth + 1);
+        leftSee(node.right, depth + 1);
     }
 
     // 非传统 后序非递归遍历
-    public static void spPostOrderVisit(Node root){
+    public static void spPostOrderVisit(Node root) {
         Stack<Pair<Node, Boolean>> stack = new Stack<>();
         stack.add(new Pair<>(root, false));
-        while(!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             Pair<Node, Boolean> pair = stack.pop();
-            if(pair.getKey() == null) continue;
-            if(pair.getValue()) System.out.print(pair.getKey());
-            else{
+            if (pair.getKey() == null) continue;
+            if (pair.getValue()) System.out.print(pair.getKey());
+            else {
                 stack.add(new Pair<>(pair.getKey(), true));
                 stack.add(new Pair<>(pair.getKey().right, false));
                 stack.add(new Pair<>(pair.getKey().left, false));
@@ -560,13 +603,14 @@ class Node {
 
     // 二叉排序树中第 k 小数
     private static int kMinFindIndex = 0;
-    public static void kMinFind(Node root, int target){
-         if(root == null) return;
-         kMinFind(root.left, target);
-         if(kMinFindIndex++ == target){
-             System.out.println(root);
-             return;
-         }
+
+    public static void kMinFind(Node root, int target) {
+        if (root == null) return;
+        kMinFind(root.left, target);
+        if (kMinFindIndex++ == target) {
+            System.out.println(root);
+            return;
+        }
         kMinFind(root.right, target);
     }
 
@@ -576,17 +620,17 @@ public class TreeTest {
 
     public static void main(String[] args) {
         int[] a = {5, 3, 1, 7, 2, 4, 6, 10};
-        int[] serializable = {1,2,3,0,0,4,0};
+        int[] serializable = {1, 2, 3, 0, 0, 4, 0};
         Node root;
-        root = Node.createCompletelyTree(a,0);
-        root = Node.OverSerializeTree(serializable,0);
+        root = Node.createCompletelyTree(a, 0);
+        root = Node.OverSerializeTree(serializable, 0);
         root = Node.Array_to_Tree(a);
         Node.kMinFind(root, 4);
 
         Node.spPostOrderVisit(root);
         System.out.print("左视图为 : ");
         Node.leftSee(root, 0);
-        Node.leftSee.forEach(s -> System.out.print(s.key+" "));
+        Node.leftSee.forEach(s -> System.out.print(s.key + " "));
         System.out.println();
         System.out.print("中序遍历结果为:");
         Node.visit_InOrder_NotRecursive(root);
@@ -595,7 +639,7 @@ public class TreeTest {
         Node.visit_PostOrder_NotRecursive(root);
         System.out.println();
         System.out.print("递归进行层次遍历结果为 : ");
-        Node.visitLevelRecursive(root,0);
+        Node.visitLevelRecursive(root, 0);
         System.out.println(Node.visitLevelRecursiveList);
         System.out.print("层次遍历结果为:");
         Node.visit_Level(root);
@@ -614,20 +658,25 @@ public class TreeTest {
         Node.visit_Level(root2);
         System.out.print("两个树是否相等:" + Node.Tree_Like(root, root2));
 
+        System.out.print("由前序和中序确定的二叉树的后序遍历为 : ");
         Node r1 = Node.createTreeBy_PreOrder_and_InOrder(new int[]{2, 3, 4, 5, 6}, new int[]{4, 3, 5, 2, 6}, 0, 0,
                 5);
-        System.out.print("由前序和中序确定的二叉树的后序遍历为 : ");
         Node.visit_PostOrder(r1);
         System.out.println();
-        Node r2 = Node.createTreeBy_InOrder_and_PostOrder(new int[]{4, 3, 5, 2, 6}, new int[]{4, 5, 3, 6, 2}, 0,
-                0, 5);
         System.out.print("由中序和后序确定的二叉树的前序遍历为 : ");
+        Node r2 = Node.createTreeBy_InOrder_and_PostOrder(new int[]{4, 3, 5, 2, 6}, new int[]{4, 5, 3, 6, 2}, 0,
+                4, 5);
         Node.visit_PreOrder(r2);
         System.out.println();
+        System.out.print("由层序和中序确定的二叉树的后序遍历为 : ");
         Node r3 = Node.createTreeBy_InOrder_and_LevelOrder(new int[]{1, 2, 3, 4, 5}, new int[]{2, 4, 1, 5, 3}, 0,
                 5);
-        System.out.print("由层序和中序确定的二叉树的后序遍历为 : ");
         Node.visit_PostOrder(r3);
+        System.out.println();
+        System.out.print("由 先序 和 后序 构造的 任一 二叉树的中序遍历为：");
+        Node r4 = Node.createTreeBy_PreOrder_and_PostOrder(new int[]{1, 2, 4, 5, 3, 6, 7}, new int[]{4, 5, 2, 6, 7, 3, 1}
+                , 0, 6, 0);
+        Node.visit_InOrder(r4);
         System.out.println();
         System.out.print("路径和为12的路径有：");
         Node.findSumPath(root, 12);

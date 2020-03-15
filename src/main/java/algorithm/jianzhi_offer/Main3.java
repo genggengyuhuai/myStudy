@@ -15,7 +15,6 @@ public class Main3 {
             mid = (high + low) / 2;
              if(nums[low] < nums[mid]){
                  low = mid + 1;
-
              }
              else if(nums[low] == nums[mid]){
                  low++;
