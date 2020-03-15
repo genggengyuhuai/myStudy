@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main76.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/meituan/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/meituan/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/meituan/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/meituan/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/tecent/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/tecent/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/tecent/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/tecent/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/xiaomi/Main25.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -142,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main3 (1)">
+  <component name="RunManager" selected="Application.Main5">
     <configuration name="$" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.tecent.$.$" />
       <module name="myStudy" />
@@ -195,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.meituan.Main4" />
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Main5" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.meituan.*" />
+          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,18 +201,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main4" />
       <item itemvalue="Application.Main1 (1)" />
       <item itemvalue="Application.$" />
       <item itemvalue="Application.Main3 (1)" />
+      <item itemvalue="Application.Main5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main3 (1)" />
         <item itemvalue="Application.$" />
         <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main4" />
       </list>
     </recent_temporary>
   </component>
@@ -527,14 +518,7 @@
       <workItem from="1584088557153" duration="6440000" />
       <workItem from="1584112899256" duration="399000" />
       <workItem from="1584192536123" duration="1544000" />
-      <workItem from="1584246490912" duration="792000" />
-    </task>
-    <task id="LOCAL-00069" summary="leetcode 动归">
-      <created>1577870133764</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1577870133765</updated>
+      <workItem from="1584246490912" duration="5470000" />
     </task>
     <task id="LOCAL-00070" summary="2020.1.2   redis网课">
       <created>1577967086331</created>
@@ -872,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583664942150</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="tx 面试">
+      <created>1584247301366</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1584247301366</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +899,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="周二。完成对 SmallNonHA的部署，其中有 availability Set 的重新设置，managed 和 unmanaged disk 区别" />
     <MESSAGE value="周三，new intern orientation" />
     <MESSAGE value="gg" />
     <MESSAGE value="链表归排" />
@@ -933,7 +923,8 @@
     <MESSAGE value="..." />
     <MESSAGE value="offer" />
     <MESSAGE value="。" />
-    <option name="LAST_COMMIT_MESSAGE" value="。" />
+    <MESSAGE value="tx 面试" />
+    <option name="LAST_COMMIT_MESSAGE" value="tx 面试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
