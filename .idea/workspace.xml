@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/meituan/Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
@@ -518,14 +518,9 @@
       <workItem from="1584246490912" duration="5470000" />
       <workItem from="1584272191759" duration="691000" />
       <workItem from="1584275824791" duration="642000" />
-      <workItem from="1584365934207" duration="3269000" />
-    </task>
-    <task id="LOCAL-00071" summary="Shiro 狗屎， 源码有设计缺陷&#10;https://blog.csdn.net/weixin_34289454/article/details/94562045&#10;&#10;https://blog.csdn.net/qq_34741165/article/details/83720666">
-      <created>1578125103961</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1578125103961</updated>
+      <workItem from="1584365934207" duration="3278000" />
+      <workItem from="1584405635573" duration="843000" />
+      <workItem from="1584444046372" duration="1325000" />
     </task>
     <task id="LOCAL-00072" summary="在苏州租好房，明天第一天上班。写了个shiro+springboot的总结blog">
       <created>1578230853715</created>
@@ -863,7 +858,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584272277272</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary=".">
+      <created>1584372030916</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1584372030916</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -899,7 +901,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="gg" />
     <MESSAGE value="链表归排" />
     <MESSAGE value="工作日最后一天，学了一天《powershell 从入门到入土》" />
     <MESSAGE value="除夕" />
@@ -914,7 +915,6 @@
     <MESSAGE value="newer" />
     <MESSAGE value="miss" />
     <MESSAGE value="多线程" />
-    <MESSAGE value="." />
     <MESSAGE value="leetcode" />
     <MESSAGE value="offer 怎么这么难" />
     <MESSAGE value="byteDance 三轮技术 + 一轮HR" />
@@ -924,7 +924,9 @@
     <MESSAGE value="。" />
     <MESSAGE value="tx 面试" />
     <MESSAGE value="what a shame... 支付宝大 boss 让现场英文翻译简历自我评价，太惨了" />
-    <option name="LAST_COMMIT_MESSAGE" value="what a shame... 支付宝大 boss 让现场英文翻译简历自我评价，太惨了" />
+    <MESSAGE value="." />
+    <MESSAGE value="美团面试，链表逆序，二分查找第一个等于的。&#10;爆丑" />
+    <option name="LAST_COMMIT_MESSAGE" value="美团面试，链表逆序，二分查找第一个等于的。&#10;爆丑" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
