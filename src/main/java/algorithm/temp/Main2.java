@@ -12,13 +12,13 @@ public class Main2 {
 
     private static List<List<Integer>> res = new ArrayList<>();  // 用于存放最终结果
     private static List<Integer> temp = new ArrayList<>();  // 用于递归时存放临时数据
-    private static int[] nums = new int[]{1, 2, 3, 4};   // 数据源
+    private static int[] nums = new int[]{2, 3, 4};   // 数据源
     private static boolean[] flags = new boolean[nums.length];  // 用于基于flag标志的全排列算法
     private static int selectNum = 2; // 用于选择数，选几个
 
     // 全排列, 基于交换
-    private static void permute(int i) {
-        if (i == nums.length) {
+    private static void permute(int index) {
+        if (index == nums.length) {
             temp = new ArrayList<>();
             for (int k = 0; k < nums.length; k++) {
                 temp.add(nums[k]);
@@ -26,10 +26,10 @@ public class Main2 {
             res.add(temp);
             return;
         }
-        for (int j = i; j < nums.length; j++) {
-            swap(i, j);
-            permute(i + 1);
-            swap(i, j);
+        for (int j = index; j < nums.length; j++) {
+            swap(index, j);
+            permute(index + 1);
+            swap(index, j);
         }
     }
 

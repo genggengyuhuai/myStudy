@@ -37,6 +37,8 @@ public class ThreadLocalTest    {
 
 
     public static void main(String[] args) {
+        // thread 和 线程池 一起使用，要根据业务判断每个job执行后是否需要
+        // 清除  Thread.currentThread().threadLocals = null;
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         for (int i = 0; i < 10; i++) {
             executorService.execute(new ParseDate(i));
