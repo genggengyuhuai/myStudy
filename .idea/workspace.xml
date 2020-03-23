@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/RandomPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/SegmentTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/ThreadLocalMemoryLeakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/alibaba/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/alibaba/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/SingleTonDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/temp/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/thread/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread/ThreadLocalTest.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -137,13 +132,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SegmentTreeTest">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.temp.Main" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.alibaba.Main1" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,25 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Main5" />
+    <configuration name="Main5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.newcoderOJ.Main5" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.jianzhi_offer.Main8" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.jianzhi_offer.*" />
+          <option name="PATTERN" value="algorithm.newcoderOJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main5" />
-      <item itemvalue="Application.Main8" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SegmentTreeTest" />
+      <item itemvalue="Application.Main5 (1)" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main5 (1)" />
         <item itemvalue="Application.SegmentTreeTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main8" />
-        <item itemvalue="Application.Main5" />
       </list>
     </recent_temporary>
   </component>
@@ -535,14 +530,10 @@
       <workItem from="1584517824228" duration="796000" />
       <workItem from="1584522288121" duration="738000" />
       <workItem from="1584605596805" duration="354000" />
-      <workItem from="1584618148259" duration="8231000" />
-    </task>
-    <task id="LOCAL-00073" summary="microsoft实习，非常需要英语口语能力。on perm 小组   mentor: Jiang Wei">
-      <created>1578320373684</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1578320373685</updated>
+      <workItem from="1584618148259" duration="8246000" />
+      <workItem from="1584767484516" duration="1952000" />
+      <workItem from="1584955264362" duration="6089000" />
+      <workItem from="1584973612500" duration="270000" />
     </task>
     <task id="LOCAL-00074" summary="第二天安装软件，等待代码库权限">
       <created>1578405808518</created>
@@ -880,7 +871,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584448237619</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="线段树">
+      <created>1584628981868</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1584628981868</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +914,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="链表归排" />
     <MESSAGE value="工作日最后一天，学了一天《powershell 从入门到入土》" />
     <MESSAGE value="除夕" />
     <MESSAGE value="powershell中 select-object 选择对象的一些属性， where-object 选择出符合条件的一些对象" />
@@ -941,7 +938,8 @@
     <MESSAGE value="what a shame... 支付宝大 boss 让现场英文翻译简历自我评价，太惨了" />
     <MESSAGE value="." />
     <MESSAGE value="美团面试，链表逆序，二分查找第一个等于的。&#10;爆丑" />
-    <option name="LAST_COMMIT_MESSAGE" value="美团面试，链表逆序，二分查找第一个等于的。&#10;爆丑" />
+    <MESSAGE value="线段树" />
+    <option name="LAST_COMMIT_MESSAGE" value="线段树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
