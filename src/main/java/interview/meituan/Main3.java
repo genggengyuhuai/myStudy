@@ -1,6 +1,5 @@
 package interview.meituan;
 
-import sun.security.krb5.internal.ccache.CCacheOutputStream;
 
 import java.util.Scanner;
 

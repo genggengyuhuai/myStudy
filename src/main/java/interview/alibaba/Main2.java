@@ -1,6 +1,10 @@
 package interview.alibaba;
 
+import algorithm.basic_algorithm.search.SearchTest;
+
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 /**
  * 迷宫深搜
@@ -47,9 +51,9 @@ public class Main2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int m = scanner.nextInt();
-
+        Set<Integer> set = new HashSet<>();
+        set.add(2);
+        System.out.println(set.add(2));
 
     }
 }

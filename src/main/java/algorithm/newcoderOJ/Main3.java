@@ -1,6 +1,5 @@
 package algorithm.newcoderOJ;
 
-import javafx.util.Pair;
 
 /**
  * 给了一个序列，让找出最长的“凸子序列”

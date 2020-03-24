@@ -1,6 +1,5 @@
 package algorithm.datastructure.tree;
 
-import javafx.util.Pair;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -587,18 +586,18 @@ class Node {
 
     // 非传统 后序非递归遍历
     public static void spPostOrderVisit(Node root) {
-        Stack<Pair<Node, Boolean>> stack = new Stack<>();
-        stack.add(new Pair<>(root, false));
-        while (!stack.isEmpty()) {
-            Pair<Node, Boolean> pair = stack.pop();
-            if (pair.getKey() == null) continue;
-            if (pair.getValue()) System.out.print(pair.getKey());
-            else {
-                stack.add(new Pair<>(pair.getKey(), true));
-                stack.add(new Pair<>(pair.getKey().right, false));
-                stack.add(new Pair<>(pair.getKey().left, false));
-            }
-        }
+//        Stack<Pair<Node, Boolean>> stack = new Stack<>();
+//        stack.add(new Pair<>(root, false));
+//        while (!stack.isEmpty()) {
+//            Pair<Node, Boolean> pair = stack.pop();
+//            if (pair.getKey() == null) continue;
+//            if (pair.getValue()) System.out.print(pair.getKey());
+//            else {
+//                stack.add(new Pair<>(pair.getKey(), true));
+//                stack.add(new Pair<>(pair.getKey().right, false));
+//                stack.add(new Pair<>(pair.getKey().left, false));
+//            }
+//        }
     }
 
     // 二叉排序树中第 k 小数
