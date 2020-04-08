@@ -303,14 +303,7 @@ class Node {
         return true;
     }
 
-    /**
-     * @param a       先序
-     * @param b       中序
-     * @param start_a 起始下标
-     * @param start_b 起始下标
-     * @param len     长度
-     * @return
-     */
+
     //根据先序序列和中序序列建立二叉树
     public static Node createTreeBy_PreOrder_and_InOrder(int[] pre, int[] in, int start_pre, int start_in, int len) {
         if (len <= 0) return null;
@@ -584,22 +577,6 @@ class Node {
         leftSee(node.right, depth + 1);
     }
 
-    // 非传统 后序非递归遍历
-    public static void spPostOrderVisit(Node root) {
-//        Stack<Pair<Node, Boolean>> stack = new Stack<>();
-//        stack.add(new Pair<>(root, false));
-//        while (!stack.isEmpty()) {
-//            Pair<Node, Boolean> pair = stack.pop();
-//            if (pair.getKey() == null) continue;
-//            if (pair.getValue()) System.out.print(pair.getKey());
-//            else {
-//                stack.add(new Pair<>(pair.getKey(), true));
-//                stack.add(new Pair<>(pair.getKey().right, false));
-//                stack.add(new Pair<>(pair.getKey().left, false));
-//            }
-//        }
-    }
-
     // 二叉排序树中第 k 小数
     private static int kMinFindIndex = 0;
 
@@ -613,6 +590,71 @@ class Node {
         kMinFind(root.right, target);
     }
 
+    public static class Res{
+        // 以根节点开始  最长递增和递减路径长
+        int incLen;
+        int decLen;
+
+        public Res(int incLen, int decLen) {
+            this.incLen = incLen;
+            this.decLen = decLen;
+        }
+    }
+    public static int maxResLen = 1;
+    // 返回的是单边的最长递增和递减路径的长度
+    public static Res singleEdgeIncreaseOrDecrease(Node root){
+        if(root == null) return new Res(0,0);
+        if(root.right == null && root.left == null) return new Res(1,1);
+        Res left = singleEdgeIncreaseOrDecrease(root.left);
+        Res right = singleEdgeIncreaseOrDecrease(root.right);
+        if(root.key == 5){
+            System.out.println();
+        }
+        Res res;
+        // 左右子树有空的
+        if(root.left == null){
+            if(root.key <= root.right.key){
+                res =  new Res(right.incLen+1,1);
+            }else {
+                res =  new Res(1, right.decLen + 1);
+            }
+            maxResLen = Math.max(maxResLen, Math.max(res.decLen, res.incLen));
+            return res;
+        }
+        if(root.right == null){
+            if(root.key <= root.left.key){
+                res = new Res(left.incLen+1,1);
+            }else {
+                res =  new Res(1, left.decLen + 1);
+            }
+            maxResLen = Math.max(maxResLen, Math.max(res.decLen, res.incLen));
+            return res;
+        }
+        // 左右子树都不为空
+        int max = Math.max(root.left.key, root.right.key);
+        int min = Math.min(root.left.key, root.right.key);
+        // 比左右子树都小
+        if(root.key < min){
+            res =  new Res(left.incLen > right.incLen ? left.incLen + 1: right.incLen + 1, 1);
+            maxResLen = Math.max(maxResLen, Math.max(left.incLen, right.incLen) + 1);
+            return res;
+        }else if(root.key > max){
+            res =  new Res(1, left.decLen > right.decLen ? left.decLen + 1 : right.decLen + 1);
+            maxResLen = Math.max(maxResLen, Math.max(left.decLen, right.decLen) + 1);
+            return res;
+        }
+        // 在中间
+        if(root.key >= root.left.key && root.key <= root.right.key){
+            res = new Res(left.decLen+1, right.incLen+1);
+            maxResLen = Math.max(maxResLen, left.incLen + right.decLen + 1);
+        }else {
+            res = new Res(left.incLen+1, right.decLen+1);
+            maxResLen = Math.max(maxResLen, left.decLen + right.incLen + 1);
+        }
+        return res;
+    }
+
+
 }
 
 public class TreeTest {
@@ -622,11 +664,12 @@ public class TreeTest {
         int[] serializable = {1, 2, 3, 0, 0, 4, 0};
         Node root;
         root = Node.createCompletelyTree(a, 0);
+        Node.singleEdgeIncreaseOrDecrease(root);
+        System.out.println("最长递增的长度是："+ Node.maxResLen);
         root = Node.OverSerializeTree(serializable, 0);
         root = Node.Array_to_Tree(a);
         Node.kMinFind(root, 4);
 
-        Node.spPostOrderVisit(root);
         System.out.print("左视图为 : ");
         Node.leftSee(root, 0);
         Node.leftSee.forEach(s -> System.out.print(s.key + " "));

@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/temp/Temp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/baidu/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/baidu/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/baidu/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/newcoderOJ/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/alibaba/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/alibaba/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/meituan/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/meituan/Main3.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -93,12 +94,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/极客时间/玩转Spring全家桶/geektime-spring-family-master/Chapter 3/mybatis-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -135,7 +136,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Temp1">
+  <component name="RunManager" selected="Application.TreeTest">
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.baidu.Main1" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.baidu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.alibaba.Main1" />
       <module name="myStudy" />
@@ -162,25 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.newcoderOJ.Main5" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.baidu.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.newcoderOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SegmentTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.tree.SegmentTreeTest" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.datastructure.tree.*" />
+          <option name="PATTERN" value="interview.baidu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +204,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.datastructure.tree.TreeTest" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.datastructure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Temp1" />
       <item itemvalue="Application.Main2 (1)" />
-      <item itemvalue="Application.SegmentTreeTest" />
-      <item itemvalue="Application.Main5 (1)" />
       <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.TreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeTest" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main5 (1)" />
-        <item itemvalue="Application.SegmentTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -539,14 +555,21 @@
       <workItem from="1584955264362" duration="6089000" />
       <workItem from="1584973612500" duration="306000" />
       <workItem from="1585014560078" duration="4561000" />
-      <workItem from="1585054416089" duration="677000" />
-    </task>
-    <task id="LOCAL-00075" summary="第三天，理解 Azure Market Resource Management">
-      <created>1578492140236</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1578492140237</updated>
+      <workItem from="1585054416089" duration="695000" />
+      <workItem from="1585119174665" duration="877000" />
+      <workItem from="1585479369141" duration="186000" />
+      <workItem from="1585481243371" duration="654000" />
+      <workItem from="1585481983832" duration="2174000" />
+      <workItem from="1585484216851" duration="591000" />
+      <workItem from="1585703524649" duration="1256000" />
+      <workItem from="1585726091636" duration="5155000" />
+      <workItem from="1585732098086" duration="80000" />
+      <workItem from="1585792443669" duration="2372000" />
+      <workItem from="1585970460755" duration="597000" />
+      <workItem from="1586219559186" duration="598000" />
+      <workItem from="1586308145560" duration="203000" />
+      <workItem from="1586308426253" duration="205000" />
+      <workItem from="1586308659208" duration="1098000" />
     </task>
     <task id="LOCAL-00076" summary="day fourth. maintemplate.json 和 parameters.json， 以及 deployment">
       <created>1578580099200</created>
@@ -884,7 +907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584973900924</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="去美团送外卖了">
+      <created>1585058817841</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1585058817841</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -920,7 +950,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="除夕" />
     <MESSAGE value="powershell中 select-object 选择对象的一些属性， where-object 选择出符合条件的一些对象" />
     <MESSAGE value="复习" />
     <MESSAGE value="powershell" />
@@ -945,7 +974,8 @@
     <MESSAGE value="美团面试，链表逆序，二分查找第一个等于的。&#10;爆丑" />
     <MESSAGE value="线段树" />
     <MESSAGE value="ali   快速幂" />
-    <option name="LAST_COMMIT_MESSAGE" value="ali   快速幂" />
+    <MESSAGE value="去美团送外卖了" />
+    <option name="LAST_COMMIT_MESSAGE" value="去美团送外卖了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1254,6 +1284,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/SegmentTreeTest.java</url>
           <line>77</line>
           <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java</url>
+          <line>610</line>
+          <option name="timeStamp" value="218" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
