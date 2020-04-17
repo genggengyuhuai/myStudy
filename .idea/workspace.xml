@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/baidu/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/baidu/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/baidu/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/huawei/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/huawei/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/zhaohang/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/zhaohang/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/datastructure/tree/TreeTest.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
@@ -99,7 +96,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -136,13 +133,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeTest">
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.baidu.Main1" />
+  <component name="RunManager" selected="Application.Main2 (1)">
+    <configuration name="Main1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.zhaohang.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.baidu.*" />
+          <option name="PATTERN" value="interview.zhaohang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +148,11 @@
       </method>
     </configuration>
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.alibaba.Main1" />
+      <option name="MAIN_CLASS_NAME" value="interview.huawei.Main1" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.alibaba.*" />
+          <option name="PATTERN" value="interview.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +161,11 @@
       </method>
     </configuration>
     <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.alibaba.Main2" />
+      <option name="MAIN_CLASS_NAME" value="interview.huawei.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.alibaba.*" />
+          <option name="PATTERN" value="interview.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +216,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Temp1" />
-      <item itemvalue="Application.Main2 (1)" />
-      <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main1 (1)" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.TreeTest" />
+      <item itemvalue="Application.Main1 (2)" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main2 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeTest" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main1 (2)" />
+        <item itemvalue="Application.TreeTest" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -569,14 +566,10 @@
       <workItem from="1586219559186" duration="598000" />
       <workItem from="1586308145560" duration="203000" />
       <workItem from="1586308426253" duration="205000" />
-      <workItem from="1586308659208" duration="1098000" />
-    </task>
-    <task id="LOCAL-00076" summary="day fourth. maintemplate.json 和 parameters.json， 以及 deployment">
-      <created>1578580099200</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1578580099200</updated>
+      <workItem from="1586308659208" duration="1236000" />
+      <workItem from="1586345486784" duration="2613000" />
+      <workItem from="1586655588088" duration="45000" />
+      <workItem from="1586947957498" duration="7718000" />
     </task>
     <task id="LOCAL-00077" summary="fifth day. 根据 maintemplate.json 修改 7个 &#10;: 4个 HA，3个NonHA">
       <created>1578670912506</created>
@@ -914,7 +907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585058817841</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="树的后序遍历">
+      <created>1586309789474</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1586309789480</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,7 +950,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="powershell中 select-object 选择对象的一些属性， where-object 选择出符合条件的一些对象" />
     <MESSAGE value="复习" />
     <MESSAGE value="powershell" />
     <MESSAGE value="牛客" />
@@ -975,7 +974,8 @@
     <MESSAGE value="线段树" />
     <MESSAGE value="ali   快速幂" />
     <MESSAGE value="去美团送外卖了" />
-    <option name="LAST_COMMIT_MESSAGE" value="去美团送外卖了" />
+    <MESSAGE value="树的后序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="树的后序遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
