@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/huawei/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/huawei/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/zhaohang/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/zhaohang/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
@@ -570,13 +566,10 @@
       <workItem from="1586345486784" duration="2613000" />
       <workItem from="1586655588088" duration="45000" />
       <workItem from="1586947957498" duration="7718000" />
-    </task>
-    <task id="LOCAL-00077" summary="fifth day. 根据 maintemplate.json 修改 7个 &#10;: 4个 HA，3个NonHA">
-      <created>1578670912506</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1578670912506</updated>
+      <workItem from="1587093623475" duration="135000" />
+      <workItem from="1587171025061" duration="883000" />
+      <workItem from="1587295625185" duration="37000" />
+      <workItem from="1587915235246" duration="914000" />
     </task>
     <task id="LOCAL-00078" summary="周六休息">
       <created>1578758062291</created>
@@ -914,7 +907,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586309789480</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="华为机试">
+      <created>1587093704790</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1587093704792</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,7 +950,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="复习" />
     <MESSAGE value="powershell" />
     <MESSAGE value="牛客" />
     <MESSAGE value="~" />
@@ -975,7 +974,8 @@
     <MESSAGE value="ali   快速幂" />
     <MESSAGE value="去美团送外卖了" />
     <MESSAGE value="树的后序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="树的后序遍历" />
+    <MESSAGE value="华为机试" />
+    <option name="LAST_COMMIT_MESSAGE" value="华为机试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
