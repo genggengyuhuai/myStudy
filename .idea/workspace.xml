@@ -569,14 +569,8 @@
       <workItem from="1587093623475" duration="135000" />
       <workItem from="1587171025061" duration="883000" />
       <workItem from="1587295625185" duration="37000" />
-      <workItem from="1587915235246" duration="914000" />
-    </task>
-    <task id="LOCAL-00078" summary="周六休息">
-      <created>1578758062291</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1578758062291</updated>
+      <workItem from="1587915235246" duration="1641000" />
+      <workItem from="1588003368644" duration="18000" />
     </task>
     <task id="LOCAL-00079" summary="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。">
       <created>1578822388476</created>
@@ -914,7 +908,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587093704792</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="kite and ginex">
+      <created>1587916505439</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1587916505439</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,7 +951,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="powershell" />
     <MESSAGE value="牛客" />
     <MESSAGE value="~" />
     <MESSAGE value="Commons Pool2" />
@@ -975,7 +975,8 @@
     <MESSAGE value="去美团送外卖了" />
     <MESSAGE value="树的后序遍历" />
     <MESSAGE value="华为机试" />
-    <option name="LAST_COMMIT_MESSAGE" value="华为机试" />
+    <MESSAGE value="kite and ginex" />
+    <option name="LAST_COMMIT_MESSAGE" value="kite and ginex" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
