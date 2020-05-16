@@ -576,14 +576,7 @@
       <workItem from="1589448453684" duration="93000" />
       <workItem from="1589448560735" duration="1719000" />
       <workItem from="1589535788817" duration="385000" />
-      <workItem from="1589643251578" duration="854000" />
-    </task>
-    <task id="LOCAL-00080" summary="周一。改两天gjd的卷子t了">
-      <created>1578927225511</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1578927225511</updated>
+      <workItem from="1589643251578" duration="1314000" />
     </task>
     <task id="LOCAL-00081" summary="周二。完成对 SmallNonHA的部署，其中有 availability Set 的重新设置，managed 和 unmanaged disk 区别">
       <created>1579014220740</created>
@@ -921,7 +914,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589643286408</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="git  修复">
+      <created>1589644123056</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1589644123056</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1026,10 +1026,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589535868715" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1589643286083">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1589644122850">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1589643286083" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1589644122850" />
     <state width="1398" height="150" key="GridCell.Tab.0.bottom" timestamp="1589536174230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1083,10 +1083,10 @@
     </state>
     <state x="151" y="142" width="1111" height="722" key="SettingsEditor/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589449524199" />
     <state x="167" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589299203064" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1589643297602">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1589644124544">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1589643297602" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1589644124544" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589300217933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
