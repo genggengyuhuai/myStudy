@@ -16,6 +16,7 @@ public class Team {
         if(list != null) list.add(this);
     }
 
+
     public static void main(String[] args) {
         List<Team> list = new ArrayList<>();
         new Team("test1",list);
