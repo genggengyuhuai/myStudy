@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main155.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/temp/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
@@ -113,8 +112,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
     </list>
+    <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,15 +155,10 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="genggengyuhuai" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="myStudy" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -170,6 +166,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
@@ -195,11 +192,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="netty_study.rpc" />
+      <recent name="design_pattern.flyWeight" />
+      <recent name="concurrent.thread" />
+      <recent name="design_pattern.proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\big" />
@@ -213,16 +213,26 @@
       <recent name="algorithm.homework.fourthtime" />
       <recent name="algorithm.leetcode" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="netty_study.rpc" />
-      <recent name="design_pattern.flyWeight" />
-      <recent name="concurrent.thread" />
-      <recent name="design_pattern.proxy" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main155">
-    <configuration name="Main155" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main155" />
+  <component name="RunManager" selected="Application.Team">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.huawei.Main1" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.huawei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main136" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -234,25 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main50" />
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.huawei.Main2" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main69" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="PATTERN" value="interview.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnowFlakeShortUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.SnowFlakeShortUrl" />
+    <configuration name="Team" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp.Team" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,19 +300,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Temp1" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main2 (1)" />
       <item itemvalue="Application.Main983" />
-      <item itemvalue="Application.SnowFlakeShortUrl" />
-      <item itemvalue="Application.Main69" />
-      <item itemvalue="Application.Main50" />
-      <item itemvalue="Application.Main155" />
+      <item itemvalue="Application.Main136" />
+      <item itemvalue="Application.Team" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main155" />
-        <item itemvalue="Application.Main50" />
+        <item itemvalue="Application.Team" />
+        <item itemvalue="Application.Main136" />
         <item itemvalue="Application.Main983" />
-        <item itemvalue="Application.Main69" />
-        <item itemvalue="Application.SnowFlakeShortUrl" />
+        <item itemvalue="Application.Main2 (1)" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -664,17 +661,39 @@
       <workItem from="1588003368644" duration="18000" />
       <workItem from="1588834662847" duration="1281000" />
       <workItem from="1588854159505" duration="732000" />
-      <workItem from="1588938564214" duration="581000" />
-      <workItem from="1588941273362" duration="696000" />
-      <workItem from="1588993069505" duration="5000" />
-      <workItem from="1589002048000" duration="876000" />
-      <workItem from="1589017621769" duration="1108000" />
-      <workItem from="1589025238397" duration="815000" />
-      <workItem from="1589027844946" duration="95000" />
-      <workItem from="1589090902777" duration="7421000" />
-      <workItem from="1589196650691" duration="1220000" />
-      <workItem from="1589249274902" duration="117000" />
-      <workItem from="1589249420979" duration="1281000" />
+      <workItem from="1589300235679" duration="79000" />
+      <workItem from="1589335220426" duration="431000" />
+      <workItem from="1589448453684" duration="93000" />
+      <workItem from="1589448560735" duration="1719000" />
+      <workItem from="1589535788817" duration="385000" />
+    </task>
+    <task id="LOCAL-00079" summary="周日&#10;synchronized 加在普通方法上：锁住是的对象实例，只有一个线程能执行对象的同步方法。但是可以多线程执行本对象的非同步方法。&#10;加在静态方法上：锁住的是class实例，多个本类的对象实例只能有一个可以执行同步方法。">
+      <created>1578822388476</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1578822388476</updated>
+    </task>
+    <task id="LOCAL-00080" summary="周一。改两天gjd的卷子t了">
+      <created>1578927225511</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1578927225511</updated>
+    </task>
+    <task id="LOCAL-00081" summary="周二。完成对 SmallNonHA的部署，其中有 availability Set 的重新设置，managed 和 unmanaged disk 区别">
+      <created>1579014220740</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1579014220756</updated>
+    </task>
+    <task id="LOCAL-00082" summary="周三，new intern orientation">
+      <created>1579100686325</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1579100686325</updated>
     </task>
     <task id="LOCAL-00083" summary="gg">
       <created>1579188081409</created>
@@ -991,35 +1010,7 @@
       <option name="project" value="LOCAL" />
       <updated>1587916505439</updated>
     </task>
-    <task id="LOCAL-00128" summary="SnowFlake implement">
-      <created>1588941313476</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1588941313476</updated>
-    </task>
-    <task id="LOCAL-00129" summary="leetcode every day">
-      <created>1589002916296</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1589002916296</updated>
-    </task>
-    <task id="LOCAL-00130" summary="leetcode every day">
-      <created>1589107683767</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1589107683767</updated>
-    </task>
-    <task id="LOCAL-00131" summary="leetcode every day">
-      <created>1589199323917</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1589199323918</updated>
-    </task>
-    <option name="localTasksCounter" value="132" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1030,7 +1021,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -1042,7 +1045,7 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="HEAD" />
+                  <option value="dev" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -1053,6 +1056,16 @@
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dev" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
                 </option>
               </RecentGroup>
             </list>
@@ -1070,6 +1083,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="~" />
     <MESSAGE value="Commons Pool2" />
     <MESSAGE value="设计模式" />
     <MESSAGE value="恢复工作" />
@@ -1093,52 +1107,34 @@
     <MESSAGE value="树的后序遍历" />
     <MESSAGE value="华为机试" />
     <MESSAGE value="kite and ginex" />
-    <MESSAGE value="SnowFlake implement" />
     <MESSAGE value="leetcode every day" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode every day" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="63" key="#Project_Structure" timestamp="1589027927115">
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1589535868715">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="0" y="63" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1589027927115" />
-    <state x="458" y="234" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589104345466">
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589535868715" />
+    <state width="1398" height="150" key="GridCell.Tab.0.bottom" timestamp="1589536174230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="458" y="234" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589104345466" />
-    <state x="492" y="363" width="455" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589104409360">
+    <state width="1398" height="487" key="GridCell.Tab.0.bottom/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588838842421" />
+    <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589536174230" />
+    <state width="1398" height="150" key="GridCell.Tab.0.center" timestamp="1589536174229">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="492" y="363" width="455" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1589104409360" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1589199323628">
+    <state width="1398" height="487" key="GridCell.Tab.0.center/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588838842421" />
+    <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589536174229" />
+    <state width="1398" height="150" key="GridCell.Tab.0.left" timestamp="1589536174229">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589199323628" />
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1589107683445" />
-    <state x="465" y="335" key="Github.CreatePullRequestDialog" timestamp="1588941772801">
+    <state width="1398" height="487" key="GridCell.Tab.0.left/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588838842420" />
+    <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589536174229" />
+    <state width="1398" height="150" key="GridCell.Tab.0.right" timestamp="1589536174230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="465" y="335" key="Github.CreatePullRequestDialog/0.23.1440.877@0.23.1440.877" timestamp="1588941772801" />
-    <state width="1398" height="150" key="GridCell.Tab.0.bottom" timestamp="1589250089782">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589199334597" />
-    <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589250089782" />
-    <state width="1398" height="150" key="GridCell.Tab.0.center" timestamp="1589250089781">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589199334596" />
-    <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589250089781" />
-    <state width="1398" height="150" key="GridCell.Tab.0.left" timestamp="1589250089781">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589199334595" />
-    <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589250089781" />
-    <state width="1398" height="150" key="GridCell.Tab.0.right" timestamp="1589250089781">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589199334597" />
-    <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589250089781" />
+    <state width="1398" height="487" key="GridCell.Tab.0.right/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588838842421" />
+    <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589536174230" />
     <state width="1398" height="487" key="GridCell.Tab.1.bottom" timestamp="1588838842422">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1159,38 +1155,31 @@
     </state>
     <state width="1398" height="487" key="GridCell.Tab.1.right/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588838842422" />
     <state width="1398" height="487" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1588836169176" />
-    <state x="144" y="100" key="MergeDialog" timestamp="1589107717928">
+    <state x="144" y="100" key="MergeDialog" timestamp="1589298997784">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="144" y="100" key="MergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1589107717928" />
-    <state x="491" y="171" key="RollbackChangesDialog" timestamp="1589107021229">
+    <state x="144" y="100" key="MergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1589298997784" />
+    <state x="491" y="171" key="RollbackChangesDialog" timestamp="1588817450287">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="491" y="171" key="RollbackChangesDialog/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588817450287" />
-    <state x="491" y="171" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589107021229" />
-    <state x="116" y="54" width="1094" height="722" key="SettingsEditor" timestamp="1589090994363">
+    <state x="151" y="142" width="1111" height="722" key="SettingsEditor" timestamp="1589449524199">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="167" y="138" key="SettingsEditor/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588918491210" />
-    <state x="116" y="54" width="1094" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589090994363" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1589199330100">
+    <state x="151" y="142" width="1111" height="722" key="SettingsEditor/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589449524199" />
+    <state x="167" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589299203064" />
+    <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589300217933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589199330100" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1589107685315" />
-    <state x="203" y="387" width="598" height="490" key="find.popup" timestamp="1589104324145">
+    <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1589300217933" />
+    <state x="203" y="387" width="598" height="490" key="find.popup" timestamp="1588831493192">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="203" y="387" width="598" height="490" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589104324145" />
-    <state x="191" y="637" key="git4idea.rebase.GitRebaseDialog" timestamp="1588941897432">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="191" y="637" key="git4idea.rebase.GitRebaseDialog/0.23.1440.877@0.23.1440.877" timestamp="1588941897432" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589025179827">
+    <state x="203" y="387" width="598" height="490" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1588831493192" />
+    <state x="385" y="213" key="search.everywhere.popup" timestamp="1588817422292">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588817422292" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589025179827" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1507,8 +1496,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main983.java</url>
-          <line>37</line>
+          <line>31</line>
           <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main983.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="226" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
