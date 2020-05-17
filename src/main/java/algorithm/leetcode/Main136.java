@@ -16,15 +16,7 @@ public class Main136 {
         return res;
     }
 
-    // 同上，但是有两个
-    public static int doubleNumber(int[] nums){
-        int temp = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            temp ^= nums[i];
-        }
 
-        return 0;
-    }
 
     public static void main(String[] args) {
         System.out.println(singleNumber(new int[]{2, 3, 4, 5, 2, 3, 4}));
