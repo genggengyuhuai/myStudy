@@ -23,13 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/temp/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main680.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main152.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main152.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main210.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main210.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/mail/SimpleEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/mail/SimpleEmail.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\repository" />
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
@@ -100,12 +98,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -133,20 +133,7 @@
       <recent name="G:\JavaStudy\myStudy\src\main\java\algorithm\homework\thirdtime" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main5">
-    <configuration name="Main136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main136" />
-      <module name="myStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main5 (1)">
     <configuration name="Main210" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main210" />
       <module name="myStudy" />
@@ -162,6 +149,19 @@
     </configuration>
     <configuration name="Main260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main260" />
+      <module name="myStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.Main5" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
@@ -216,19 +216,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Temp1" />
-      <item itemvalue="Application.Main136" />
       <item itemvalue="Application.Team" />
       <item itemvalue="Application.Main260" />
       <item itemvalue="Application.Main210" />
       <item itemvalue="Application.Main5" />
+      <item itemvalue="Application.Main5 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main5 (1)" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main210" />
         <item itemvalue="Application.Main260" />
         <item itemvalue="Application.Team" />
-        <item itemvalue="Application.Main136" />
       </list>
     </recent_temporary>
   </component>
@@ -588,13 +588,20 @@
       <workItem from="1589882026012" duration="1423000" />
       <workItem from="1589884115842" duration="303000" />
       <workItem from="1589892232154" duration="1162000" />
-    </task>
-    <task id="LOCAL-00083" summary="gg">
-      <created>1579188081409</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1579188081410</updated>
+      <workItem from="1589903330397" duration="165000" />
+      <workItem from="1589948948151" duration="112000" />
+      <workItem from="1589965897472" duration="51000" />
+      <workItem from="1590048989542" duration="3560000" />
+      <workItem from="1590073766569" duration="1244000" />
+      <workItem from="1590132118755" duration="42000" />
+      <workItem from="1590132178547" duration="1000" />
+      <workItem from="1590132183914" duration="114000" />
+      <workItem from="1590136540060" duration="142000" />
+      <workItem from="1590141376583" duration="2929000" />
+      <workItem from="1590161901034" duration="54000" />
+      <workItem from="1590199511289" duration="657000" />
+      <workItem from="1590294987402" duration="4000" />
+      <workItem from="1590590679394" duration="1472000" />
     </task>
     <task id="LOCAL-00084" summary="miss">
       <created>1579221964981</created>
@@ -932,7 +939,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589697580495</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="lc ervery day">
+      <created>1589903339074</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1589903339074</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1033,19 +1047,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="lc ervery day" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="402" y="248" width="735" height="352" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1589884408589">
+    <state x="402" y="248" width="806" height="415" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1590146527882">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="402" y="248" width="735" height="352" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589884408589" />
-    <state x="402" y="248" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.877@0.23.1440.877" timestamp="1589883586386" />
+    <state x="310" y="196" width="806" height="415" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590141503422" />
+    <state x="402" y="248" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.877@0.23.1440.877" timestamp="1590146527882" />
     <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1589535868715">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589535868715" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1589697580258">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1589903338698">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1589697580258" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1589903338698" />
     <state width="1169" height="292" key="GridCell.Tab.0.bottom" timestamp="1589893483644">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1094,32 +1108,37 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="491" y="171" key="RollbackChangesDialog/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588817450287" />
-    <state x="151" y="142" width="1111" height="722" key="SettingsEditor" timestamp="1589884409658">
+    <state x="167" y="63" width="1111" height="722" key="SettingsEditor" timestamp="1590146528311">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="151" y="142" width="1111" height="722" key="SettingsEditor/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589884409658" />
-    <state x="167" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589883597062" />
-    <state width="521" height="445" key="SwitcherDM" timestamp="1589893279462">
+    <state x="151" y="142" width="1111" height="722" key="SettingsEditor/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590141503790" />
+    <state x="167" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590146528311" />
+    <state width="521" height="445" key="SwitcherDM" timestamp="1590592139470">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589893279462" />
-    <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1589697290367" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1589697582944">
+    <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1590592139470" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1589903341544">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1589697582944" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1589903341544" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589300217933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1589300217933" />
-    <state x="203" y="387" width="598" height="490" key="find.popup" timestamp="1589852671334">
+    <state x="203" y="387" width="598" height="490" key="find.popup" timestamp="1590064571347">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="203" y="387" width="598" height="490" key="find.popup/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590064571347" />
     <state x="203" y="387" width="598" height="490" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589852671334" />
-    <state x="385" y="213" key="search.everywhere.popup" timestamp="1588817422292">
+    <state x="79" y="121" key="new project wizard" timestamp="1590136677498">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588817422292" />
+    <state x="79" y="121" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1590136677498" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1590064564821">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590064564821" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

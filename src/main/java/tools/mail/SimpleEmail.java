@@ -50,8 +50,19 @@ public class SimpleEmail {
         htmlEmail.send();
     }
 
-
-    public static void sendAttachmentEmail(String path ,String attachmentName,String addTo , String subject , String msg) throws Exception {
+/**
+ *
+ *
+ * @author Lihaoyu
+ * @param path
+ * @param attachmentName
+ * @param addTo
+ * @param subject
+ * @param msg
+ * @return void
+ * @date 2020/5/23 10:05 上午
+ */
+public static void sendAttachmentEmail(String path ,String attachmentName,String addTo , String subject , String msg) throws Exception {
         EmailAttachment attachment = new EmailAttachment();
         // 也可以发送本地文件作为附件
           attachment.setPath(path);
