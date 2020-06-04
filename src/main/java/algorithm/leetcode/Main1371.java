@@ -31,6 +31,8 @@ public class Main1371 {
                 continue;
             }
             // 是 a,e,i,o,u
+
+            
             
         }
 

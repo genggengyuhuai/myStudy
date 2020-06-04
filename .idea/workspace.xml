@@ -23,10 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main1371.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main974.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main394.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main394.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main1371.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main1371.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的" />
     <option name="SHOW_DIALOG" value="false" />
@@ -605,14 +605,11 @@
       <workItem from="1590744830930" duration="21000" />
       <workItem from="1590813038796" duration="7678000" />
       <workItem from="1590827211392" duration="354000" />
-      <workItem from="1590832224942" duration="1008000" />
-    </task>
-    <task id="LOCAL-00086" summary="链表归排">
-      <created>1579438873719</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1579438873719</updated>
+      <workItem from="1590832224942" duration="1080000" />
+      <workItem from="1590901677521" duration="741000" />
+      <workItem from="1590902424959" duration="606000" />
+      <workItem from="1591100766578" duration="545000" />
+      <workItem from="1591284441462" duration="1109000" />
     </task>
     <task id="LOCAL-00087" summary="链表归排">
       <created>1579439409497</created>
@@ -950,7 +947,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590678937146</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="lc ervery day">
+      <created>1590849684001</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1590849684001</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -961,19 +965,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="dev" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1060,10 +1052,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589535868715" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1590678936885">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1590849683750">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590678936885" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590849683750" />
     <state width="1398" height="159" key="GridCell.Tab.0.bottom" timestamp="1590821628535">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -1134,32 +1126,33 @@
     <state x="151" y="142" width="1111" height="722" key="SettingsEditor/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590141503790" />
     <state x="167" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590146528311" />
     <state x="344" y="71" key="SettingsEditor/0.23.1920.1057/1920.0.1080.1920@0.23.1920.1057" timestamp="1590827199308" />
-    <state width="521" height="445" key="SwitcherDM" timestamp="1590592139470">
+    <state width="521" height="445" key="SwitcherDM" timestamp="1590901953606">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589893279462" />
-    <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1590592139470" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1590678939152">
+    <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1590901953606" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1590849686248">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1590678939152" />
-    <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589300217933">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1590849686248" />
+    <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590901976952">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1589300217933" />
-    <state x="203" y="387" width="598" height="490" key="find.popup" timestamp="1590064571347">
+    <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1590901976952" />
+    <state x="203" y="387" width="598" height="490" key="find.popup" timestamp="1590901682404">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="203" y="387" width="598" height="490" key="find.popup/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590064571347" />
-    <state x="203" y="387" width="598" height="490" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589852671334" />
+    <state x="203" y="387" width="598" height="490" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1590901682404" />
     <state x="79" y="121" key="new project wizard" timestamp="1590136677498">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="79" y="121" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1590136677498" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1590064564821">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1591100783280">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590064564821" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1591100783280" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1448,16 +1441,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/school_hire_2019/vivo/Main5.java</url>
           <line>41</line>
           <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main76.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="205" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main76.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/interview/meituan/Main2.java</url>
