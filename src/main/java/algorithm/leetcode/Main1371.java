@@ -33,7 +33,6 @@ public class Main1371 {
             // 是 a,e,i,o,u
 
             
-            
         }
 
         return 0;

@@ -23,8 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main974.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main1371.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/Main1371.java" afterDir="false" />
     </list>
@@ -106,7 +104,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -610,13 +608,10 @@
       <workItem from="1590902424959" duration="606000" />
       <workItem from="1591100766578" duration="545000" />
       <workItem from="1591284441462" duration="1109000" />
-    </task>
-    <task id="LOCAL-00087" summary="链表归排">
-      <created>1579439409497</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1579439409497</updated>
+      <workItem from="1591285727038" duration="43000" />
+      <workItem from="1591348745006" duration="1104000" />
+      <workItem from="1591366684386" duration="547000" />
+      <workItem from="1591367518289" duration="344000" />
     </task>
     <task id="LOCAL-00088" summary="miss">
       <created>1579532184077</created>
@@ -954,7 +949,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590849684001</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="lc ervery day">
+      <created>1591285751713</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1591285751714</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1043,19 +1045,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="lc ervery day" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="402" y="248" width="806" height="415" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1590146527882">
+    <state x="402" y="248" width="905" height="352" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1591349921410">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="310" y="196" width="806" height="415" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590141503422" />
-    <state x="402" y="248" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.877@0.23.1440.877" timestamp="1590146527882" />
+    <state x="402" y="248" width="905" height="352" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.877@0.23.1440.877" timestamp="1591349921410" />
     <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1589535868715">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589535868715" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1590849683750">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1591285751440">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590849683750" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1591285751440" />
     <state width="1398" height="159" key="GridCell.Tab.0.bottom" timestamp="1590821628535">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -1120,21 +1122,21 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="491" y="171" key="RollbackChangesDialog/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1588817450287" />
-    <state x="344" y="71" width="1111" height="722" key="SettingsEditor" timestamp="1590827199308">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="167" y="63" width="1111" height="722" key="SettingsEditor" timestamp="1591349921540">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="151" y="142" width="1111" height="722" key="SettingsEditor/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1590141503790" />
-    <state x="167" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590146528311" />
+    <state x="167" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1591349921540" />
     <state x="344" y="71" key="SettingsEditor/0.23.1920.1057/1920.0.1080.1920@0.23.1920.1057" timestamp="1590827199308" />
-    <state width="521" height="445" key="SwitcherDM" timestamp="1590901953606">
+    <state width="521" height="445" key="SwitcherDM" timestamp="1591349283094">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589893279462" />
-    <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1590901953606" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1590849686248">
+    <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1591349283094" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1591285753268">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1590849686248" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1591285753268" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590901976952">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
