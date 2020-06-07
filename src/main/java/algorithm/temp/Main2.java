@@ -12,6 +12,7 @@ public class Main2 {
 
     private static List<List<Integer>> res = new ArrayList<>();  // 用于存放最终结果
     private static List<Integer> temp = new ArrayList<>();  // 用于递归时存放临时数据
+
     private static int[] nums = new int[]{2, 3, 4};   // 数据源
     private static boolean[] flags = new boolean[nums.length];  // 用于基于flag标志的全排列算法
     private static int selectNum = 2; // 用于选择数，选几个
