@@ -17,6 +17,7 @@ public class Main2 {
     private static boolean[] flags = new boolean[nums.length];  // 用于基于flag标志的全排列算法
     private static int selectNum = 2; // 用于选择数，选几个
 
+
     // 全排列, 基于交换
     private static void permute(int index) {
         if (index == nums.length) {
