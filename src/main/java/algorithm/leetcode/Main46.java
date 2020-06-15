@@ -17,6 +17,7 @@ public class Main46 {
             if(temp <= 25 && temp != 0) f0 = 1 + f0;
         }
         return 0;
+
     }
 
     public static void main(String[] args) {
