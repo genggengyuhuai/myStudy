@@ -11,18 +11,27 @@ import java.util.Stack;
  */
 public class Main6 {
 
-    public String simplifyPath(String path) {
+    public static String simplifyPath(String path) {
         String[] split = path.split("/");
         Stack<String> stack = new Stack<>();
         for (String s : split) {
-            if("".equals(s)) continue;
-
+            if("".equals(s) || ".".equals(s)) continue;
+            if("..".equals(s) && !stack.isEmpty()){
+                stack.pop();
+            }else if(!"..".equals(s)){
+                stack.add(s);
+            }
         }
-
-        return "";
+        StringBuilder sb = new StringBuilder();
+        for (String s : stack) {
+            sb.append("/");
+            sb.append(s);
+        }
+        if(sb.length() == 0) return "/";
+        return sb.toString();
     }
 
     public static void main(String[] args) {
-
+        System.out.println(simplifyPath("/a/../../b/../c//.//"));
     }
 }
