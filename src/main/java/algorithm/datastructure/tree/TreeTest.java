@@ -542,7 +542,7 @@ class Node {
         return right;
     }
 
-    // 求最大通路的长度 刺激
+    // 求最大通路的长度 hard
     static int maxRoute = 0;
 
     static int maxRoute(Node root) {
