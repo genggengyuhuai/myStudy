@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main6.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的" />
     <option name="SHOW_DIALOG" value="false" />
@@ -654,14 +650,7 @@
       <workItem from="1593619157029" duration="1079000" />
       <workItem from="1593750642083" duration="494000" />
       <workItem from="1593827521287" duration="113000" />
-      <workItem from="1593827650082" duration="10647000" />
-    </task>
-    <task id="LOCAL-00097" summary="牛客">
-      <created>1580654510084</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1580654510084</updated>
+      <workItem from="1593827650082" duration="13168000" />
     </task>
     <task id="LOCAL-00098" summary="牛客">
       <created>1580736867447</created>
@@ -999,7 +988,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593619163408</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="bytedance题库 数组与排序">
+      <created>1593873234305</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1593873234306</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1060,7 +1056,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="miss" />
     <MESSAGE value="多线程" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="offer 怎么这么难" />
@@ -1085,7 +1080,8 @@
     <MESSAGE value="活动配置大统一" />
     <MESSAGE value="bytedance题库 字符串" />
     <MESSAGE value="bytedance题库 字符串 最后一题" />
-    <option name="LAST_COMMIT_MESSAGE" value="bytedance题库 字符串 最后一题" />
+    <MESSAGE value="bytedance题库 数组与排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="bytedance题库 数组与排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1064" y="797" key="#StringUtil" timestamp="1593501546846">
@@ -1105,10 +1101,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="620" y="282" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1593345778803" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1593619163020">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1593873233983">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1593619163020" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1593873233983" />
     <state width="1398" height="288" key="GridCell.Tab.0.bottom" timestamp="1593863708542">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1192,10 +1188,10 @@
     </state>
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589893279462" />
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1591349283094" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593619173134">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593873236333">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593619173134" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593873236333" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590901976952">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
