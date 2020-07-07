@@ -22,12 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main9.java" afterDir="false" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="bytedance题库 数组与排序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main10.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的" />
     <option name="SHOW_DIALOG" value="false" />
@@ -641,14 +638,9 @@
       <workItem from="1593827521287" duration="113000" />
       <workItem from="1593827650082" duration="16956000" />
       <workItem from="1593949358931" duration="7226000" />
-      <workItem from="1593965388053" duration="134000" />
-    </task>
-    <task id="LOCAL-00099" summary="leetcode">
-      <created>1580913265981</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1580913265982</updated>
+      <workItem from="1593965388053" duration="158000" />
+      <workItem from="1594011924046" duration="1827000" />
+      <workItem from="1594132534140" duration="625000" />
     </task>
     <task id="LOCAL-00100" summary="~">
       <created>1580999832608</created>
@@ -986,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593915987110</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="bytedance题库 数组与排序">
+      <created>1594000417520</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1594000417520</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1092,10 +1091,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="620" y="282" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1593345778803" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1593915986862">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1594132541001">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1593915986862" />
+    <state x="285" y="39" key="CommitChangelistDialog2/-1440.727.1440.900/0.23.1920.1057@0.23.1920.1057" timestamp="1594000417237" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1594132541001" />
     <state width="835" height="288" key="GridCell.Tab.0.bottom" timestamp="1593963672727">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
