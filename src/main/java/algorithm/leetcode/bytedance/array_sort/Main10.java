@@ -19,6 +19,7 @@ public class Main10 {
         left[0] = Integer.MIN_VALUE;
         int[] right = new int[height.length];
         right[right.length-1] = Integer.MIN_VALUE;
+        System.out.println();
         return 0;
     }
 
