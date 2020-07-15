@@ -644,13 +644,7 @@
       <workItem from="1594309331005" duration="411000" />
       <workItem from="1594395834456" duration="50000" />
       <workItem from="1594568660133" duration="35000" />
-    </task>
-    <task id="LOCAL-00105" summary="newer">
-      <created>1581519152297</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1581519152298</updated>
+      <workItem from="1594740855057" duration="36000" />
     </task>
     <task id="LOCAL-00106" summary="miss">
       <created>1581605092860</created>
@@ -988,7 +982,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594568691560</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="one-one 预备">
+      <created>1594740888035</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1594740888035</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1049,7 +1050,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="offer 怎么这么难" />
     <MESSAGE value="byteDance 三轮技术 + 一轮HR" />
     <MESSAGE value="Netty Reactor 模式， 面向 Selector 编程//&#10; TCP 粘包拆包" />
     <MESSAGE value="..." />
@@ -1074,7 +1074,8 @@
     <MESSAGE value="bytedance题库 数组与排序" />
     <MESSAGE value="奋斗逼" />
     <MESSAGE value="心动网络" />
-    <option name="LAST_COMMIT_MESSAGE" value="心动网络" />
+    <MESSAGE value="one-one 预备" />
+    <option name="LAST_COMMIT_MESSAGE" value="one-one 预备" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1064" y="797" key="#StringUtil" timestamp="1593501546846">
@@ -1094,11 +1095,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="620" y="282" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1593345778803" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1594568691216">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1594740887738">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="285" y="39" key="CommitChangelistDialog2/-1440.727.1440.900/0.23.1920.1057@0.23.1920.1057" timestamp="1594000417237" />
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1594568691216" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1594740887738" />
     <state width="835" height="288" key="GridCell.Tab.0.bottom" timestamp="1593963672727">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
