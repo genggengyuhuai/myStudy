@@ -647,13 +647,7 @@
       <workItem from="1594740855057" duration="36000" />
       <workItem from="1594826980496" duration="48000" />
       <workItem from="1594914448261" duration="31000" />
-    </task>
-    <task id="LOCAL-00108" summary=".">
-      <created>1581859882862</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1581859882878</updated>
+      <workItem from="1594996914517" duration="609000" />
     </task>
     <task id="LOCAL-00109" summary=".">
       <created>1582121308188</created>
@@ -991,7 +985,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594914475832</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="周末加班">
+      <created>1594996958599</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1594996958600</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1052,7 +1053,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="..." />
     <MESSAGE value="offer" />
     <MESSAGE value="。" />
     <MESSAGE value="tx 面试" />
@@ -1077,7 +1077,8 @@
     <MESSAGE value="one-one 预备" />
     <MESSAGE value="one-one 4个结论" />
     <MESSAGE value="项目延期 War H1" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目延期 War H1" />
+    <MESSAGE value="周末加班" />
+    <option name="LAST_COMMIT_MESSAGE" value="周末加班" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1064" y="797" key="#StringUtil" timestamp="1593501546846">
@@ -1097,11 +1098,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="620" y="282" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1593345778803" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1594914475517">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1594996958294">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="285" y="39" key="CommitChangelistDialog2/-1440.727.1440.900/0.23.1920.1057@0.23.1920.1057" timestamp="1594000417237" />
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1594914475517" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1594996958294" />
     <state width="835" height="288" key="GridCell.Tab.0.bottom" timestamp="1593963672727">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1185,10 +1186,10 @@
     </state>
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589893279462" />
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1591349283094" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1594223720826">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1594996960742">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1594223720826" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1594996960742" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594914459427">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
