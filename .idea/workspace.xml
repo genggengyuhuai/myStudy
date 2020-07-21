@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="" />
+    <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/array_sort/Main10.java" afterDir="false" />
+    </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -648,13 +651,8 @@
       <workItem from="1594826980496" duration="48000" />
       <workItem from="1594914448261" duration="31000" />
       <workItem from="1594996914517" duration="641000" />
-    </task>
-    <task id="LOCAL-00110" summary=".">
-      <created>1582299786516</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1582299786517</updated>
+      <workItem from="1595259095557" duration="89000" />
+      <workItem from="1595342536926" duration="1613000" />
     </task>
     <task id="LOCAL-00111" summary="leetcode">
       <created>1582729526909</created>
@@ -992,7 +990,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595040969686</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="上线">
+      <created>1595259157599</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1595259157599</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1053,7 +1058,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="offer" />
     <MESSAGE value="。" />
     <MESSAGE value="tx 面试" />
     <MESSAGE value="what a shame... 支付宝大 boss 让现场英文翻译简历自我评价，太惨了" />
@@ -1078,7 +1082,8 @@
     <MESSAGE value="one-one 4个结论" />
     <MESSAGE value="项目延期 War H1" />
     <MESSAGE value="周末加班" />
-    <option name="LAST_COMMIT_MESSAGE" value="周末加班" />
+    <MESSAGE value="上线" />
+    <option name="LAST_COMMIT_MESSAGE" value="上线" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1064" y="797" key="#StringUtil" timestamp="1593501546846">
@@ -1098,11 +1103,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="620" y="282" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1593345778803" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1595040969439">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1595259157294">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="285" y="39" key="CommitChangelistDialog2/-1440.727.1440.900/0.23.1920.1057@0.23.1920.1057" timestamp="1594000417237" />
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1595040969439" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1595259157294" />
     <state width="835" height="288" key="GridCell.Tab.0.bottom" timestamp="1593963672727">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1186,10 +1191,10 @@
     </state>
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877/-212.-1080.1920.1080@0.23.1440.877" timestamp="1589893279462" />
     <state width="521" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1591349283094" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1594996960742">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595259164784">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1594996960742" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1595259164784" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594914459427">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
