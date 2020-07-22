@@ -9,8 +9,7 @@ package algorithm.leetcode.bytedance.array_sort;
  * @date 2020/7/5 11:40 下午
  */
 public class Main10 {
-
-
+    
     // 计算每个柱子的左右最大高度，然后(如果大于当前柱子)取小的那个，就是当前柱子的蓄水量
     public int trap(int[] height) {
         if(height == null || height.length == 0) return 0;
@@ -19,7 +18,6 @@ public class Main10 {
         left[0] = Integer.MIN_VALUE;
         int[] right = new int[height.length];
         right[right.length-1] = Integer.MIN_VALUE;
-        System.out.println();
         return 0;
     }
 
