@@ -1,5 +1,10 @@
 package algorithm.leetcode.bytedance.array_sort;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /**
  *   最长连续序列
  * 给定一个未排序的整数数组，找出最长连续序列的长度。
@@ -13,9 +18,14 @@ package algorithm.leetcode.bytedance.array_sort;
  */
 public class Main6 {
 
-
+    // 目测用 hash
     public int longestConsecutive(int[] nums) {
+        // key 存的是当前数字， value 存在的
+        Map<Integer,Integer> map = new HashMap<>(nums.length);
+        int res = 1;
+        for (int i = 0; i < nums.length; i++) {
 
+        }
 
         return 0;
     }
