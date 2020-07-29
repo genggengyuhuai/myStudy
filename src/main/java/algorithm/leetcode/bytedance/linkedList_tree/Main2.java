@@ -9,11 +9,13 @@ public class Main2 {
 
 
     // 递归方法， 返回逆序后的头结点
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
+        if(head == null || head.next == null) return head;
+        ListNode temp = head.next;
         ListNode newHead = reverseList(head.next);
-        head.next =
-
-        return null;
+        head.next =null;
+        temp.next = head;
+        return newHead;
     }
 
     // 朴素方法
@@ -49,6 +51,16 @@ public class Main2 {
 
 
     public static void main(String[] args) {
+        ListNode l5 = new ListNode(5);
+        ListNode l4 = new ListNode(4,l5);
+        ListNode l3 = new ListNode(3,l4);
+        ListNode l2 = new ListNode(2,l3);
+        ListNode l1 = new ListNode(1,l2);
+        ListNode newHead = reverseList(l1);
+        while(newHead != null){
+            System.out.println(newHead.val);
+            newHead = newHead.next;
+        }
 
     }
 }
