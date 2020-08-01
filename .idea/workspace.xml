@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa5d8e-72fd-4a02-83e4-82e860506403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Main9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/datestructure/AllOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/datestructure/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/jianzhi_offer/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/leetcode/bytedance/linkedList_tree/Main7.java" afterDir="false" />
     </list>
     <list id="26a3e405-73e5-4283-9e23-66754983551c" name="skip" comment="忽略的" />
     <option name="SHOW_DIALOG" value="false" />
@@ -665,14 +661,7 @@
       <workItem from="1595652287426" duration="4302000" />
       <workItem from="1595848839408" duration="390000" />
       <workItem from="1595851001474" duration="21411000" />
-      <workItem from="1596086425264" duration="12296000" />
-    </task>
-    <task id="LOCAL-00119" summary="what a shame... 支付宝大 boss 让现场英文翻译简历自我评价，太惨了">
-      <created>1584272277271</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1584272277272</updated>
+      <workItem from="1596086425264" duration="14437000" />
     </task>
     <task id="LOCAL-00120" summary=".">
       <created>1584372030916</created>
@@ -1010,7 +999,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596201915585</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="完成一章节">
+      <created>1596264683986</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1596264683986</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1071,7 +1067,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="线段树" />
     <MESSAGE value="ali   快速幂" />
     <MESSAGE value="去美团送外卖了" />
     <MESSAGE value="树的后序遍历" />
@@ -1096,7 +1091,8 @@
     <MESSAGE value="疫情福利假" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="bytedance" />
-    <option name="LAST_COMMIT_MESSAGE" value="bytedance" />
+    <MESSAGE value="完成一章节" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成一章节" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1064" y="797" key="#StringUtil" timestamp="1593501546846">
@@ -1120,11 +1116,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="620" y="282" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1593345778803" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1596201915318">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1596264683744">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="285" y="39" key="CommitChangelistDialog2/-1440.727.1440.900/0.23.1920.1057@0.23.1920.1057" timestamp="1594000417237" />
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1596201915318" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1596264683744" />
     <state width="1398" height="281" key="GridCell.Tab.0.bottom" timestamp="1596236144294">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
