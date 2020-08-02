@@ -132,7 +132,7 @@
       <recent name="design_pattern.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main4">
+  <component name="RunManager" selected="Application.Temp">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.bytedance.linkedList_tree.Main2" />
       <module name="myStudy" />
@@ -185,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.bytedance.array_sort.Main6" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.bytedance.linkedList_tree.Temp" />
       <module name="myStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.leetcode.bytedance.array_sort.*" />
+          <option name="PATTERN" value="algorithm.leetcode.bytedance.linkedList_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,19 +215,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Temp1" />
-      <item itemvalue="Application.Main6" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main5" />
       <item itemvalue="Application.Main4" />
+      <item itemvalue="Application.Temp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main6" />
       </list>
     </recent_temporary>
   </component>
@@ -663,14 +663,7 @@
       <workItem from="1596086425264" duration="16424000" />
       <workItem from="1596363732186" duration="226000" />
       <workItem from="1596377475196" duration="70000" />
-      <workItem from="1596377561208" duration="305000" />
-    </task>
-    <task id="LOCAL-00121" summary="美团面试，链表逆序，二分查找第一个等于的。&#10;爆丑">
-      <created>1584448237618</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1584448237619</updated>
+      <workItem from="1596377561208" duration="2051000" />
     </task>
     <task id="LOCAL-00122" summary="线段树">
       <created>1584628981868</created>
@@ -1008,7 +1001,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596272885885</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="完成一章节">
+      <created>1596377877299</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1596377877300</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1118,11 +1118,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="620" y="282" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1593345778803" />
-    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1596272885675">
+    <state x="214" y="36" key="CommitChangelistDialog2" timestamp="1596377877064">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="285" y="39" key="CommitChangelistDialog2/-1440.727.1440.900/0.23.1920.1057@0.23.1920.1057" timestamp="1594000417237" />
-    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1596272885675" />
+    <state x="214" y="36" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1596377877064" />
     <state width="1398" height="264" key="GridCell.Tab.0.bottom" timestamp="1596277258700">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
