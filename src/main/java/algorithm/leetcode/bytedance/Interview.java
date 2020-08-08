@@ -10,27 +10,27 @@ package algorithm.leetcode.bytedance;
 public class Interview {
 
     // 双指针
-    private static int fun(int[] nums){
-        if(nums == null || nums.length == 0) return 0;
+    private static int fun(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
         int left = 1, right = nums.length - 1, res = 1, temp = Math.abs(nums[0]);
-        while(left < right){
+        while (left < right) {
             int absLeft = Math.abs(nums[left]), absRight = Math.abs(nums[right]);
-            if(absLeft == absRight){
-                if(absLeft == temp) continue;
-                left++; right--;
-            }
-            else if(absLeft < absRight){
-                if(absRight == temp) continue;
+            if (absLeft == absRight) {
+                if (absLeft == temp) continue;
+                left++;
+                right--;
+            } else if (absLeft < absRight) {
                 right--;
                 temp = absRight;
+            } else {
             }
+
+
+            return res;
         }
 
+        public static void main (String[]args){
 
-        return res;
-    }
-
-    public static void main(String[] args) {
-
+        }
     }
 }
