@@ -6,10 +6,42 @@ package algorithm.basic_algorithm.sort;
  */
 public class Temp {
 
-    private static class Node{
-        Node next;
+    public static class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+  }
 
+   // 链表归排
+    public ListNode sortList(ListNode head) {
+        if(head == null || head.next == null) return head;
+        // 找中点
+        ListNode slow = head, fast = head.next;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        // 现在的 slow 是中点， 断掉和后面的指针
+        ListNode newHead = slow.next;
+        slow.next = null;
+        ListNode temp1 = sortList(head);
+        ListNode temp2 = sortList(newHead);
+        ListNode dummy = new ListNode(0), cur = dummy;
+        while(temp1 != null && temp2 != null){
+            if(temp1.val <= temp2.val){
+                cur.next = temp1;
+                temp1 = temp1.next;
+            }else{
+                cur.next = temp2;
+                temp2 = temp2.next;
+            }
+            cur = cur.next;
+        }
+        cur.next = temp1 != null ? temp1 : temp2;
+        return dummy.next;
     }
+
+
 
     private static void mergeSort(int[] nums, int start, int end) {
         if (start >= end) return;
