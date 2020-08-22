@@ -567,7 +567,6 @@ class Node {
 
     // 左视图, 先序遍历
     static ArrayList<Node> leftSee = new ArrayList<>();
-
     static void leftSee(Node node, int depth) {
         if (node == null) return;
         if (leftSee.size() <= depth) {
