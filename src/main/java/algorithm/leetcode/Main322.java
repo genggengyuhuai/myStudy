@@ -9,6 +9,7 @@ import java.util.Arrays;
  * @date 2019/11/30 18:47
  */
 public class Main322 {
+
     // coins = [1, 2, 5], amount = 11
     // F(n) = min( F(n-1), F(n-2), F(n-5) ) + 1  需要的最少硬币数
     public static int coinChange2(int[] coins, int amount) {
