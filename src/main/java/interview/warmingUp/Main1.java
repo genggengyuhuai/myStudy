@@ -1,5 +1,8 @@
 package interview.warmingUp;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 /**
  * 热身，
  * @author lihaoyu
@@ -7,7 +10,17 @@ package interview.warmingUp;
  */
 public class Main1 {
 
-    public static void main(String[] args) {
+    static class MyQueue{
+        int size, head, tail;
+        Object[] table;
 
+
+    }
+
+
+    public static void main(String[] args) {
+        Queue<Integer> queue = new ArrayDeque<>();
+        queue.add(2);
+        queue.size();
     }
 }
