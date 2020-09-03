@@ -14,7 +14,6 @@ public class Main1 {
         int size, head, tail;
         Object[] table;
 
-
     }
 
 
