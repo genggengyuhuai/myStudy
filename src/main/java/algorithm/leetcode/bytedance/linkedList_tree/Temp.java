@@ -47,7 +47,7 @@ public class Temp {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[]{7,1,4,2,6,0};
+        int[] a = new int[]{6,1,9,2,8,2,3,7};
         heapSort(a);
         for (int i : a) {
             System.out.print(i+" ");
