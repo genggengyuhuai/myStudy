@@ -21,6 +21,7 @@ public class Main1 {
         }
     }
 
+    // 堆排， 不稳定
     private static void heapSort(int[] nums) {
         buildHeap(nums);
         for (int i = 0; i < nums.length; i++) {
@@ -55,9 +56,30 @@ public class Main1 {
         nums[j] = temp;
     }
 
+
+    public static void quickSort(int[] nums, int start, int end){
+        if(nums == null || start >= end) return;
+        int pivot = nums[start], left = start, right = end;
+        while(start < end){
+            while(start < end && nums[end] >= pivot)  end--;
+            nums[start] = nums[end];
+            while(start < end && nums[start] <= pivot) start++;
+            nums[end] = nums[start];
+        }
+        nums[start] = pivot;
+        quickSort(nums,left, start-1);
+        quickSort(nums, start+1, right);
+    }
+
+    // 插排
+    public static void insertSort(int[] nums){
+
+    }
+
     public static void main(String[] args) {
         int[] nums = new int[]{6, 1, 9, 2, 8, 2, 3, 7};
-        heapSort(nums);
+//        heapSort(nums);
+        quickSort(nums,0,nums.length-1);
         for (int num : nums) {
             System.out.print(num + " ");
         }
