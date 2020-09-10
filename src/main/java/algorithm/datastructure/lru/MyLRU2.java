@@ -36,7 +36,6 @@ public class MyLRU2 {
     // 添加一个元素时。 1. 在里面    把其移动到首部     2. 不在里面    加到首部   并判断容量，移除尾部
 
 
-
     void moveNode2Head(Node node){
         node.next = head;
         head = node;
