@@ -6,6 +6,10 @@ package algorithm.temp;
  */
 public class Temp2 {
 
+// 最长公共子串的长度
+    private static int fun(String s1, String s2){
 
+        return 0;
+    }
 
 }
