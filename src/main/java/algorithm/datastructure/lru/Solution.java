@@ -8,6 +8,7 @@ import java.util.*;
 
 public class Solution {
     private final Map<Integer, Node> map = new HashMap<>();
+    // 手动备注注释，这两个 Dummy 节点挺妙的.
     private final Node head = new Node(-1,-1);
     private final Node tail = new Node(-1,-1);
     private int k;
