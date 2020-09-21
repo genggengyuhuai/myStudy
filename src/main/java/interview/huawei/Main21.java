@@ -16,6 +16,7 @@ public class Main21 {
             if (nums[i] <= 0) nums[i] = Integer.MAX_VALUE;
         }
         for (int i = 0; i < nums.length; i++){
+
             if (nums[i] >= len) continue;
             int tempIndex = Math.abs(nums[i]) - 1;
             // 将本下标变成负数，说明不是未出现过的最小正整数
