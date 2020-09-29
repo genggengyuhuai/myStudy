@@ -34,9 +34,7 @@ public class Main21 {
                 System.out.println(root.key);
                 root = root.right;
             }
-
         }
-
     }
 
     public static void main(String[] args) {
