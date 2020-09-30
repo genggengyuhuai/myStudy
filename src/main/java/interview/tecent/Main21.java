@@ -37,6 +37,20 @@ public class Main21 {
         }
     }
 
+    private static void noRecursivePostOrderVisit(Node root){
+        if(root == null) return;
+        LinkedList<Node> list = new LinkedList<>();
+        LinkedList<Node> res = new LinkedList<>();
+        list.addLast(root);
+        while(!list.isEmpty()){
+            Node temp = list.pollLast();
+            res.addLast(temp);
+            if(temp.left != null) list.addLast(temp.left);
+            if(temp.right != null) list.addLast(temp.right);
+        }
+        res.forEach(s-> System.out.println(s.key+" "));
+    }
+
     public static void main(String[] args) {
 
     }
