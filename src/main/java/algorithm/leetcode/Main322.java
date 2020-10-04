@@ -22,6 +22,7 @@ public class Main322 {
         return dp[amount] == (amount + 1) ? -1 : dp[amount];
     }
 
+
     public static int coinChange(int[] coins, int amount) {
         if (coins == null || coins.length == 0 || amount < 0) return -1;
         if (amount == 0) return 0;
