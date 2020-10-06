@@ -51,7 +51,6 @@ public class Main322 {
         return dp[amount] == 0 ? -1 : dp[amount];
     }
 
-
     public static void main(String[] args) {
         System.out.println(coinChange2(new int[]{2}, 3));
     }
