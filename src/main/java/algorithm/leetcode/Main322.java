@@ -32,7 +32,6 @@ public class Main322 {
             }
         }
 
-
         // 题解都是给的先从 amount 开始遍历    但这里就用完全背包来做
         for (int i = 0; i < coins.length; i++) {
             for (int j = coins[i]; j <= amount; j++) {
