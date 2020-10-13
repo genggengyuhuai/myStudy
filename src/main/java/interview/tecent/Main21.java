@@ -36,7 +36,6 @@ public class Main21 {
             }
         }
     }
-
     private static void noRecursivePostOrderVisit(Node root){
         if(root == null) return;
         LinkedList<Node> list = new LinkedList<>();
