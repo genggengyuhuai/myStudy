@@ -7,7 +7,7 @@ package algorithm.temp;
 public class Temp3 {
 
     private static void heapSort(int[] a) {
-        // jiandui
+        // 建堆
         buildHeap(a);
         // tiaozhengdui
         for (int i = 0; i < a.length; i++) {
