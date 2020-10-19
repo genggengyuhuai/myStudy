@@ -21,6 +21,7 @@ public class Temp3 {
             heapfy(a,i,a.length);
         }
     }
+
     // duihua
     private static void heapfy(int[] a, int i, int len) {
         int maxIndex = i;
