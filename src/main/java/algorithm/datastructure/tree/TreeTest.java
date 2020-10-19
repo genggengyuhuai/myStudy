@@ -538,8 +538,7 @@ class Node {
         Node left = findParent2(root.left, node1, node2);
         Node right = findParent2(root.right, node1, node2);
         if (left != null && right != null) return root;
-        if (left != null) return left;
-        return right;
+        return left != null ? left : right;
     }
 
     // 求最大通路的长度 hard
