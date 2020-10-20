@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *  手动关注收藏
+ *  手动关注收藏   时间复杂度 O(n)
  * 给定一个整数数组和一个整数 k，你需要找到该数组中和为 k 的连续的子数组的个数。
  * 数组的长度为 [1, 20,000]。
  * 数组中元素的范围是 [-1000, 1000] ，且整数 k 的范围是 [-1e7, 1e7]。
@@ -25,22 +25,6 @@ public class Main560 {
         }
         return res;
     }
-
-    public int subarraySum2(int[] nums, int k) {
-        int[] sum = new int[nums.length+1];
-        int res = 0;
-        for (int i = 1; i < sum.length; i++) {
-            sum[i] = sum[i-1] + nums[i-1];
-        }
-
-        for (int i = 0; i < sum.length; i++) {
-            for (int j = i+1; j < sum.length; j++) {
-                if(sum[j] - sum[i] == k) res++;
-            }
-        }
-        return res;
-    }
-
 
     public static void main(String[] args) {
 
