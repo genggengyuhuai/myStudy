@@ -42,8 +42,6 @@ public class Temp {
         return dummy.next;
     }
 
-
-
     private static void mergeSort(int[] nums, int start, int end) {
         if (start >= end) return;
         int mid = (start + end) >> 1, tempIndex = 0, left = start, right = mid + 1;
