@@ -22,7 +22,6 @@ public class Main6 {
         // key 存的是当前数字， value 到当前数的连续次数，用于优化
         Map<Integer,Integer> map = new HashMap<>(nums.length);
         int res = 1;
-
         // 先都装进去
         for (int num : nums) {
             map.put(num,0);
