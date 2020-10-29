@@ -14,6 +14,7 @@ import java.util.Map;
  * @date 2020/10/25 11:16 下午
  */
 public class Main567 {
+
     // 注意是子串包含串
     public static boolean checkInclusion(String s1, String s2) {
         if(s1 == null || s2 == null) return false;
