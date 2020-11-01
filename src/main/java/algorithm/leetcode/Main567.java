@@ -23,6 +23,7 @@ public class Main567 {
         for (int i = 0; i < s1.length(); i++) {
             srcMap.put(s1.charAt(i), srcMap.getOrDefault(s1.charAt(i), 0) + 1);
         }
+
         // count 是满足的字符种类数
         int left = 0, right = 0, count = 0;
         while(right < s2.length()){
