@@ -40,6 +40,7 @@ class Node {
 
     //插入一个节点到树中，用于构建二叉查找树
     public static void insert_SortTree(Node temp, Node root) {
+        if(temp == null || root == null) return;
         if (temp.key > root.key) {
             if (root.right == null)
                 root.right = temp;
@@ -236,15 +237,7 @@ class Node {
 
     }
 
-    //树的最大枝长
-    public static int MaxLeaf(Node root) {
-        if (root == null)
-            return 0;
-        else
-            return max(MaxLeaf(root.left), MaxLeaf(root.right)) + 1;
-    }
-
-    //树的最小枝长
+    //树的最小枝长,到叶子节点的最短路径
     public static int MinLeaf(Node root) {
         if (root == null)
             return 0;
@@ -689,7 +682,6 @@ public class TreeTest {
         System.out.print("所有节点总数为:" + Node.count_AllNode(root));
         System.out.println("  叶子节点总数为:" + Node.count_LeafNode(root));
         System.out.print("非叶子节点总数为:" + Node.count_NotLeafNode(root));
-        System.out.println("  最大枝长为:" + Node.MaxLeaf(root));
         System.out.print("最小枝长为:" + Node.MinLeaf(root));
         System.out.println("  数的高度为:" + Node.depth(root));
         Node root2 = Node.CopyTree(root);
