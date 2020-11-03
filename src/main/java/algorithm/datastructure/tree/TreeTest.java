@@ -688,6 +688,7 @@ public class TreeTest {
         System.out.print("交换左右子树后层次遍历结果为:");
         Node.Swap_Tree(root2);
         Node.visit_Level(root2);
+
         System.out.print("两个树是否相等:" + Node.Tree_Like(root, root2));
 
         System.out.print("由前序和中序确定的二叉树的后序遍历为 : ");
