@@ -1,7 +1,5 @@
 package algorithm.contest.temp;
 
-import org.apache.commons.math3.ode.ODEIntegrator;
-
 import java.util.Scanner;
 
 /**

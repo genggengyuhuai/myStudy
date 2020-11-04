@@ -23,8 +23,6 @@ public class Temp {
         }
 
 
-
-
         // 现在的 slow 是中点， 断掉和后面的指针
         ListNode newHead = slow.next;
         slow.next = null;
