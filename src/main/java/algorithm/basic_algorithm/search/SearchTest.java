@@ -9,6 +9,7 @@ import java.util.Map;
  */
 public class SearchTest{
 
+    // 简单二分查找
     public static int simpleBinarySearch(int[] a, int goal) {
         int begin = 0;
         int end = a.length - 1;
