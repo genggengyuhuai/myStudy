@@ -34,6 +34,7 @@ public class Main567 {
                 if(window.get(temp).equals(srcMap.get(temp))) count++;
             }
             right++;
+
             // 左收缩
             if(right - left > s1.length()){
                 temp = s2.charAt(left);
