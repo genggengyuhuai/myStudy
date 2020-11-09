@@ -24,14 +24,14 @@ public class Main76 {
         }
         // count 是已经满足了几种字符
         int left = 0, right = 0, count = 0, minLen = Integer.MAX_VALUE, resBegin = 0;
-        while (right < t.length()) {
-            char c = t.charAt(right);
-            // 上来就右移？
-            right++;
+        while (right < s.length()) {
+            char c = s.charAt(right);
             if (src.containsKey(c)) {
                 window.put(c, window.getOrDefault(c, 0) + 1);
                 if (window.get(c).equals(src.get(c))) count++;
             }
+            // 右指针前进
+            right++;
             // 如果所有字符都满足了，考虑左边收缩
             while(count == src.size()){
                 // 更新答案
@@ -45,54 +45,13 @@ public class Main76 {
                     if(window.get(d).equals(src.get(d))) count--;
                     window.put(d,window.get(d)-1);
                 }
-            }
-        }
-        return minLen == Integer.MAX_VALUE ? "" : s.substring(resBegin,minLen);
-    }
-
-    public static String minWindow(String s, String t) {
-        Map<Character, Integer> pattern = new HashMap<>();
-        String res = "";
-        for (int i = 0; i < t.length(); i++) {
-            pattern.put(t.charAt(i), pattern.getOrDefault(t.charAt(i), 0) + 1);
-        }
-        int left = 0, right = 0, minLen = Integer.MAX_VALUE;
-        Map<Character, Integer> window = new HashMap<>();
-        while (right < s.length()) {
-            // right 前进
-            while (right < s.length() && pattern.size() != window.size()) {
-                if (pattern.containsKey(s.charAt(right))) {
-                    int i = window.getOrDefault(s.charAt(right), 0) + 1;
-                    window.put(s.charAt(right), i);
-                }
-                right++;
-            }
-            if (minLen >= right - left) {
-                minLen = right - left;
-                res = s.substring(left, right);
-            }
-            // left 前进
-            while (left < right && pattern.size() == window.size()) {
-                if (window.containsKey(s.charAt(left))) {
-                    Integer count = window.get(s.charAt(left));
-                    if (count == 1) {
-                        window.remove(s.charAt(left));
-                    } else {
-                        window.put(s.charAt(left), count - 1);
-                    }
-                }
                 left++;
-                if (minLen >= right - left) {
-                    minLen = right - left;
-                    res = s.substring(left - 1, right);
-                }
             }
         }
-        return res;
+        return minLen == Integer.MAX_VALUE ? "" : s.substring(resBegin,resBegin+minLen);
     }
-
 
     public static void main(String[] args) {
-        System.out.println(minWindow("ADOBECODEBANC", "ABC"));
+        System.out.println(minWindow2("DOBECODEBNC", "ABC"));
     }
 }
