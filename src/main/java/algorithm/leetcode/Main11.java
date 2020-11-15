@@ -9,7 +9,7 @@ package algorithm.leetcode;
  */
 public class Main11 {
 
-    public int maxArea(int[] height) {
+    public static int maxArea(int[] height) {
         int res = 0, temp = 0;
         int start = 0, end = height.length - 1;
         while(start < end) {
@@ -22,6 +22,6 @@ public class Main11 {
     }
 
     public static void main(String[] args) {
-
+        System.out.println(maxArea(new int[]{1,8,6,2,5,4,8,3,7}));
     }
 }
