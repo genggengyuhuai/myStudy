@@ -26,5 +26,4 @@ public class Main41 {
     public static void main(String[] args) {
         System.out.println(firstMissingPositive(new int[]{5, 15, 1, 4, 2, 6}));
     }
-
 }
