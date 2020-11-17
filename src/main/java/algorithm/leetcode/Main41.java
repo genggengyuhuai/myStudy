@@ -20,7 +20,6 @@ public class Main41 {
         }
         return res.length+1;
     }
-
     // 题目要求原地修改计算，不借助辅助空间。  思路：把自己当 bitmap
 
     public static void main(String[] args) {
