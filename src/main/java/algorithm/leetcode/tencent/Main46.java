@@ -19,7 +19,6 @@ public class Main46 {
             res.add(temp);
             return;
         }
-
         for(int j = i; j < nums.length; j++){
             swap(nums,i,j);
             fun(res,nums,i+1);
