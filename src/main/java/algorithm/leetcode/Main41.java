@@ -20,8 +20,37 @@ public class Main41 {
         }
         return res.length+1;
     }
+
+    private static void swap(int[] nums, int i , int j ){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    public static int firstMissingPositive2(int[] nums) {
+        boolean isLen = false;
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i] == nums.length) isLen = true;
+            if(nums[i] <= 0) continue;
+            if(nums[i] > nums.length) {
+                nums[i] = -1111;
+                continue;
+            }
+            while(nums[i] > 0 && nums[i] <  nums.length && nums[i] != i){
+                swap(nums, nums[i],i);
+            }
+            nums[i] = -222;
+        }
+        int j;
+        for (j = 1; j < nums.length; j++) {
+
+        }
+        return 0;
+    }
+
     // 题目要求原地修改计算，不借助辅助空间。  思路：把自己当 bitmap
     public static void main(String[] args) {
         System.out.println(firstMissingPositive(new int[]{5, 15, 1, 4, 2, 6}));
+        System.out.println(firstMissingPositive2(new int[]{5, 15, 1, 4, 2, 6}));
     }
 }
