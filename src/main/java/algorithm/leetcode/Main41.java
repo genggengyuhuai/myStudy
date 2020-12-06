@@ -51,6 +51,8 @@ public class Main41 {
         return isLen ? nums.length+1 : nums.length;
     }
 
+
+
     // 题目要求原地修改计算，不借助辅助空间。  思路：把自己当 bitmap
     public static void main(String[] args) {
         System.out.println(firstMissingPositive(new int[]{5, 15, 1, 4, 2, 6}));
