@@ -41,6 +41,8 @@ public class Main46 {
     }
 
     public static void main(String[] args) {
+        int a = 3;
+        System.out.println(a);
         List<List<Integer>> permute = permute(new int[]{1, 2, 3});
         System.out.println(permute);
     }
