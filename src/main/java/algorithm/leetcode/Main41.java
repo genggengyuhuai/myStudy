@@ -43,6 +43,7 @@ public class Main41 {
                 }
                 swap(nums, nums[i],i);
             }
+
             if(nums[i] != i)nums[i] = -222;
         }
         int j;
