@@ -35,7 +35,6 @@ public class Main41 {
                 nums[i] = -1111;
                 continue;
             }
-
             while(nums[i] > 0 && nums[i] <=  nums.length && nums[i] != i){
                 if(nums[i] == nums.length) {
                     isLen = true;
@@ -43,7 +42,6 @@ public class Main41 {
                 }
                 swap(nums, nums[i],i);
             }
-
             if(nums[i] != i)nums[i] = -222;
         }
         int j;
