@@ -40,6 +40,7 @@ public class Main41 {
                     isLen = true;
                     break;
                 }
+
                 swap(nums, nums[i],i);
             }
             if(nums[i] != i)nums[i] = -222;
