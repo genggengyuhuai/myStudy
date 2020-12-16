@@ -14,42 +14,29 @@ public class Main376 {
 
     public static int wiggleMaxLength(int[] nums) {
         if(nums.length == 0) return 0;
-        int first = nums[0], startIndex = 0;
-        for(int i = 1; i < nums.length-1; i++){
-            if(nums[i] != nums[i-1]){
-                first = nums[i-1];
-                startIndex = i;
-                break;
-            }
-        }
-        if(first == nums[nums.length-1]) return 1;
-
-        boolean inc = first < nums[startIndex];
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(first);
-        list.add(nums[startIndex]);
-        for(int i = startIndex+1; i < nums.length; i++){
-            if(inc){
-                if(list.get(list.size()-1) <= nums[i]){
-                    list.remove(list.size()-1);
-                }else{
-                    inc = !inc;
-                }
-                list.add(nums[i]);
+        // 以当前位置为增长/减少的最长长度
+       int[] up = new int[nums.length], down = new int[nums.length];
+       up[0] = 1;
+       down[0] = 1;
+       int  res = 1;
+        for (int i = 1; i < nums.length; i++) {
+            if(nums[i] > nums[i-1]){
+                up[i] = Math.max(down[i-1]+1,up[i-1]);
+                down[i] = down[i-1];
+            }else if(nums[i] < nums[i-1]){
+                down[i] = Math.max(up[i-1]+1, down[i-1]);
+                up[i] = up[i-1];
             }else{
-                if(list.get(list.size()-1) >= nums[i]){
-                    list.remove(list.size()-1);
-                }else{
-                    inc = !inc;
-                }
-                list.add(nums[i]);
+                down[i] = down[i-1];
+                up[i] = up[i-1];
             }
+            res = Math.max(res,Math.max(down[i],up[i]));
         }
-        return list.size();
+        return res;
     }
 
     public static void main(String[] args) {
-        System.out.println(wiggleMaxLength(new int[]{1,2,3,4,5,6,7,8,9}));
+        System.out.println(wiggleMaxLength(new int[]{1,2,1,2,1}));
 
     }
 }
