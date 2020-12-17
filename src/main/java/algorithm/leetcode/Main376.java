@@ -18,6 +18,7 @@ public class Main376 {
        int[] up = new int[nums.length], down = new int[nums.length];
        up[0] = 1;
        down[0] = 1;
+
        int  res = 1;
         for (int i = 1; i < nums.length; i++) {
             if(nums[i] > nums[i-1]){
