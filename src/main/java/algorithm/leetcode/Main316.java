@@ -35,6 +35,7 @@ public class Main316 {
         }
         // 最后一个
         return stack.toString();
+
     }
 
 
