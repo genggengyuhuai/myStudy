@@ -26,6 +26,7 @@ public class Main376 {
                 down[i] = Math.max(up[i-1]+1, down[i-1]);
                 up[i] = up[i-1];
             }else{
+
                 down[i] = down[i-1];
                 up[i] = up[i-1];
             }
