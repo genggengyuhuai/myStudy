@@ -38,6 +38,7 @@ public class Main2 {
         for (int i = 0; i < height.length; i++) {
             while (!s.isEmpty() && height[s.peek()] >= height[i]) {
                 int current = s.pop();
+                // 这里需要思考一下
                 int top = s.isEmpty() ? -1 : s.peek();
                 max = Math.max(max, (i - top - 1) * height[current]);
             }
