@@ -35,6 +35,7 @@ public class Main376 {
         return res;
     }
 
+
     public static void main(String[] args) {
         System.out.println(wiggleMaxLength(new int[]{1,2,1,2,1}));
 
