@@ -31,6 +31,7 @@ public class Main376 {
             }
             res = Math.max(res,Math.max(down[i],up[i]));
         }
+
         return res;
     }
 
