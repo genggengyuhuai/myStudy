@@ -35,9 +35,7 @@ public class Main316 {
         }
         // 最后一个
         return stack.toString();
-
     }
-
 
     public static void main(String[] args) {
         System.out.println(removeDuplicateLetters("cdfcd"));
