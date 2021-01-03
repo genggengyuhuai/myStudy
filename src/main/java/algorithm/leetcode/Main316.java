@@ -17,7 +17,6 @@ import java.util.HashMap;
  * @date 2020/12/20 10:30 下午
  */
 public class Main316 {
-
     // 单调栈
     public static String removeDuplicateLetters(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
@@ -33,6 +32,7 @@ public class Main316 {
           }
           stack.append(c);
         }
+
         // 最后一个
         return stack.toString();
     }
