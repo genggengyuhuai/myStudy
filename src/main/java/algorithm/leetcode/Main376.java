@@ -18,7 +18,6 @@ public class Main376 {
        up[0] = 1;
        down[0] = 1;
        int  res = 1;
-
         for (int i = 1; i < nums.length; i++) {
             if(nums[i] > nums[i-1]){
                 up[i] = Math.max(down[i-1]+1,up[i-1]);
