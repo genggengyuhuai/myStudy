@@ -21,6 +21,7 @@ public class Main378 {
         return count;
     }
 
+
     public int kthSmallest(int[][] matrix, int k) {
         int lenX = matrix.length, lenY = matrix[0].length, mid;
         int left = matrix[0][0], right = matrix[lenX-1][lenY-1];
