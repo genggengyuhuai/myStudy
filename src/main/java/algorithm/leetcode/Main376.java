@@ -29,7 +29,6 @@ public class Main376 {
                 down[i] = down[i-1];
                 up[i] = up[i-1];
             }
-
             res = Math.max(res,Math.max(down[i],up[i]));
         }
 
