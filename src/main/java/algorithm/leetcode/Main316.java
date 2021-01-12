@@ -32,7 +32,6 @@ public class Main316 {
           }
           stack.append(c);
         }
-
         // 最后一个
         return stack.toString();
     }
