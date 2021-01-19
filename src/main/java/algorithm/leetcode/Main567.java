@@ -38,6 +38,7 @@ public class Main567 {
                 temp = s2.charAt(left);
                 if (srcMap.containsKey(temp)) {
                     // 不再符合了
+
                     if(window.get(temp).equals(srcMap.get(temp))) count--;
                     // 这里不可能有 default
                     window.put(temp, window.getOrDefault(temp, 0) - 1);
