@@ -9,6 +9,7 @@ package algorithm.leetcode;
  */
 public class Main11 {
 
+
     public static int maxArea(int[] height) {
         int res = 0, temp = 0;
         int start = 0, end = height.length - 1;

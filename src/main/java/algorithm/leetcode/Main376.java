@@ -11,6 +11,7 @@ import java.util.ArrayList;
  * @date 2/7/2020 10:08 PM
  */
 public class Main376 {
+
     public static int wiggleMaxLength(int[] nums) {
         if(nums.length == 0) return 0;
         // 以当前位置为增长/减少的最长长度
@@ -38,6 +39,5 @@ public class Main376 {
 
     public static void main(String[] args) {
         System.out.println(wiggleMaxLength(new int[]{1,2,1,2,1}));
-
     }
 }

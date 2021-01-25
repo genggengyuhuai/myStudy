@@ -23,7 +23,6 @@ public class Main567 {
         for (int i = 0; i < s1.length(); i++) {
             srcMap.put(s1.charAt(i), srcMap.getOrDefault(s1.charAt(i), 0) + 1);
         }
-
         // count 是满足的字符种类数
         int left = 0, right = 0, count = 0;
         while(right < s2.length()){
@@ -39,6 +38,7 @@ public class Main567 {
                 temp = s2.charAt(left);
                 if (srcMap.containsKey(temp)) {
                     // 不再符合了
+
                     if(window.get(temp).equals(srcMap.get(temp))) count--;
                     // 这里不可能有 default
                     window.put(temp, window.getOrDefault(temp, 0) - 1);
