@@ -48,7 +48,6 @@ public class Main24 {
         return dummy.next;
     }
 
-
     // 朴素方法
     public static ListNode reverseList2(ListNode head) {
         if(head == null || head.next == null) return head;
