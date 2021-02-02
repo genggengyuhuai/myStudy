@@ -60,7 +60,6 @@ public class Main30 {
         return res;
     }
 
-
     public static void main(String[] args) {
         System.out.println(findSubstring("wordgoodgoodgoodbestword",new String[]{"word","good","best","word"}));
         System.out.println(findSubstring("sbarfoothefoobarman",new String[]{"foo","bar"}));
