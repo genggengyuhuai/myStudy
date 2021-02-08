@@ -40,7 +40,6 @@ public class Main31 {
         Arrays.sort(nums,i,nums.length);
     }
 
-
     public static void main(String[] args) {
     int[] nums = new int[]{4,2,0,2,3,2,0};
     nextPermutation(nums);
