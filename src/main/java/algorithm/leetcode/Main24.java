@@ -18,6 +18,7 @@ public class Main24 {
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
 
+
     public ListNode swapPairs(ListNode head) {
     // 递归
         if(head == null|| head.next == null){
