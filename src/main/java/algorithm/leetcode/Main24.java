@@ -74,5 +74,4 @@ public class Main24 {
            res = res.next;
        }
     }
-
 }
