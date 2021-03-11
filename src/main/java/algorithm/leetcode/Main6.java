@@ -13,6 +13,7 @@ package algorithm.leetcode;
  * @date 2020/11/15 22:12
  */
 public class Main6 {
+
     public static String convert(String s, int numRows) {
         if(numRows == 1) return s;
         StringBuilder[] sbs = new StringBuilder[numRows];
