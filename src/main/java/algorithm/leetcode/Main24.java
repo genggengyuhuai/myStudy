@@ -63,7 +63,6 @@ public class Main24 {
         return par;
     }
 
-
     public static void main(String[] args) {
         ListNode node4 = new ListNode(4,null);
         ListNode node3 = new ListNode(3,node4);
