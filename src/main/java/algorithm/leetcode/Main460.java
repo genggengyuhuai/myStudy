@@ -18,7 +18,6 @@ public class Main460 {
     private static class LFUCache{
         int capacity;
 
-
         public LFUCache(int capacity) {
         this.capacity = capacity;
         }
@@ -35,9 +34,6 @@ public class Main460 {
 
 
     }
-
-
-
 
 
 }

@@ -18,7 +18,6 @@ import java.util.List;
  * @date 2019/12/25 12:38
  */
 public class Main22 {
-
     private static StringBuilder sb;
     private static List<String> res;
 
