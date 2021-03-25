@@ -39,6 +39,7 @@ class UserProxy implements InvocationHandler {
         this.us = us;
     }
 
+
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         trx.before();
