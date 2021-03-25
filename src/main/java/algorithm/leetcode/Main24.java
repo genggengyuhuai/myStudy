@@ -48,6 +48,7 @@ public class Main24 {
         return dummy.next;
     }
 
+
     // 朴素方法
     public static ListNode reverseList2(ListNode head) {
         if(head == null || head.next == null) return head;
@@ -61,7 +62,6 @@ public class Main24 {
         }
         return par;
     }
-
 
     public static void main(String[] args) {
         ListNode node4 = new ListNode(4,null);
