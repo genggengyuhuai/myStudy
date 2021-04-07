@@ -41,6 +41,8 @@ public class Main15 {
                     temp.add(nums[left]);
                     temp.add(nums[right]);
                     res.add(temp);
+                    left++;
+                    right--;
                 }else if (sum < target){
                     left++;
                 }else{
