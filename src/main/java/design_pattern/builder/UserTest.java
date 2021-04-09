@@ -72,7 +72,6 @@ class User {
     }
 }
 
-
 public class UserTest {
     public static void main(String[] args) {
         User user = User.builder().id("id123").name("Francis").build();
