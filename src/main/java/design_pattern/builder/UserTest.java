@@ -53,6 +53,7 @@ class User {
 
         public UserBuilder name(String name) {
             this.name = name;
+
             return this;
         }
 
