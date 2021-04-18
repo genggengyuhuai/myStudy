@@ -56,7 +56,6 @@ class User {
 
             return this;
         }
-
         public User build() {
             return new User(id, age, name);
         }
