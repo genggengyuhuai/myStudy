@@ -1,5 +1,9 @@
 package algorithm.leetcode;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+
 /**
  * 实现 LFUCache 类：
  *
@@ -15,25 +19,81 @@ package algorithm.leetcode;
  */
 public class Main460 {
 
+    private static class Node{
+        int key;
+        int value;
+        int frequent;
+
+        Node(int key, int value, int frequent){
+            this.key = key;
+            this.frequent = frequent;
+            this.value = value;
+        }
+    }
+
     private static class LFUCache{
         int capacity;
+        int minFrequency;
+        Map<Integer,Node> map = new HashMap<>(16);
+        // key 是频率， value 是对应的节点列表
+        Map<Integer, LinkedList<Node>> frequencyMap = new HashMap<>(16);
 
         public LFUCache(int capacity) {
         this.capacity = capacity;
         }
 
         public int get(int key) {
-
-            return 0;
+            if(!map.containsKey(key)) return -1;
+            // 增加频率
+            Node resNode = map.get(key);
+          LinkedList<Node> list = frequencyMap.get(resNode.frequent);
+          // 先移出来
+            list.remove(resNode);
+            resNode.frequent++;
+            // 放到频率+1的列表中
+            if(!frequencyMap.containsKey(resNode.frequent)){
+                frequencyMap.put(resNode.frequent,new LinkedList<>());
+            }
+            frequencyMap.get(resNode.frequent).addLast(resNode);
+            if(frequencyMap.get(minFrequency).size() == 0) minFrequency++;
+            return resNode.value;
         }
 
 
         public void put(int key, int value) {
-
+            if(capacity <= 0) return;
+            // 存在，直接返回
+            if(get(key) != -1){
+                map.get(key).value = value;
+                return;
+            }
+            // 不存在，新增，看容量
+            if(map.size() >= capacity){
+                // 容量不够，要先删除，找频率最低的
+                LinkedList<Node> list = frequencyMap.get(minFrequency);
+                Node remove = list.pollFirst();
+                map.remove(remove.key);
+            }
+            // 新增
+            Node node = new Node(key,value,1);
+            if(!frequencyMap.containsKey(1)){
+                frequencyMap.put(1, new LinkedList<>());
+            }
+            map.put(key,node);
+            frequencyMap.get(1).addLast(node);
+            minFrequency = 1;
         }
-
-
     }
 
+    public static void main(String[] args) {
+    LFUCache cache = new LFUCache(2);
+    cache.put(1,1);
+    cache.put(2,2);
+        System.out.println(cache.get(1));
+        cache.put(3,3);
+        System.out.println(cache.get(2));
+        System.out.println(cache.get(3));
+
+    }
 
 }
